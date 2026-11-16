@@ -1,0 +1,45 @@
+[
+  {
+    "query_id": "q01",
+    "question": "Theo Chương 1, chương trình (program) là gì?",
+    "answerable": true,
+    "expected_answer": "Một dãy lệnh chỉ định cách thực hiện một phép tính (computation)",
+    "agent_status": "answered",
+    "agent_answer": "Theo Chương 1, chương trình là một chuỗi các hướng dẫn chỉ định cách thực hiện một phép toán. Phép toán này có thể là một phép toán toán học hoặc một phép toán ký hiệu, như tìm kiếm. Mỗi chương trình, dù phức tạp đến đâu, đều được cấu thành từ những hướng dẫn cơ bản như vậy [7d8ede3eb248d89a].",
+    "agent_citations": [
+      "7d8ede3eb248d89a"
+    ],
+    "final_context_ids": [
+      "7d8ede3eb248d89a",
+      "40ac2c92129a8615",
+      "c2361c52ab7e70ec",
+      "680ebd8de04c1586"
+    ],
+    "citation_support": [
+      null
+    ],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q02",
+    "question": "Kỹ năng quan trọng nhất của một computer scientist là gì và nó bao gồm những yếu tố nào?",
+    "answerable": true,
+    "expected_answer": "Problem solving: ability to formulate problems, think creatively about solutions",
+    "agent_status": "answered",
+    "agent_answer": "Kỹ năng quan trọng nhất của một computer scientist là giải quyết vấn đề. Điều này bao gồm khả năng định hình vấn đề, suy nghĩ sáng tạo về các giải pháp và diễn đạt một giải pháp một cách rõ ràng và chính xác. Quá trình học lập trình là một cơ hội tuyệt vời để thực hành kỹ năng giải quyết vấn đề này [737ff12306987fd6].",
+    "agent_citations": [
+      "737ff12306987fd6"
+    ],
+    "final_context_ids": [
+      "737ff12306987fd6",
+      "721c7c474482c23c",
+      "140f69c4af4aa6c7"
+    ],
+    "citation_support": [
+      null
+    ],
+    "notes": "",
+    "answer_grade": null
+  }
+]

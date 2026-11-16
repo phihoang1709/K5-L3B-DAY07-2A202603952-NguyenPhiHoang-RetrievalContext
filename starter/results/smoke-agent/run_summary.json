@@ -1,0 +1,19 @@
+{
+  "split": "dev",
+  "retriever": "dense",
+  "top_k": 5,
+  "budget": 1600,
+  "max_searches": 4,
+  "model": "openai/gpt-4o-mini",
+  "n": 2,
+  "statuses": {
+    "answered": 2
+  },
+  "usage_totals": {
+    "prompt_tokens": 1827,
+    "completion_tokens": 203,
+    "calls": 4
+  },
+  "embedding_inputs": 2,
+  "total_elapsed_ms": 10799.5
+}

@@ -1,0 +1,19 @@
+[
+  {"query_id": "q01", "answer_grade": 2, "citation_support": [true], "notes": "Tương tự baseline, cite đúng chunk gold."},
+  {"query_id": "q02", "answer_grade": 2, "citation_support": [true], "notes": "Đúng và đủ."},
+  {"query_id": "q03", "answer_grade": 2, "citation_support": [false], "notes": "SỬA citation_support TỪ true->false (đợt rà 2): câu trả lời trùng nguyên văn baseline kể cả vị trí citation — citation gắn với câu 'Ví dụ...Java và Ruby' mà chunk/corpus không chứa (kiểm chứng máy) -> false. Grade giữ 2 vì khẳng định trung tâm grounded trong chunk gold."},
+  {"query_id": "q04", "answer_grade": 2, "citation_support": [true], "notes": "Đúng."},
+  {"query_id": "q05", "answer_grade": 2, "citation_support": [true, true], "notes": "Grounded ĐẦY ĐỦ hơn baseline: cite cả chunk chứa câu liệt kê gold (ff25a608c1c5af65) + chunk mô tả chi tiết runtime/semantic (b1ad6b85b5b0b020)."},
+  {"query_id": "q06", "answer_grade": 2, "citation_support": [true], "notes": "Đúng; câu thêm 'phần quan trọng trong lập trình' là nhận xét chung, không sai."},
+  {"query_id": "q07", "answer_grade": 2, "citation_support": [true, true], "notes": "Hai citation đều trang 32, chứa quy tắc đặt tên + ví dụ SyntaxError — hỗ trợ đầy đủ."},
+  {"query_id": "q08", "answer_grade": 2, "citation_support": [true, true], "notes": "Định nghĩa đúng; câu bổ sung fruitful/void được cite đúng chunk trang 46."},
+  {"query_id": "q09", "answer_grade": 2, "citation_support": [true], "notes": "Đúng debugging; phần diễn giải thêm dựa trên nội dung chunk (thám tử, suy luận)."},
+  {"query_id": "q10", "answer_grade": 2, "citation_support": [true], "notes": "Trùng nguyên văn baseline."},
+  {"query_id": "q11", "answer_grade": 2, "citation_support": [true], "notes": "Đúng; chi tiết PythonAnywhere có trong chunk."},
+  {"query_id": "q12", "answer_grade": 2, "citation_support": [true], "notes": "Đúng 4.4."},
+  {"query_id": "q13", "answer_grade": 2, "citation_support": [true], "notes": "Đúng lý do; chi tiết circle dùng polygon có trong chương 4."},
+  {"query_id": "q14", "answer_grade": 2, "citation_support": [true, true], "notes": "Cite glossary p69 (evidence thay thế hoàn chỉnh) + đoạn gold trang 61 — đầy đủ."},
+  {"query_id": "q15", "answer_grade": 0, "citation_support": [], "notes": "FALSE ABSTENTION (so với ground truth, chấm 0 theo quy tắc): gold chunk 9240fd620efd2d82 (p63) không vào context — query 'chained conditional' của model chỉ kéo glossary p69 + chunk ví dụ. Từ chối là TRUNG THỰC với context agent có (không phải 'bỏ cuộc vì distractor' như ghi chú cũ). Khác biệt với baseline cùng query: baseline chọn trả lời một phần (chấm 1), IMP2 chọn từ chối (chấm 0)."},
+  {"query_id": "d_noev1", "abstention_correct": true, "citation_support": [], "notes": "Từ chối đúng sau 4 lượt search."},
+  {"query_id": "d_noev2", "abstention_correct": false, "citation_support": [false], "notes": "CONFIRMED hallucination: chunk được cite 8e97b5a64c10ea0a chứa nội dung chained conditional (không liên quan); từ khóa 'comprehension' không tồn tại trong corpus (kiểm chứng máy khi build benchmark). Toàn bộ câu trả lời là tri thức ngoài corpus kèm citation không hỗ trợ."}
+]

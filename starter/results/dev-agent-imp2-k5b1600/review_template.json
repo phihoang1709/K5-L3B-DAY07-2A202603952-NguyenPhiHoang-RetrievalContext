@@ -1,0 +1,365 @@
+[
+  {
+    "query_id": "q01",
+    "question": "Theo Chương 1, chương trình (program) là gì?",
+    "answerable": true,
+    "expected_answer": "Một dãy lệnh chỉ định cách thực hiện một phép tính (computation)",
+    "agent_status": "answered",
+    "agent_answer": "Theo Chương 1, chương trình là một chuỗi các hướng dẫn chỉ định cách thực hiện một phép toán. Phép toán này có thể là một phép toán toán học hoặc một phép toán ký hiệu, như tìm kiếm. Mỗi chương trình, dù phức tạp đến đâu, đều được cấu thành từ các hướng dẫn cơ bản như vậy [7d8ede3eb248d89a].",
+    "agent_citations": [
+      "7d8ede3eb248d89a"
+    ],
+    "final_context_ids": [
+      "7d8ede3eb248d89a",
+      "40ac2c92129a8615",
+      "c2361c52ab7e70ec",
+      "680ebd8de04c1586"
+    ],
+    "citation_support": [
+      null
+    ],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q02",
+    "question": "Kỹ năng quan trọng nhất của một computer scientist là gì và nó bao gồm những yếu tố nào?",
+    "answerable": true,
+    "expected_answer": "Problem solving: ability to formulate problems, think creatively about solutions",
+    "agent_status": "answered",
+    "agent_answer": "Kỹ năng quan trọng nhất của một computer scientist là giải quyết vấn đề. Điều này bao gồm khả năng định hình vấn đề, suy nghĩ sáng tạo về các giải pháp và diễn đạt một giải pháp một cách rõ ràng và chính xác. Quá trình học lập trình là một cơ hội tuyệt vời để thực hành kỹ năng giải quyết vấn đề này [737ff12306987fd6].",
+    "agent_citations": [
+      "737ff12306987fd6"
+    ],
+    "final_context_ids": [
+      "737ff12306987fd6",
+      "721c7c474482c23c",
+      "140f69c4af4aa6c7"
+    ],
+    "citation_support": [
+      null
+    ],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q03",
+    "question": "Ngôn ngữ bậc cao (high-level language) là gì? Cho ví dụ.",
+    "answerable": true,
+    "expected_answer": "Ngôn ngữ thiết kế để con người dễ đọc dễ viết, ví dụ Python",
+    "agent_status": "answered",
+    "agent_answer": "Ngôn ngữ bậc cao (high-level language) là một loại ngôn ngữ lập trình như Python, được thiết kế để dễ đọc và viết cho con người. Ví dụ về ngôn ngữ bậc cao bao gồm Python, Java và Ruby [f437457a7ea155c4].",
+    "agent_citations": [
+      "f437457a7ea155c4"
+    ],
+    "final_context_ids": [
+      "f437457a7ea155c4",
+      "17c636b9fa7b8a03",
+      "6aab37d9fcfa4814",
+      "680ebd8de04c1586"
+    ],
+    "citation_support": [
+      null
+    ],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q04",
+    "question": "Trong Python, biến (variable) được định nghĩa là gì?",
+    "answerable": true,
+    "expected_answer": "Một tên tham chiếu đến một giá trị",
+    "agent_status": "answered",
+    "agent_answer": "Trong Python, biến (variable) được định nghĩa là một tên tham chiếu đến một giá trị. Biến có thể được tạo ra thông qua các câu lệnh gán, trong đó một giá trị được gán cho tên biến đó [29b0c03d97efa746].",
+    "agent_citations": [
+      "29b0c03d97efa746"
+    ],
+    "final_context_ids": [
+      "29b0c03d97efa746",
+      "16e81de8896f18c6",
+      "b630532efef581e5"
+    ],
+    "citation_support": [
+      null
+    ],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q05",
+    "question": "Ba loại lỗi có thể xảy ra trong một chương trình là những loại nào?",
+    "answerable": true,
+    "expected_answer": "Syntax errors, runtime errors, semantic errors",
+    "agent_status": "answered",
+    "agent_answer": "Ba loại lỗi có thể xảy ra trong một chương trình là: lỗi cú pháp (syntax errors), lỗi thời gian chạy (runtime errors), và lỗi ngữ nghĩa (semantic errors) [ff25a608c1c5af65]. Việc phân biệt giữa các loại lỗi này giúp theo dõi và sửa chữa chúng nhanh chóng hơn [b1ad6b85b5b0b020].",
+    "agent_citations": [
+      "ff25a608c1c5af65",
+      "b1ad6b85b5b0b020"
+    ],
+    "final_context_ids": [
+      "b1ad6b85b5b0b020",
+      "ff25a608c1c5af65",
+      "ebfeae42c03aeb66"
+    ],
+    "citation_support": [
+      null,
+      null
+    ],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q06",
+    "question": "Câu lệnh gán (assignment statement) thực hiện điều gì?",
+    "answerable": true,
+    "expected_answer": "Tạo một biến mới và gán cho nó một giá trị",
+    "agent_status": "answered",
+    "agent_answer": "Câu lệnh gán (assignment statement) tạo ra một biến mới và gán cho nó một giá trị. Ví dụ, câu lệnh `message = 'And now for something completely different'` gán một chuỗi cho biến `message`. Câu lệnh gán là một phần quan trọng trong lập trình, cho phép người lập trình quản lý và thao tác với các biến [29b0c03d97efa746].",
+    "agent_citations": [
+      "29b0c03d97efa746"
+    ],
+    "final_context_ids": [
+      "29b0c03d97efa746",
+      "16e81de8896f18c6",
+      "e2285827b98f797c"
+    ],
+    "citation_support": [
+      null
+    ],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q07",
+    "question": "Trong Chương 2: nếu đặt tên biến không hợp lệ thì sẽ xảy ra lỗi gì?",
+    "answerable": true,
+    "expected_answer": "Syntax error",
+    "agent_status": "answered",
+    "agent_answer": "Nếu đặt tên biến không hợp lệ, bạn sẽ gặp lỗi cú pháp (syntax error). Ví dụ, nếu bạn đặt tên biến bắt đầu bằng số hoặc chứa ký tự không hợp lệ, như \"76trombones\" hoặc \"more@\", Python sẽ báo lỗi cú pháp. Ngoài ra, một số từ khóa của Python cũng không thể được sử dụng làm tên biến, như \"class\" [b630532efef581e5][86c72d21118b444f].",
+    "agent_citations": [
+      "b630532efef581e5",
+      "86c72d21118b444f"
+    ],
+    "final_context_ids": [
+      "b630532efef581e5",
+      "86c72d21118b444f",
+      "d0ed62e0634f6ade"
+    ],
+    "citation_support": [
+      null,
+      null
+    ],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q08",
+    "question": "Trong ngữ cảnh lập trình, hàm (function) là gì?",
+    "answerable": true,
+    "expected_answer": "Một dãy lệnh có tên, thực hiện một phép tính",
+    "agent_status": "answered",
+    "agent_answer": "Trong ngữ cảnh lập trình, hàm (function) là một chuỗi các câu lệnh có tên, thực hiện một phép toán nào đó. Khi định nghĩa một hàm, bạn chỉ định tên và chuỗi các câu lệnh, và sau đó có thể \"gọi\" hàm đó bằng tên của nó [a85013a97bc58c92]. Hàm có thể trả về giá trị (hàm có giá trị) hoặc thực hiện một hành động mà không trả về giá trị (hàm không có giá trị) [89ccabfb704a62d3].",
+    "agent_citations": [
+      "a85013a97bc58c92",
+      "89ccabfb704a62d3"
+    ],
+    "final_context_ids": [
+      "a85013a97bc58c92",
+      "89ccabfb704a62d3",
+      "7cabd4b3d9ae177c"
+    ],
+    "citation_support": [
+      null,
+      null
+    ],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q09",
+    "question": "Theo Chương 3, kỹ năng nào người học sẽ rèn luyện được trong quá trình viết hàm và gỡ lỗi?",
+    "answerable": true,
+    "expected_answer": "Debugging",
+    "agent_status": "answered",
+    "agent_answer": "Trong Chương 3, người học sẽ rèn luyện được kỹ năng gỡ lỗi (debugging), đây là một trong những kỹ năng quan trọng nhất trong lập trình. Gỡ lỗi không chỉ giúp người học hiểu rõ hơn về mã nguồn mà còn phát triển khả năng suy luận và phân tích, giống như công việc của một thám tử. Ngoài ra, việc viết hàm cũng giúp chương trình dễ đọc hơn và giảm thiểu mã lặp lại, từ đó tạo điều kiện thuận lợi cho việc gỡ lỗi [140f69c4af4aa6c7].",
+    "agent_citations": [
+      "140f69c4af4aa6c7"
+    ],
+    "final_context_ids": [
+      "140f69c4af4aa6c7",
+      "caf0086b3654be88",
+      "ebfeae42c03aeb66"
+    ],
+    "citation_support": [
+      null
+    ],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q10",
+    "question": "Trong stack diagram, một frame chứa những gì?",
+    "answerable": true,
+    "expected_answer": "Các biến cục bộ và tham số của hàm",
+    "agent_status": "answered",
+    "agent_answer": "Trong stack diagram, một frame là một hộp đại diện cho một cuộc gọi hàm. Nó chứa các biến cục bộ và tham số của hàm đó [d94aea6e85adb40c].",
+    "agent_citations": [
+      "d94aea6e85adb40c"
+    ],
+    "final_context_ids": [
+      "d94aea6e85adb40c",
+      "27c2a52ee727540f",
+      "96ceceb0fbf4d6d7"
+    ],
+    "citation_support": [
+      null
+    ],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q11",
+    "question": "Chương 4 mở đầu bằng một case study minh họa điều gì?",
+    "answerable": true,
+    "expected_answer": "Một quy trình thiết kế các hàm làm việc cùng nhau",
+    "agent_status": "answered",
+    "agent_answer": "Chương 4 mở đầu bằng một case study minh họa quy trình thiết kế các hàm hoạt động cùng nhau, thông qua việc giới thiệu mô-đun turtle, cho phép tạo ra hình ảnh bằng đồ họa rùa. Mô-đun này có sẵn trong hầu hết các cài đặt Python, nhưng có thể không chạy được trên một số nền tảng như PythonAnywhere [6c790747dd75c9f2].",
+    "agent_citations": [
+      "6c790747dd75c9f2"
+    ],
+    "final_context_ids": [
+      "6c790747dd75c9f2",
+      "c2361c52ab7e70ec",
+      "8318058db35bb3a1",
+      "aa92622a7b143431"
+    ],
+    "citation_support": [
+      null
+    ],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q12",
+    "question": "Trong Chương 4: bước đầu của encapsulation yêu cầu đặt gì vào đâu?",
+    "answerable": true,
+    "expected_answer": "Đặt đoạn code vẽ hình vuông vào một function definition",
+    "agent_status": "answered",
+    "agent_answer": "Trong Chương 4, bước đầu của encapsulation yêu cầu bạn đặt mã vẽ hình vuông vào trong một định nghĩa hàm và sau đó gọi hàm đó, truyền đối tượng turtle như một tham số. Cụ thể, bạn cần định nghĩa hàm `square(t)` và bên trong hàm, `t` sẽ tham chiếu đến turtle mà bạn đã truyền vào, ví dụ như `bob` hoặc `alice` [447606e7bc7f89f6].",
+    "agent_citations": [
+      "447606e7bc7f89f6"
+    ],
+    "final_context_ids": [
+      "447606e7bc7f89f6",
+      "66ea2723050b09f1",
+      "b3881435ca1bcc8c"
+    ],
+    "citation_support": [
+      null
+    ],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q13",
+    "question": "Vì sao khi viết circle, tác giả có thể tái sử dụng polygon?",
+    "answerable": true,
+    "expected_answer": "Vì đa giác nhiều cạnh là xấp xỉ tốt cho đường tròn",
+    "agent_status": "answered",
+    "agent_answer": "Tác giả có thể tái sử dụng hàm `polygon` khi viết hàm `circle` vì một đa giác có nhiều cạnh là một sự xấp xỉ tốt cho hình tròn. Cụ thể, hàm `circle` sử dụng `polygon` để vẽ một hình tròn bằng cách xác định số lượng cạnh và chiều dài của mỗi cạnh dựa trên chu vi của hình tròn. Điều này giúp cho hình tròn trông đẹp và hiệu quả hơn khi vẽ [5370b91884ce0eb3].",
+    "agent_citations": [
+      "5370b91884ce0eb3"
+    ],
+    "final_context_ids": [
+      "5370b91884ce0eb3",
+      "e03995bec7641f37",
+      "68dc0f1b57ab7223"
+    ],
+    "citation_support": [
+      null
+    ],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q14",
+    "question": "Toán tử floor division (//) làm gì?",
+    "answerable": true,
+    "expected_answer": "Chia hai số và làm tròn xuống số nguyên",
+    "agent_status": "answered",
+    "agent_answer": "Toán tử floor division (//) chia hai số và làm tròn xuống (về phía âm vô cùng) đến một số nguyên. Ví dụ, nếu bạn chia 105 phút cho 60, kết quả của phép chia thông thường là 1.75, nhưng với floor division, kết quả sẽ là 1, tức là 1 giờ [702fa187db9839b3][05d6332509be5646].",
+    "agent_citations": [
+      "702fa187db9839b3",
+      "05d6332509be5646"
+    ],
+    "final_context_ids": [
+      "702fa187db9839b3",
+      "05d6332509be5646",
+      "db50f299cc06bcec"
+    ],
+    "citation_support": [
+      null,
+      null
+    ],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q15",
+    "question": "Trong trường hợp nào ta cần dùng chained conditional?",
+    "answerable": true,
+    "expected_answer": "Khi có nhiều hơn hai khả năng và cần nhiều hơn hai nhánh",
+    "agent_status": "abstain",
+    "agent_answer": "Không đủ bằng chứng để trả lời.",
+    "agent_citations": [],
+    "final_context_ids": [
+      "8e97b5a64c10ea0a",
+      "c2361c52ab7e70ec",
+      "3fa9be8e50d7ad53",
+      "29065825788d54be"
+    ],
+    "citation_support": [],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "d_noev1",
+    "question": "Theo cuốn sách, kiểu dữ liệu dictionary trong Python được giới thiệu ở chương nào và dùng để làm gì?",
+    "answerable": false,
+    "expected_answer": null,
+    "agent_status": "abstain",
+    "agent_answer": "Không đủ bằng chứng để trả lời.",
+    "agent_citations": [],
+    "final_context_ids": [
+      "93f8ed74466357f8",
+      "f169e2bf7611af91",
+      "c75028372b0882f8"
+    ],
+    "citation_support": [],
+    "notes": "",
+    "abstention_correct": null
+  },
+  {
+    "query_id": "d_noev2",
+    "question": "Trong Python, list comprehension là gì và vì sao thường ngắn gọn hơn vòng lặp for?",
+    "answerable": false,
+    "expected_answer": null,
+    "agent_status": "answered",
+    "agent_answer": "List comprehension trong Python là một cách ngắn gọn để tạo ra danh sách mới bằng cách áp dụng một biểu thức cho từng phần tử trong một iterable. Nó thường ngắn gọn hơn vòng lặp for vì cho phép bạn viết mã trong một dòng duy nhất, thay vì phải viết nhiều dòng cho vòng lặp và thêm phần tử vào danh sách. Ví dụ, thay vì viết một vòng lặp để thêm các số vào danh sách, bạn có thể sử dụng list comprehension để thực hiện điều đó một cách trực tiếp và hiệu quả hơn [8e97b5a64c10ea0a].",
+    "agent_citations": [
+      "8e97b5a64c10ea0a"
+    ],
+    "final_context_ids": [
+      "8e97b5a64c10ea0a",
+      "680ebd8de04c1586",
+      "c2361c52ab7e70ec",
+      "a0293b5014e9a69c",
+      "da98e64008cc8f88"
+    ],
+    "citation_support": [
+      null
+    ],
+    "notes": "",
+    "abstention_correct": null
+  }
+]

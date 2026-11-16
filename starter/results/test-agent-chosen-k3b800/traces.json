@@ -1,0 +1,1187 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "mục tiêu của cuốn sách",
+        "filter": null,
+        "results": [
+          {
+            "id": "aa92622a7b143431",
+            "text": "\n// thinkpython. com/ code/ typewriter. pyto help you test your code.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 59,
+            "metadata": {
+              "label": "37",
+              "status": "ok",
+              "chapter": 4,
+              "end_offset": 1908,
+              "start_offset": 1839,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 59
+            },
+            "score": 0.41543065033603077,
+            "strategy": "dense"
+          },
+          {
+            "id": "a1291027c7b66432",
+            "text": "\n2. Suppose the cover price of a book is $24.95, but bookstores get a 40% discount. Shipping costs\n$3 for the first copy and 75 cents for each additional copy. What is the total wholesale cost for\n60 copies?\n3. If I leave my house at 6:52 am and run 1 mile at an easy pace (8:15 per mile), then 3 miles at\ntempo (7:12 per mile) and 1 mile at easy pace again, what time do I get home for breakfast?",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 37,
+            "metadata": {
+              "label": "15",
+              "status": "ok",
+              "chapter": 2,
+              "end_offset": 884,
+              "start_offset": 487,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 37
+            },
+            "score": 0.3896862268447987,
+            "strategy": "dense"
+          },
+          {
+            "id": "ebfeae42c03aeb66",
+            "text": "\nWhenever you are experimenting with a new feature, you should try to make mistakes. For example,\nin the “Hello, world!” program, what happens if you leave out one of the quotation marks? What if\nyou leave out both? What if you spellprintwrong?\nThis kind of experiment helps you remember what you read; it also helps when you are programming,\nbecause you get to know what the error messages mean. It is better to make mistakes now and on\npurpose than later and accidentally.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 29,
+            "metadata": {
+              "label": "7",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 1848,
+              "start_offset": 1374,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 29
+            },
+            "score": 0.38819540213374504,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[aa92622a7b143431 | thinkpython2.pdf | page 59]\n\n// thinkpython. com/ code/ typewriter. pyto help you test your code.\n\n[a1291027c7b66432 | thinkpython2.pdf | page 37]\n\n2. Suppose the cover price of a book is $24.95, but bookstores get a 40% discount. Shipping costs\n$3 for the first copy and 75 cents for each additional copy. What is the total wholesale cost for\n60 copies?\n3. If I leave my house at 6:52 am and run 1 mile at an easy pace (8:15 per mile), then 3 miles at\ntempo (7:12 per mile) and 1 mile at easy pace again, what time do I get home for breakfast?",
+        "context_ids": [
+          "aa92622a7b143431",
+          "a1291027c7b66432"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "mục đích cuốn sách Think Python",
+        "filter": null,
+        "results": [
+          {
+            "id": "aa92622a7b143431",
+            "text": "\n// thinkpython. com/ code/ typewriter. pyto help you test your code.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 59,
+            "metadata": {
+              "label": "37",
+              "status": "ok",
+              "chapter": 4,
+              "end_offset": 1908,
+              "start_offset": 1839,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 59
+            },
+            "score": 0.6208597503555279,
+            "strategy": "dense"
+          },
+          {
+            "id": "721c7c474482c23c",
+            "text": "Chapter 1\nThe way of the program\nThe goal of this book is to teach you to think like a computer scientist. This way of think-\ning combines some of the best features of mathematics, engineering, and natural science.\nLike mathematicians, computer scientists use formal languages to denote ideas (specifi-\ncally computations). Like engineers, they design things, assembling components into sys-\ntems and evaluating tradeoffs among alternatives. Like scientists, they observe the behav-",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 23,
+            "metadata": {
+              "label": "1",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 482,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 23
+            },
+            "score": 0.5615719818132024,
+            "strategy": "dense"
+          },
+          {
+            "id": "6c790747dd75c9f2",
+            "text": "Chapter 4\nCase study: interface design\nThis chapter presents a case study that demonstrates a process for designing functions that\nwork together.\nIt introduces theturtlemodule, which allows you to create images using turtle graphics.\nTheturtlemodule is included in most Python installations, but if you are running Python\nusing PythonAnywhere, you won’t be able to run the turtle examples (at least you couldn’t\nwhen I wrote this).",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 51,
+            "metadata": {
+              "label": "29",
+              "status": "ok",
+              "chapter": 4,
+              "end_offset": 431,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 51
+            },
+            "score": 0.5604856276222779,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[aa92622a7b143431 | thinkpython2.pdf | page 59]\n\n// thinkpython. com/ code/ typewriter. pyto help you test your code.\n\n[a1291027c7b66432 | thinkpython2.pdf | page 37]\n\n2. Suppose the cover price of a book is $24.95, but bookstores get a 40% discount. Shipping costs\n$3 for the first copy and 75 cents for each additional copy. What is the total wholesale cost for\n60 copies?\n3. If I leave my house at 6:52 am and run 1 mile at an easy pace (8:15 per mile), then 3 miles at\ntempo (7:12 per mile) and 1 mile at easy pace again, what time do I get home for breakfast?",
+        "context_ids": [
+          "aa92622a7b143431",
+          "a1291027c7b66432"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "searches": 2,
+    "elapsed_ms": 15175.1,
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 1435,
+      "completion_tokens": 49,
+      "calls": 3
+    }
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "status": "answered",
+    "answer": "Toán tử modulus (%) thực hiện phép chia hai số và trả về phần dư. Ví dụ, nếu bạn có phép toán `minutes % 60`, nó sẽ trả về phần dư khi chia `minutes` cho 60. Toán tử này cũng hữu ích để kiểm tra xem một số có chia hết cho số khác hay không; nếu `x % y` bằng 0, thì `x` chia hết cho `y` [595589132e92b2d8].",
+    "citations": [
+      "595589132e92b2d8"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "modulus operator %",
+        "filter": null,
+        "results": [
+          {
+            "id": "595589132e92b2d8",
+            "text": "\nAn alternative is to use themodulus operator,%, which divides two numbers and returns\nthe remainder.\n>>> remainder = minutes % 60\n>>> remainder\n45\nThe modulus operator is more useful than it seems. For example, you can check whether\none number is divisible by another—ifx % yis zero, thenxis divisible byy.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 61,
+            "metadata": {
+              "label": "39",
+              "status": "ok",
+              "chapter": 5,
+              "end_offset": 1155,
+              "start_offset": 848,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 61
+            },
+            "score": 0.7287161239297285,
+            "strategy": "dense"
+          },
+          {
+            "id": "05d6332509be5646",
+            "text": "Chapter 5\nConditionals and recursion\nThe main topic of this chapter is theifstatement, which executes different code depending\non the state of the program. But first I want to introduce two new operators: floor division\nand modulus.\n5.1 Floor division and modulus\nThefloor divisionoperator,//, divides two numbers and rounds down to an integer. For\nexample, suppose the run time of a movie is 105 minutes. You might want to know how",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 61,
+            "metadata": {
+              "label": "39",
+              "status": "ok",
+              "chapter": 5,
+              "end_offset": 432,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 61
+            },
+            "score": 0.6624573074306956,
+            "strategy": "dense"
+          },
+          {
+            "id": "702fa187db9839b3",
+            "text": "5.13. Glossary 47\n5.13 Glossary\nfloor division:An operator, denoted//, that divides two numbers and rounds down (to-\nward negative infinity) to an integer.\nmodulus operator:An operator, denoted with a percent sign (%), that works on integers\nand returns the remainder when one number is divided by another.\nboolean expression:An expression whose value is eitherTrueorFalse.\nrelational operator:One of the operators that compares its operands:==,!=,>,<,>=, and\n<=.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 69,
+            "metadata": {
+              "label": "47",
+              "status": "ok",
+              "chapter": 5,
+              "end_offset": 463,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 69
+            },
+            "score": 0.661224823825115,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[595589132e92b2d8 | thinkpython2.pdf | page 61]\n\nAn alternative is to use themodulus operator,%, which divides two numbers and returns\nthe remainder.\n>>> remainder = minutes % 60\n>>> remainder\n45\nThe modulus operator is more useful than it seems. For example, you can check whether\none number is divisible by another—ifx % yis zero, thenxis divisible byy.",
+        "context_ids": [
+          "595589132e92b2d8"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "searches": 1,
+    "elapsed_ms": 17234.8,
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 657,
+      "completion_tokens": 116,
+      "calls": 2
+    }
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "status": "answered",
+    "answer": "Trong chương 3, hàm được định nghĩa là một chuỗi các câu lệnh có tên thực hiện một phép toán. Khi định nghĩa một hàm, bạn chỉ định tên và chuỗi các câu lệnh. Sau đó, bạn có thể \"gọi\" hàm bằng tên của nó [a85013a97bc58c92].",
+    "citations": [
+      "a85013a97bc58c92"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "hàm định nghĩa glossary chương 3",
+        "filter": {
+          "chapter": 3
+        },
+        "results": [
+          {
+            "id": "a85013a97bc58c92",
+            "text": "Chapter 3\nFunctions\nIn the context of programming, afunctionis a named sequence of statements that performs\na computation. When you define a function, you specify the name and the sequence of\nstatements. Later, you can “call” the function by name.\n3.1 Function calls\nWe have already seen one example of afunction call:\n>>> type(42)\n<class'int'>\nThe name of the function istype. The expression in parentheses is called theargumentof",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 39,
+            "metadata": {
+              "label": "17",
+              "status": "ok",
+              "chapter": 3,
+              "end_offset": 431,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 39
+            },
+            "score": 0.5458849993875632,
+            "strategy": "dense"
+          },
+          {
+            "id": "bb77730aebbb0b1a",
+            "text": "26 Chapter 3. Functions\nbody:The sequence of statements inside a function definition.\nparameter:A name used inside a function to refer to the value passed as an argument.\nfunction call:A statement that runs a function. It consists of the function name followed\nby an argument list in parentheses.\nargument:A value provided to a function when the function is called. This value is as-\nsigned to the corresponding parameter in the function.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 48,
+            "metadata": {
+              "label": "26",
+              "status": "ok",
+              "chapter": 3,
+              "end_offset": 438,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 48
+            },
+            "score": 0.5368524441621363,
+            "strategy": "dense"
+          },
+          {
+            "id": "7cabd4b3d9ae177c",
+            "text": "20 Chapter 3. Functions\n>>> def print_lyrics():\n... print(\"I'm a lumberjack, and I'm okay.\")\n... print(\"I sleep all night and I work all day.\")\n...\nTo end the function, you have to enter an empty line.\nDefining a function creates afunction object, which has typefunction:\n>>> print(print_lyrics)\n<function print_lyrics at 0xb7e99e9c>\n>>> type(print_lyrics)\n<class'function'>\nThe syntax for calling the new function is the same as for built-in functions:\n>>> print_lyrics()",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 42,
+            "metadata": {
+              "label": "20",
+              "status": "ok",
+              "chapter": 3,
+              "end_offset": 472,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 42
+            },
+            "score": 0.5223354412517224,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[a85013a97bc58c92 | thinkpython2.pdf | page 39]\nChapter 3\nFunctions\nIn the context of programming, afunctionis a named sequence of statements that performs\na computation. When you define a function, you specify the name and the sequence of\nstatements. Later, you can “call” the function by name.\n3.1 Function calls\nWe have already seen one example of afunction call:\n>>> type(42)\n<class'int'>\nThe name of the function istype. The expression in parentheses is called theargumentof",
+        "context_ids": [
+          "a85013a97bc58c92"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "searches": 1,
+    "elapsed_ms": 4497.0,
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 694,
+      "completion_tokens": 93,
+      "calls": 2
+    }
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "status": "answered",
+    "answer": "Nested conditional là một cấu trúc điều kiện trong lập trình, trong đó một câu lệnh điều kiện nằm bên trong một câu lệnh điều kiện khác. Điều này cho phép kiểm tra nhiều điều kiện khác nhau và thực hiện các đoạn mã tương ứng. Tuy nhiên, việc sử dụng nested conditionals có thể làm cho mã trở nên khó đọc, vì vậy nên tránh sử dụng chúng khi có thể [a8ae459da7c0fa31].",
+    "citations": [
+      "a8ae459da7c0fa31"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "nested conditional",
+        "filter": null,
+        "results": [
+          {
+            "id": "c2361c52ab7e70ec",
+            "text": "\nconditional execution:Check for certain conditions and run the appropriate code.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 23,
+            "metadata": {
+              "label": "1",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 1955,
+              "start_offset": 1874,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 23
+            },
+            "score": 0.7123242616653442,
+            "strategy": "dense"
+          },
+          {
+            "id": "a8ae459da7c0fa31",
+            "text": "\nprint('x is greater than y')\nThe outer conditional contains two branches. The first branch contains a simple statement.\nThe second branch contains anotherifstatement, which has two branches of its own.\nThose two branches are both simple statements, although they could have been conditional\nstatements as well.\nAlthough the indentation of the statements makes the structure apparent,nested condi-\ntionalsbecome difficult to read very quickly. It is a good idea to avoid them when you\ncan.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 64,
+            "metadata": {
+              "label": "42",
+              "status": "ok",
+              "chapter": 5,
+              "end_offset": 1402,
+              "start_offset": 913,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 64
+            },
+            "score": 0.6965388059616089,
+            "strategy": "dense"
+          },
+          {
+            "id": "8e97b5a64c10ea0a",
+            "text": "\nOne way to express a computation like that is achained conditional:",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 63,
+            "metadata": {
+              "label": "41",
+              "status": "ok",
+              "chapter": 5,
+              "end_offset": 1904,
+              "start_offset": 1836,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 63
+            },
+            "score": 0.6834313899454089,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[c2361c52ab7e70ec | thinkpython2.pdf | page 23]\n\nconditional execution:Check for certain conditions and run the appropriate code.\n\n[a8ae459da7c0fa31 | thinkpython2.pdf | page 64]\n\nprint('x is greater than y')\nThe outer conditional contains two branches. The first branch contains a simple statement.\nThe second branch contains anotherifstatement, which has two branches of its own.\nThose two branches are both simple statements, although they could have been conditional\nstatements as well.\nAlthough the indentation of the statements makes the structure apparent,nested condi-\ntionalsbecome difficult to read very quickly. It is a good idea to avoid them when you\ncan.\n\n[8e97b5a64c10ea0a | thinkpython2.pdf | page 63]\n\nOne way to express a computation like that is achained conditional:",
+        "context_ids": [
+          "c2361c52ab7e70ec",
+          "a8ae459da7c0fa31",
+          "8e97b5a64c10ea0a"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "searches": 1,
+    "elapsed_ms": 6784.4,
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 736,
+      "completion_tokens": 108,
+      "calls": 2
+    }
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "status": "answered",
+    "answer": "Stack diagram cho hàm đệ quy giúp biểu diễn trạng thái của chương trình trong quá trình gọi hàm. Nó cho phép người dùng hiểu rõ hơn về cách mà các hàm đệ quy hoạt động và cách mà các giá trị được lưu trữ trong bộ nhớ trong suốt quá trình thực thi [b99d91e824b6477e].",
+    "citations": [
+      "b99d91e824b6477e"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "stack diagram recursion",
+        "filter": null,
+        "results": [
+          {
+            "id": "b99d91e824b6477e",
+            "text": "\nFor simple examples like this, it is probably easier to use aforloop. But we will see\nexamples later that are hard to write with aforloop and easy to write with recursion, so it\nis good to start early.\n5.9 Stack diagrams for recursive functions\nIn Section 3.9, we used a stack diagram to represent the state of a program during a function\ncall. The same kind of diagram can help interpret a recursive function.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 66,
+            "metadata": {
+              "label": "44",
+              "status": "ok",
+              "chapter": 5,
+              "end_offset": 884,
+              "start_offset": 473,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 66
+            },
+            "score": 0.7348843557891478,
+            "strategy": "dense"
+          },
+          {
+            "id": "d94aea6e85adb40c",
+            "text": "\nstack diagram:A graphical representation of a stack of functions, their variables, and the\nvalues they refer to.\nframe:A box in a stack diagram that represents a function call. It contains the local vari-\nables and parameters of the function.\ntraceback:A list of the functions that are executing, printed when an exception occurs.\n3.14 Exercises\nExercise 3.1.Write a function namedright_justifythat takes a string namedsas a parameter",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 48,
+            "metadata": {
+              "label": "26",
+              "status": "ok",
+              "chapter": 3,
+              "end_offset": 1843,
+              "start_offset": 1408,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 48
+            },
+            "score": 0.6752119265559893,
+            "strategy": "dense"
+          },
+          {
+            "id": "9094a7f997b4c9da",
+            "text": "44 Chapter 5. Conditionals and recursion\n__main__\ncountdown\ncountdown\ncountdown\ncountdown\nn 3\nn 2\nn 1\nn 0\nFigure 5.1: Stack diagram.\nIfn <= 0thereturn statementexits the function. The flow of execution immediately re-\nturns to the caller, and the remaining lines of the function don’t run.\nThe rest of the function is similar tocountdown: it displayssand then calls itself to display\nsn−1 additional times. So the number of lines of output is1 + (n - 1), which adds up\nton.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 66,
+            "metadata": {
+              "label": "44",
+              "status": "ok",
+              "chapter": 5,
+              "end_offset": 473,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 66
+            },
+            "score": 0.6624669034024153,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[b99d91e824b6477e | thinkpython2.pdf | page 66]\n\nFor simple examples like this, it is probably easier to use aforloop. But we will see\nexamples later that are hard to write with aforloop and easy to write with recursion, so it\nis good to start early.\n5.9 Stack diagrams for recursive functions\nIn Section 3.9, we used a stack diagram to represent the state of a program during a function\ncall. The same kind of diagram can help interpret a recursive function.",
+        "context_ids": [
+          "b99d91e824b6477e"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "stack diagram characteristics recursive functions",
+        "filter": null,
+        "results": [
+          {
+            "id": "b99d91e824b6477e",
+            "text": "\nFor simple examples like this, it is probably easier to use aforloop. But we will see\nexamples later that are hard to write with aforloop and easy to write with recursion, so it\nis good to start early.\n5.9 Stack diagrams for recursive functions\nIn Section 3.9, we used a stack diagram to represent the state of a program during a function\ncall. The same kind of diagram can help interpret a recursive function.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 66,
+            "metadata": {
+              "label": "44",
+              "status": "ok",
+              "chapter": 5,
+              "end_offset": 884,
+              "start_offset": 473,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 66
+            },
+            "score": 0.74123795173848,
+            "strategy": "dense"
+          },
+          {
+            "id": "d94aea6e85adb40c",
+            "text": "\nstack diagram:A graphical representation of a stack of functions, their variables, and the\nvalues they refer to.\nframe:A box in a stack diagram that represents a function call. It contains the local vari-\nables and parameters of the function.\ntraceback:A list of the functions that are executing, printed when an exception occurs.\n3.14 Exercises\nExercise 3.1.Write a function namedright_justifythat takes a string namedsas a parameter",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 48,
+            "metadata": {
+              "label": "26",
+              "status": "ok",
+              "chapter": 3,
+              "end_offset": 1843,
+              "start_offset": 1408,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 48
+            },
+            "score": 0.7029721736907959,
+            "strategy": "dense"
+          },
+          {
+            "id": "9ff0365884f1af78",
+            "text": "\nEvery time a function gets called, Python creates a frame to contain the function’s local\nvariables and parameters. For a recursive function, there might be more than one frame on\nthe stack at the same time.\nFigure 5.1 shows a stack diagram forcountdowncalled withn = 3.\nAs usual, the top of the stack is the frame for__main__. It is empty because we did not\ncreate any variables in__main__or pass any arguments to it.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 66,
+            "metadata": {
+              "label": "44",
+              "status": "ok",
+              "chapter": 5,
+              "end_offset": 1303,
+              "start_offset": 884,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 66
+            },
+            "score": 0.6955739259719849,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[b99d91e824b6477e | thinkpython2.pdf | page 66]\n\nFor simple examples like this, it is probably easier to use aforloop. But we will see\nexamples later that are hard to write with aforloop and easy to write with recursion, so it\nis good to start early.\n5.9 Stack diagrams for recursive functions\nIn Section 3.9, we used a stack diagram to represent the state of a program during a function\ncall. The same kind of diagram can help interpret a recursive function.",
+        "context_ids": [
+          "b99d91e824b6477e"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "searches": 2,
+    "elapsed_ms": 23370.0,
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 1257,
+      "completion_tokens": 107,
+      "calls": 3
+    }
+  },
+  {
+    "query_id": "t_noev1",
+    "split": "test",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "inheritance example",
+        "filter": null,
+        "results": [
+          {
+            "id": "c2361c52ab7e70ec",
+            "text": "\nconditional execution:Check for certain conditions and run the appropriate code.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 23,
+            "metadata": {
+              "label": "1",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 1955,
+              "start_offset": 1874,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 23
+            },
+            "score": 0.5110672407706246,
+            "strategy": "dense"
+          },
+          {
+            "id": "aa92622a7b143431",
+            "text": "\n// thinkpython. com/ code/ typewriter. pyto help you test your code.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 59,
+            "metadata": {
+              "label": "37",
+              "status": "ok",
+              "chapter": 4,
+              "end_offset": 1908,
+              "start_offset": 1839,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 59
+            },
+            "score": 0.4589805055879943,
+            "strategy": "dense"
+          },
+          {
+            "id": "680ebd8de04c1586",
+            "text": "\nWhat...is the airspeed velocity of an unladen swallow?\n42\n>>> int(speed)\n42",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 67,
+            "metadata": {
+              "label": "45",
+              "status": "ok",
+              "chapter": 5,
+              "end_offset": 1966,
+              "start_offset": 1890,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 67
+            },
+            "score": 0.45419056315647377,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[c2361c52ab7e70ec | thinkpython2.pdf | page 23]\n\nconditional execution:Check for certain conditions and run the appropriate code.\n\n[aa92622a7b143431 | thinkpython2.pdf | page 59]\n\n// thinkpython. com/ code/ typewriter. pyto help you test your code.\n\n[680ebd8de04c1586 | thinkpython2.pdf | page 67]\n\nWhat...is the airspeed velocity of an unladen swallow?\n42\n>>> int(speed)\n42",
+        "context_ids": [
+          "c2361c52ab7e70ec",
+          "aa92622a7b143431",
+          "680ebd8de04c1586"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "class inheritance example",
+        "filter": null,
+        "results": [
+          {
+            "id": "c2361c52ab7e70ec",
+            "text": "\nconditional execution:Check for certain conditions and run the appropriate code.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 23,
+            "metadata": {
+              "label": "1",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 1955,
+              "start_offset": 1874,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 23
+            },
+            "score": 0.481212854385376,
+            "strategy": "dense"
+          },
+          {
+            "id": "6c790747dd75c9f2",
+            "text": "Chapter 4\nCase study: interface design\nThis chapter presents a case study that demonstrates a process for designing functions that\nwork together.\nIt introduces theturtlemodule, which allows you to create images using turtle graphics.\nTheturtlemodule is included in most Python installations, but if you are running Python\nusing PythonAnywhere, you won’t be able to run the turtle examples (at least you couldn’t\nwhen I wrote this).",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 51,
+            "metadata": {
+              "label": "29",
+              "status": "ok",
+              "chapter": 4,
+              "end_offset": 431,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 51
+            },
+            "score": 0.44694247525587616,
+            "strategy": "dense"
+          },
+          {
+            "id": "ca38696b8a0d689d",
+            "text": "1.3. The first program 3\n1.3 The first program\nTraditionally, the first program you write in a new language is called “Hello, World!” be-\ncause all it does is display the words “Hello, World!”. In Python, it looks like this:\n>>> print('Hello, World!')\nThis is an example of aprint statement, although it doesn’t actually print anything on\npaper. It displays a result on the screen. In this case, the result is the words\nHello, World!",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 25,
+            "metadata": {
+              "label": "3",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 433,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 25
+            },
+            "score": 0.4406113255752744,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[c2361c52ab7e70ec | thinkpython2.pdf | page 23]\n\nconditional execution:Check for certain conditions and run the appropriate code.\n\n[aa92622a7b143431 | thinkpython2.pdf | page 59]\n\n// thinkpython. com/ code/ typewriter. pyto help you test your code.\n\n[680ebd8de04c1586 | thinkpython2.pdf | page 67]\n\nWhat...is the airspeed velocity of an unladen swallow?\n42\n>>> int(speed)\n42",
+        "context_ids": [
+          "c2361c52ab7e70ec",
+          "aa92622a7b143431",
+          "680ebd8de04c1586"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "class example",
+        "filter": null,
+        "results": [
+          {
+            "id": "c2361c52ab7e70ec",
+            "text": "\nconditional execution:Check for certain conditions and run the appropriate code.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 23,
+            "metadata": {
+              "label": "1",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 1955,
+              "start_offset": 1874,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 23
+            },
+            "score": 0.5975032688675374,
+            "strategy": "dense"
+          },
+          {
+            "id": "aa92622a7b143431",
+            "text": "\n// thinkpython. com/ code/ typewriter. pyto help you test your code.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 59,
+            "metadata": {
+              "label": "37",
+              "status": "ok",
+              "chapter": 4,
+              "end_offset": 1908,
+              "start_offset": 1839,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 59
+            },
+            "score": 0.54273944583661,
+            "strategy": "dense"
+          },
+          {
+            "id": "ebfeae42c03aeb66",
+            "text": "\nWhenever you are experimenting with a new feature, you should try to make mistakes. For example,\nin the “Hello, world!” program, what happens if you leave out one of the quotation marks? What if\nyou leave out both? What if you spellprintwrong?\nThis kind of experiment helps you remember what you read; it also helps when you are programming,\nbecause you get to know what the error messages mean. It is better to make mistakes now and on\npurpose than later and accidentally.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 29,
+            "metadata": {
+              "label": "7",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 1848,
+              "start_offset": 1374,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 29
+            },
+            "score": 0.5363194942474403,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[c2361c52ab7e70ec | thinkpython2.pdf | page 23]\n\nconditional execution:Check for certain conditions and run the appropriate code.\n\n[aa92622a7b143431 | thinkpython2.pdf | page 59]\n\n// thinkpython. com/ code/ typewriter. pyto help you test your code.\n\n[680ebd8de04c1586 | thinkpython2.pdf | page 67]\n\nWhat...is the airspeed velocity of an unladen swallow?\n42\n>>> int(speed)\n42",
+        "context_ids": [
+          "c2361c52ab7e70ec",
+          "aa92622a7b143431",
+          "680ebd8de04c1586"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "class inheritance",
+        "filter": null,
+        "results": [
+          {
+            "id": "c2361c52ab7e70ec",
+            "text": "\nconditional execution:Check for certain conditions and run the appropriate code.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 23,
+            "metadata": {
+              "label": "1",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 1955,
+              "start_offset": 1874,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 23
+            },
+            "score": 0.5062554033474747,
+            "strategy": "dense"
+          },
+          {
+            "id": "680ebd8de04c1586",
+            "text": "\nWhat...is the airspeed velocity of an unladen swallow?\n42\n>>> int(speed)\n42",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 67,
+            "metadata": {
+              "label": "45",
+              "status": "ok",
+              "chapter": 5,
+              "end_offset": 1966,
+              "start_offset": 1890,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 67
+            },
+            "score": 0.4272987205835196,
+            "strategy": "dense"
+          },
+          {
+            "id": "aa92622a7b143431",
+            "text": "\n// thinkpython. com/ code/ typewriter. pyto help you test your code.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 59,
+            "metadata": {
+              "label": "37",
+              "status": "ok",
+              "chapter": 4,
+              "end_offset": 1908,
+              "start_offset": 1839,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 59
+            },
+            "score": 0.4268509916409572,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[c2361c52ab7e70ec | thinkpython2.pdf | page 23]\n\nconditional execution:Check for certain conditions and run the appropriate code.\n\n[aa92622a7b143431 | thinkpython2.pdf | page 59]\n\n// thinkpython. com/ code/ typewriter. pyto help you test your code.\n\n[680ebd8de04c1586 | thinkpython2.pdf | page 67]\n\nWhat...is the airspeed velocity of an unladen swallow?\n42\n>>> int(speed)\n42",
+        "context_ids": [
+          "c2361c52ab7e70ec",
+          "aa92622a7b143431",
+          "680ebd8de04c1586"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "searches": 4,
+    "elapsed_ms": 54438.9,
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 2900,
+      "completion_tokens": 106,
+      "calls": 5
+    }
+  },
+  {
+    "query_id": "t_noev2",
+    "split": "test",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "open file read Python syntax",
+        "filter": null,
+        "results": [
+          {
+            "id": "7bccc9eda3bb6fe6",
+            "text": "\nscript mode:A way of using the Python interpreter to read code from a script and run it.\nscript:A program stored in a file.\norder of operations:Rules governing the order in which expressions involving multiple\noperators and operands are evaluated.\nconcatenate:To join two operands end-to-end.\ncomment:Information in a program that is meant for other programmers (or anyone read-\ning the source code) and has no effect on the execution of the program.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 36,
+            "metadata": {
+              "label": "14",
+              "status": "ok",
+              "chapter": 2,
+              "end_offset": 1351,
+              "start_offset": 900,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 36
+            },
+            "score": 0.5019413980754494,
+            "strategy": "dense"
+          },
+          {
+            "id": "593a868cc2659c0c",
+            "text": "\nture. For example, parentheses have to come in matching pairs, so(1 + 2)is legal,\nbut8)is asyntax error.\nIf there is a syntax error anywhere in your program, Python displays an error mes-\nsage and quits, and you will not be able to run the program. During the first few\nweeks of your programming career, you might spend a lot of time tracking down\nsyntax errors. As you gain experience, you will make fewer errors and find them\nfaster.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 35,
+            "metadata": {
+              "label": "13",
+              "status": "ok",
+              "chapter": 2,
+              "end_offset": 1780,
+              "start_offset": 1344,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 35
+            },
+            "score": 0.48740971238497344,
+            "strategy": "dense"
+          },
+          {
+            "id": "17c636b9fa7b8a03",
+            "text": "6 Chapter 1. The way of the program\nFormal languages are more dense than natural languages, so it takes longer to read them.\nAlso, the structure is important, so it is not always best to read from top to bottom, left to\nright. Instead, learn to parse the program in your head, identifying the tokens and inter-\npreting the structure. Finally, the details matter. Small errors in spelling and punctuation,\nwhich you can get away with in natural languages, can make a big difference in a formal",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 28,
+            "metadata": {
+              "label": "6",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 492,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 28
+            },
+            "score": 0.4835286756123691,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[7bccc9eda3bb6fe6 | thinkpython2.pdf | page 36]\n\nscript mode:A way of using the Python interpreter to read code from a script and run it.\nscript:A program stored in a file.\norder of operations:Rules governing the order in which expressions involving multiple\noperators and operands are evaluated.\nconcatenate:To join two operands end-to-end.\ncomment:Information in a program that is meant for other programmers (or anyone read-\ning the source code) and has no effect on the execution of the program.",
+        "context_ids": [
+          "7bccc9eda3bb6fe6"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "read file Python example",
+        "filter": null,
+        "results": [
+          {
+            "id": "680ebd8de04c1586",
+            "text": "\nWhat...is the airspeed velocity of an unladen swallow?\n42\n>>> int(speed)\n42",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 67,
+            "metadata": {
+              "label": "45",
+              "status": "ok",
+              "chapter": 5,
+              "end_offset": 1966,
+              "start_offset": 1890,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 67
+            },
+            "score": 0.4381684567181814,
+            "strategy": "dense"
+          },
+          {
+            "id": "ca38696b8a0d689d",
+            "text": "1.3. The first program 3\n1.3 The first program\nTraditionally, the first program you write in a new language is called “Hello, World!” be-\ncause all it does is display the words “Hello, World!”. In Python, it looks like this:\n>>> print('Hello, World!')\nThis is an example of aprint statement, although it doesn’t actually print anything on\npaper. It displays a result on the screen. In this case, the result is the words\nHello, World!",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 25,
+            "metadata": {
+              "label": "3",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 433,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 25
+            },
+            "score": 0.43616211572691244,
+            "strategy": "dense"
+          },
+          {
+            "id": "3c1b7152e6a1ad23",
+            "text": "\nIf you have already installed Python on your computer, you should be able to run the\nexamples. Otherwise, now is a good time to install. I have posted instructions athttp:\n//tinyurl.com/thinkpython2e.\nCode examples from this chapter are available fromhttps://thinkpython.com/code/\npolygon.py.\n4.1 The turtle module\nTo check whether you have theturtlemodule, open the Python interpreter and type\n>>> import turtle\n>>> bob = turtle.Turtle()",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 51,
+            "metadata": {
+              "label": "29",
+              "status": "ok",
+              "chapter": 4,
+              "end_offset": 870,
+              "start_offset": 431,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 51
+            },
+            "score": 0.43484119488369355,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[7bccc9eda3bb6fe6 | thinkpython2.pdf | page 36]\n\nscript mode:A way of using the Python interpreter to read code from a script and run it.\nscript:A program stored in a file.\norder of operations:Rules governing the order in which expressions involving multiple\noperators and operands are evaluated.\nconcatenate:To join two operands end-to-end.\ncomment:Information in a program that is meant for other programmers (or anyone read-\ning the source code) and has no effect on the execution of the program.\n\n[680ebd8de04c1586 | thinkpython2.pdf | page 67]\n\nWhat...is the airspeed velocity of an unladen swallow?\n42\n>>> int(speed)\n42",
+        "context_ids": [
+          "7bccc9eda3bb6fe6",
+          "680ebd8de04c1586"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "file handling Python",
+        "filter": null,
+        "results": [
+          {
+            "id": "75f56e6bca06a082",
+            "text": "\nwith more than a few lines of code, it can be clumsy.\nThe alternative is to save code in a file called ascriptand then run the interpreter inscript\nmodeto execute the script. By convention, Python scripts have names that end with.py.\nIf you know how to create and run a script on your computer, you are ready to go. Oth-\nerwise I recommend using PythonAnywhere again. I have posted instructions for running\nin script mode athttp://tinyurl.com/thinkpython2e.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 33,
+            "metadata": {
+              "label": "11",
+              "status": "ok",
+              "chapter": 2,
+              "end_offset": 952,
+              "start_offset": 494,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 33
+            },
+            "score": 0.4429213668657235,
+            "strategy": "dense"
+          },
+          {
+            "id": "680ebd8de04c1586",
+            "text": "\nWhat...is the airspeed velocity of an unladen swallow?\n42\n>>> int(speed)\n42",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 67,
+            "metadata": {
+              "label": "45",
+              "status": "ok",
+              "chapter": 5,
+              "end_offset": 1966,
+              "start_offset": 1890,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 67
+            },
+            "score": 0.4213014589964661,
+            "strategy": "dense"
+          },
+          {
+            "id": "6c790747dd75c9f2",
+            "text": "Chapter 4\nCase study: interface design\nThis chapter presents a case study that demonstrates a process for designing functions that\nwork together.\nIt introduces theturtlemodule, which allows you to create images using turtle graphics.\nTheturtlemodule is included in most Python installations, but if you are running Python\nusing PythonAnywhere, you won’t be able to run the turtle examples (at least you couldn’t\nwhen I wrote this).",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 51,
+            "metadata": {
+              "label": "29",
+              "status": "ok",
+              "chapter": 4,
+              "end_offset": 431,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 51
+            },
+            "score": 0.4176161141901228,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[7bccc9eda3bb6fe6 | thinkpython2.pdf | page 36]\n\nscript mode:A way of using the Python interpreter to read code from a script and run it.\nscript:A program stored in a file.\norder of operations:Rules governing the order in which expressions involving multiple\noperators and operands are evaluated.\nconcatenate:To join two operands end-to-end.\ncomment:Information in a program that is meant for other programmers (or anyone read-\ning the source code) and has no effect on the execution of the program.\n\n[680ebd8de04c1586 | thinkpython2.pdf | page 67]\n\nWhat...is the airspeed velocity of an unladen swallow?\n42\n>>> int(speed)\n42",
+        "context_ids": [
+          "7bccc9eda3bb6fe6",
+          "680ebd8de04c1586"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "open file example Python",
+        "filter": null,
+        "results": [
+          {
+            "id": "3c1b7152e6a1ad23",
+            "text": "\nIf you have already installed Python on your computer, you should be able to run the\nexamples. Otherwise, now is a good time to install. I have posted instructions athttp:\n//tinyurl.com/thinkpython2e.\nCode examples from this chapter are available fromhttps://thinkpython.com/code/\npolygon.py.\n4.1 The turtle module\nTo check whether you have theturtlemodule, open the Python interpreter and type\n>>> import turtle\n>>> bob = turtle.Turtle()",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 51,
+            "metadata": {
+              "label": "29",
+              "status": "ok",
+              "chapter": 4,
+              "end_offset": 870,
+              "start_offset": 431,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 51
+            },
+            "score": 0.4899016466707484,
+            "strategy": "dense"
+          },
+          {
+            "id": "6c790747dd75c9f2",
+            "text": "Chapter 4\nCase study: interface design\nThis chapter presents a case study that demonstrates a process for designing functions that\nwork together.\nIt introduces theturtlemodule, which allows you to create images using turtle graphics.\nTheturtlemodule is included in most Python installations, but if you are running Python\nusing PythonAnywhere, you won’t be able to run the turtle examples (at least you couldn’t\nwhen I wrote this).",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 51,
+            "metadata": {
+              "label": "29",
+              "status": "ok",
+              "chapter": 4,
+              "end_offset": 431,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 51
+            },
+            "score": 0.47287694867345254,
+            "strategy": "dense"
+          },
+          {
+            "id": "ca38696b8a0d689d",
+            "text": "1.3. The first program 3\n1.3 The first program\nTraditionally, the first program you write in a new language is called “Hello, World!” be-\ncause all it does is display the words “Hello, World!”. In Python, it looks like this:\n>>> print('Hello, World!')\nThis is an example of aprint statement, although it doesn’t actually print anything on\npaper. It displays a result on the screen. In this case, the result is the words\nHello, World!",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 25,
+            "metadata": {
+              "label": "3",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 433,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 25
+            },
+            "score": 0.46559310936825304,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[7bccc9eda3bb6fe6 | thinkpython2.pdf | page 36]\n\nscript mode:A way of using the Python interpreter to read code from a script and run it.\nscript:A program stored in a file.\norder of operations:Rules governing the order in which expressions involving multiple\noperators and operands are evaluated.\nconcatenate:To join two operands end-to-end.\ncomment:Information in a program that is meant for other programmers (or anyone read-\ning the source code) and has no effect on the execution of the program.\n\n[680ebd8de04c1586 | thinkpython2.pdf | page 67]\n\nWhat...is the airspeed velocity of an unladen swallow?\n42\n>>> int(speed)\n42",
+        "context_ids": [
+          "7bccc9eda3bb6fe6",
+          "680ebd8de04c1586"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "searches": 4,
+    "elapsed_ms": 22085.9,
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 3267,
+      "completion_tokens": 111,
+      "calls": 5
+    }
+  }
+]

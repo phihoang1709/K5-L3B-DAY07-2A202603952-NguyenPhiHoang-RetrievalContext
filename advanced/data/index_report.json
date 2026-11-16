@@ -1,0 +1,263 @@
+{
+ "document_id": "vcb_ar_2024",
+ "source": "Vietcombank Annual Report 2024 (Báo cáo thường niên 2024, tiếng Việt)",
+ "sha256": "9deccc3518e23302d00353b4d371a9dd251b67b12f9fe58a4da4ad3c727e99f8",
+ "pages": 106,
+ "n_text_pages": 102,
+ "n_tables": 130,
+ "n_figures": 205,
+ "figures_by_kind": {
+  "chart": 127,
+  "image": 78
+ },
+ "skipped": [
+  {
+   "page": 1,
+   "reason": "text mỏng (40 ký tự)"
+  },
+  {
+   "page": 8,
+   "reason": "vùng nhỏ bỏ qua (344x126pt)"
+  },
+  {
+   "page": 12,
+   "reason": "vùng nhỏ bỏ qua (159x189pt)"
+  },
+  {
+   "page": 12,
+   "reason": "vùng nhỏ bỏ qua (159x189pt)"
+  },
+  {
+   "page": 12,
+   "reason": "vùng nhỏ bỏ qua (159x189pt)"
+  },
+  {
+   "page": 21,
+   "reason": "vùng nhỏ bỏ qua (160x182pt)"
+  },
+  {
+   "page": 33,
+   "reason": "text mỏng (127 ký tự)"
+  },
+  {
+   "page": 45,
+   "reason": "vùng nhỏ bỏ qua (159x349pt)"
+  },
+  {
+   "page": 47,
+   "reason": "text mỏng (188 ký tự)"
+  },
+  {
+   "page": 65,
+   "reason": "vùng nhỏ bỏ qua (203x119pt)"
+  },
+  {
+   "page": 67,
+   "reason": "vùng nhỏ bỏ qua (200x142pt)"
+  },
+  {
+   "page": 67,
+   "reason": "vùng nhỏ bỏ qua (200x142pt)"
+  },
+  {
+   "page": 68,
+   "reason": "vùng nhỏ bỏ qua (200x142pt)"
+  },
+  {
+   "page": 69,
+   "reason": "vùng nhỏ bỏ qua (509x118pt)"
+  },
+  {
+   "page": 70,
+   "reason": "vùng nhỏ bỏ qua (509x87pt)"
+  },
+  {
+   "page": 73,
+   "reason": "vùng nhỏ bỏ qua (334x98pt)"
+  },
+  {
+   "page": 75,
+   "reason": "vùng nhỏ bỏ qua (334x77pt)"
+  },
+  {
+   "page": 76,
+   "reason": "vùng nhỏ bỏ qua (334x96pt)"
+  },
+  {
+   "page": 79,
+   "reason": "vùng nhỏ bỏ qua (508x117pt)"
+  },
+  {
+   "page": 80,
+   "reason": "vùng nhỏ bỏ qua (508x117pt)"
+  },
+  {
+   "page": 80,
+   "reason": "vùng nhỏ bỏ qua (508x106pt)"
+  },
+  {
+   "page": 80,
+   "reason": "vùng nhỏ bỏ qua (508x94pt)"
+  },
+  {
+   "page": 80,
+   "reason": "vùng nhỏ bỏ qua (508x64pt)"
+  },
+  {
+   "page": 81,
+   "reason": "vùng nhỏ bỏ qua (508x117pt)"
+  },
+  {
+   "page": 81,
+   "reason": "vùng nhỏ bỏ qua (507x92pt)"
+  },
+  {
+   "page": 81,
+   "reason": "vùng nhỏ bỏ qua (508x83pt)"
+  },
+  {
+   "page": 82,
+   "reason": "vùng nhỏ bỏ qua (508x114pt)"
+  },
+  {
+   "page": 82,
+   "reason": "vùng nhỏ bỏ qua (508x99pt)"
+  },
+  {
+   "page": 83,
+   "reason": "vùng nhỏ bỏ qua (508x114pt)"
+  },
+  {
+   "page": 83,
+   "reason": "vùng nhỏ bỏ qua (508x111pt)"
+  },
+  {
+   "page": 83,
+   "reason": "vùng nhỏ bỏ qua (508x107pt)"
+  },
+  {
+   "page": 83,
+   "reason": "vùng nhỏ bỏ qua (508x103pt)"
+  },
+  {
+   "page": 83,
+   "reason": "vùng nhỏ bỏ qua (508x103pt)"
+  },
+  {
+   "page": 83,
+   "reason": "vùng nhỏ bỏ qua (508x92pt)"
+  },
+  {
+   "page": 84,
+   "reason": "vùng nhỏ bỏ qua (507x114pt)"
+  },
+  {
+   "page": 84,
+   "reason": "vùng nhỏ bỏ qua (507x114pt)"
+  },
+  {
+   "page": 84,
+   "reason": "vùng nhỏ bỏ qua (507x88pt)"
+  },
+  {
+   "page": 84,
+   "reason": "vùng nhỏ bỏ qua (507x88pt)"
+  },
+  {
+   "page": 85,
+   "reason": "vùng nhỏ bỏ qua (508x103pt)"
+  },
+  {
+   "page": 85,
+   "reason": "vùng nhỏ bỏ qua (508x77pt)"
+  },
+  {
+   "page": 86,
+   "reason": "vùng nhỏ bỏ qua (508x92pt)"
+  },
+  {
+   "page": 87,
+   "reason": "vùng nhỏ bỏ qua (508x77pt)"
+  },
+  {
+   "page": 87,
+   "reason": "vùng nhỏ bỏ qua (508x73pt)"
+  },
+  {
+   "page": 88,
+   "reason": "vùng nhỏ bỏ qua (508x107pt)"
+  },
+  {
+   "page": 88,
+   "reason": "vùng nhỏ bỏ qua (508x92pt)"
+  },
+  {
+   "page": 88,
+   "reason": "vùng nhỏ bỏ qua (508x92pt)"
+  },
+  {
+   "page": 88,
+   "reason": "vùng nhỏ bỏ qua (508x62pt)"
+  },
+  {
+   "page": 90,
+   "reason": "vùng nhỏ bỏ qua (508x89pt)"
+  },
+  {
+   "page": 91,
+   "reason": "vùng nhỏ bỏ qua (508x71pt)"
+  },
+  {
+   "page": 91,
+   "reason": "vùng nhỏ bỏ qua (508x54pt)"
+  },
+  {
+   "page": 93,
+   "reason": "vùng nhỏ bỏ qua (508x80pt)"
+  },
+  {
+   "page": 93,
+   "reason": "vùng nhỏ bỏ qua (508x80pt)"
+  },
+  {
+   "page": 93,
+   "reason": "vùng nhỏ bỏ qua (508x69pt)"
+  },
+  {
+   "page": 93,
+   "reason": "vùng nhỏ bỏ qua (508x60pt)"
+  },
+  {
+   "page": 94,
+   "reason": "vùng nhỏ bỏ qua (508x107pt)"
+  },
+  {
+   "page": 94,
+   "reason": "vùng nhỏ bỏ qua (508x100pt)"
+  },
+  {
+   "page": 103,
+   "reason": "vùng nhỏ bỏ qua (509x113pt)"
+  },
+  {
+   "page": 103,
+   "reason": "vùng nhỏ bỏ qua (509x90pt)"
+  },
+  {
+   "page": 103,
+   "reason": "vùng nhỏ bỏ qua (509x90pt)"
+  },
+  {
+   "page": 104,
+   "reason": "vùng nhỏ bỏ qua (508x114pt)"
+  },
+  {
+   "page": 105,
+   "reason": "vùng nhỏ bỏ qua (200x142pt)"
+  },
+  {
+   "page": 106,
+   "reason": "text mỏng (188 ký tự)"
+  }
+ ]
+}

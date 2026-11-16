@@ -1,0 +1,405 @@
+[
+ {
+  "id": "82b250d176e0515d",
+  "page": 2,
+  "kind": "chart",
+  "crop": "page002_fig1.png",
+  "description": "Loại: ảnh.  \nNội dung: Mục lục báo cáo thường niên Vietcombank 2024.  \nMisfit: không.  \nSố liệu: không đọc được số liệu cụ thể.",
+  "usage": {
+   "prompt_tokens": 37047,
+   "completion_tokens": 45,
+   "total_tokens": 37092,
+   "cost": 0.0055282095,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00558405,
+    "upstream_inference_prompt_cost": 0.00555705,
+    "upstream_inference_completions_cost": 2.7e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 14220.0
+  }
+ },
+ {
+  "id": "b48f89ffc3dbb1a2",
+  "page": 6,
+  "kind": "image",
+  "crop": "page006_fig1.png",
+  "description": "Loại: ảnh.  \nNội dung: Thông tin khái quát về Ngân hàng Thương mại Cổ phần Ngoại thương Việt Nam (Vietcombank).  \nMisfit: không.  \nSố liệu: Vốn điều lệ (vốn đầu tư của chủ sở hữu): 55.890.912.620.000 đồng; Địa chỉ: 198 Trần Quang Khải, Phường Lý Thái Tổ, Quận Hoàn Kiếm, TP Hà Nội, Việt Nam.",
+  "usage": {
+   "prompt_tokens": 37047,
+   "completion_tokens": 111,
+   "total_tokens": 37158,
+   "cost": 0.0055674135,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00562365,
+    "upstream_inference_prompt_cost": 0.00555705,
+    "upstream_inference_completions_cost": 6.66e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 5182.8
+  }
+ },
+ {
+  "id": "baeab357351e220f",
+  "page": 9,
+  "kind": "image",
+  "crop": "page009_fig2.png",
+  "description": "Loại: ảnh.  \nNội dung: Hình ảnh minh họa cho báo cáo thường niên Vietcombank 2024.  \nMisfit: không.  \nSố liệu: không đọc được số liệu cụ thể.",
+  "usage": {
+   "prompt_tokens": 25713,
+   "completion_tokens": 49,
+   "total_tokens": 25762,
+   "cost": 0.0038474865,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00388635,
+    "upstream_inference_prompt_cost": 0.00385695,
+    "upstream_inference_completions_cost": 2.94e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 3682.0
+  }
+ },
+ {
+  "id": "4f4125ffcc07caab",
+  "page": 12,
+  "kind": "chart",
+  "crop": "page012_fig1.png",
+  "description": "Loại: ảnh.  \nNội dung: Định hướng phát triển Vietcombank đến năm 2025.  \nMisfit: không.  \nSố liệu: Ngân hàng số 1 tại Việt Nam; Top 100 ngân hàng lớn nhất khu vực Châu Á; Top 300 tập đoàn tài chính ngân hàng lớn nhất thế giới; Top 1000 doanh nghiệp niêm yết lớn nhất toàn cầu.",
+  "usage": {
+   "prompt_tokens": 37047,
+   "completion_tokens": 87,
+   "total_tokens": 37134,
+   "cost": 0.0055531575,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00560925,
+    "upstream_inference_prompt_cost": 0.00555705,
+    "upstream_inference_completions_cost": 5.22e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 3403.9
+  }
+ },
+ {
+  "id": "059822afd9c00155",
+  "page": 13,
+  "kind": "chart",
+  "crop": "page013_fig2.png",
+  "description": "Loại: Sơ đồ.  \nNội dung: Lộ trình phát triển bền vững theo 5 trụ cột.  \nMisfit: Không.  \nSố liệu: không đọc được số liệu cụ thể.",
+  "usage": {
+   "prompt_tokens": 25713,
+   "completion_tokens": 48,
+   "total_tokens": 25761,
+   "cost": 0.0038468925,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00388575,
+    "upstream_inference_prompt_cost": 0.00385695,
+    "upstream_inference_completions_cost": 2.88e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 1884.4
+  }
+ },
+ {
+  "id": "02234cf15ef6b892",
+  "page": 16,
+  "kind": "chart",
+  "crop": "page016_fig1.png",
+  "description": "Loại: bảng.  \nNội dung: Các chỉ số tài chính cơ bản 2023-2024.  \nMisfit: không.  \nSố liệu: Tổng tài sản 2023: 1.839.725 tỷ đồng; Tổng tài sản 2024: 2.085.874 tỷ đồng; Doanh thu 2023: 135.676 tỷ đồng; Doanh thu 2024: 121.925 tỷ đồng; Lợi nhuận trước thuế 2023: 41.328 tỷ đồng; Lợi nhuận trước thuế 2024: 42.236 tỷ đồng; Lợi nhuận sau thuế 2023: 33.122 tỷ đồng; Lợi nhuận sau thuế 2024: 33.853 tỷ đồng.",
+  "usage": {
+   "prompt_tokens": 25713,
+   "completion_tokens": 167,
+   "total_tokens": 25880,
+   "cost": 0.0039175785,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00395715,
+    "upstream_inference_prompt_cost": 0.00385695,
+    "upstream_inference_completions_cost": 0.0001002
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 3613.9
+  }
+ },
+ {
+  "id": "cd8a8f949862e1e8",
+  "page": 18,
+  "kind": "chart",
+  "crop": "page018_fig1.png",
+  "description": "**Loại**: bảng.  \n**Nội dung**: Tình hình đầu tư, tình hình thực hiện các dự án năm 2024.  \n**Misfit**: không.  \n**Số liệu**: Swift: Vốn đầu tư 31/12/2024: 2.71; Vốn đầu tư 31/12/2023: 2.94; Công ty TNHH Chứng khoán Vietcombank: Vốn đầu tư 31/12/2024: 1.734,82; Lợi nhuận trước thuế năm 2024: 633,76 tỷ đồng; Công ty Tài chính Việt Nam tại Hồng Kông: Lợi nhuận trước thuế năm 2024: 2.358 triệu HKD; Ngân hàng TNHH Ngoại thương Việt Nam tại Lào: Lợi nhuận trước thuế năm 2024: 29,64 triệu LAK; Công ty TNHH Cao Ốc Vietcombank 198: Lợi nhuận trước thuế năm 2024: 80,54 tỷ đồng.",
+  "usage": {
+   "prompt_tokens": 37047,
+   "completion_tokens": 233,
+   "total_tokens": 37280,
+   "cost": 0.0056398815,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00569685,
+    "upstream_inference_prompt_cost": 0.00555705,
+    "upstream_inference_completions_cost": 0.0001398
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 5511.4
+  }
+ },
+ {
+  "id": "c16d4c98a3ed0e80",
+  "page": 21,
+  "kind": "chart",
+  "crop": "page021_fig2.png",
+  "description": "Loại: Ảnh.  \nNội dung: Nhân viên Vietcombank tương tác trong môi trường làm việc.  \nMisfit: không.  \nSố liệu: không đọc được số liệu cụ thể.",
+  "usage": {
+   "prompt_tokens": 37047,
+   "completion_tokens": 45,
+   "total_tokens": 37092,
+   "cost": 0.0055282095,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00558405,
+    "upstream_inference_prompt_cost": 0.00555705,
+    "upstream_inference_completions_cost": 2.7e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 3992.4
+  }
+ },
+ {
+  "id": "bc2d90eb8c9c3965",
+  "page": 24,
+  "kind": "image",
+  "crop": "page024_fig1.png",
+  "description": "Loại: ảnh.  \nNội dung: Môi trường và xã hội; hoạt động trồng cây của Vietcombank.  \nMisfit: không.  \nSố liệu: không đọc được số liệu cụ thể.",
+  "usage": {
+   "prompt_tokens": 48381,
+   "completion_tokens": 46,
+   "total_tokens": 48427,
+   "cost": 0.0072119025,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00728475,
+    "upstream_inference_prompt_cost": 0.00725715,
+    "upstream_inference_completions_cost": 2.76e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 4181.4
+  }
+ },
+ {
+  "id": "5b5867db39050b70",
+  "page": 25,
+  "kind": "chart",
+  "crop": "page025_fig2.png",
+  "description": "Loại: ảnh.  \nNội dung: Tòa nhà Vietcombank.  \nMisfit: không.  \nSố liệu: không đọc được số liệu cụ thể.",
+  "usage": {
+   "prompt_tokens": 25713,
+   "completion_tokens": 36,
+   "total_tokens": 25749,
+   "cost": 0.0038397645,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00387855,
+    "upstream_inference_prompt_cost": 0.00385695,
+    "upstream_inference_completions_cost": 2.16e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 3612.3
+  }
+ },
+ {
+  "id": "8fd4cf1b0d093541",
+  "page": 26,
+  "kind": "chart",
+  "crop": "page026_fig3.png",
+  "description": "Loại: Ảnh.  \nNội dung: Nhân viên Vietcombank trong một buổi họp.  \nMisfit: không.  \nSố liệu: không đọc được số liệu cụ thể.",
+  "usage": {
+   "prompt_tokens": 25713,
+   "completion_tokens": 44,
+   "total_tokens": 25757,
+   "cost": 0.0038445165,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00388335,
+    "upstream_inference_prompt_cost": 0.00385695,
+    "upstream_inference_completions_cost": 2.64e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 4643.7
+  }
+ },
+ {
+  "id": "1df7c3b40a3b0214",
+  "page": 29,
+  "kind": "chart",
+  "crop": "page029_fig1.png",
+  "description": "Loại: ảnh.  \nNội dung: Danh sách Hội đồng quản trị Vietcombank 2024.  \nSố liệu: không đọc được số liệu cụ thể.",
+  "usage": {
+   "prompt_tokens": 37047,
+   "completion_tokens": 37,
+   "total_tokens": 37084,
+   "cost": 0.0055234575,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00557925,
+    "upstream_inference_prompt_cost": 0.00555705,
+    "upstream_inference_completions_cost": 2.22e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 3347.1
+  }
+ },
+ {
+  "id": "2b246136019754de",
+  "page": 33,
+  "kind": "chart",
+  "crop": "page033_fig1.png",
+  "description": "Loại: ảnh.  \nNội dung: Dấu ấn Quản trị, Chương mục và bền vững.  \nMisfit: không.  \nSố liệu: không đọc được số liệu cụ thể.",
+  "usage": {
+   "prompt_tokens": 37047,
+   "completion_tokens": 46,
+   "total_tokens": 37093,
+   "cost": 0.0055288035,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00558465,
+    "upstream_inference_prompt_cost": 0.00555705,
+    "upstream_inference_completions_cost": 2.76e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 6885.7
+  }
+ }
+]

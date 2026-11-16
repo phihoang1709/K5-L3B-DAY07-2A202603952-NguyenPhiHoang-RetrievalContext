@@ -1,0 +1,2101 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Theo Chương 1, chương trình là một chuỗi các hướng dẫn chỉ định cách thực hiện một phép toán. Phép toán này có thể là một phép toán toán học, như giải hệ phương trình hoặc tìm nghiệm của một đa thức, nhưng cũng có thể là một phép toán ký hiệu, như tìm kiếm [7d8ede3eb248d89a].",
+    "citations": [
+      "7d8ede3eb248d89a"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "chương trình là gì",
+        "filter": null,
+        "results": [
+          {
+            "id": "7d8ede3eb248d89a",
+            "text": "\nOn one level, you will be learning to program, a useful skill by itself. On another level, you\nwill use programming as a means to an end. As we go along, that end will become clearer.\n1.1 What is a program?\nAprogramis a sequence of instructions that specifies how to perform a computation. The\ncomputation might be something mathematical, such as solving a system of equations or\nfinding the roots of a polynomial, but it can also be a symbolic computation, such as search-",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 23,
+            "metadata": {
+              "label": "1",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 1412,
+              "start_offset": 938,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 23
+            },
+            "score": 0.5269978517590054,
+            "strategy": "dense"
+          },
+          {
+            "id": "40ac2c92129a8615",
+            "text": "2 Chapter 1. The way of the program\nrepetition:Perform some action repeatedly, usually with some variation.\nBelieve it or not, that’s pretty much all there is to it. Every program you’ve ever used,\nno matter how complicated, is made up of instructions that look pretty much like these.\nSo you can think of programming as the process of breaking a large, complex task into\nsmaller and smaller subtasks until the subtasks are simple enough to be performed with\none of these basic instructions.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 24,
+            "metadata": {
+              "label": "2",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 491,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 24
+            },
+            "score": 0.5050225847932631,
+            "strategy": "dense"
+          },
+          {
+            "id": "c2361c52ab7e70ec",
+            "text": "\nconditional execution:Check for certain conditions and run the appropriate code.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 23,
+            "metadata": {
+              "label": "1",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 1955,
+              "start_offset": 1874,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 23
+            },
+            "score": 0.4907286763191223,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[7d8ede3eb248d89a | thinkpython2.pdf | page 23]\n\nOn one level, you will be learning to program, a useful skill by itself. On another level, you\nwill use programming as a means to an end. As we go along, that end will become clearer.\n1.1 What is a program?\nAprogramis a sequence of instructions that specifies how to perform a computation. The\ncomputation might be something mathematical, such as solving a system of equations or\nfinding the roots of a polynomial, but it can also be a symbolic computation, such as search-\n\n[c2361c52ab7e70ec | thinkpython2.pdf | page 23]\n\nconditional execution:Check for certain conditions and run the appropriate code.",
+        "context_ids": [
+          "7d8ede3eb248d89a",
+          "c2361c52ab7e70ec"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "searches": 1,
+    "elapsed_ms": 7070.1,
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 731,
+      "completion_tokens": 94,
+      "calls": 2
+    }
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Kỹ năng quan trọng nhất của một nhà khoa học máy tính là khả năng giải quyết vấn đề. Điều này bao gồm khả năng định hình vấn đề, suy nghĩ sáng tạo về các giải pháp và diễn đạt một giải pháp một cách rõ ràng và chính xác. Quá trình học lập trình là một cơ hội tuyệt vời để rèn luyện kỹ năng giải quyết vấn đề này [737ff12306987fd6].",
+    "citations": [
+      "737ff12306987fd6"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "important skills of a computer scientist",
+        "filter": null,
+        "results": [
+          {
+            "id": "737ff12306987fd6",
+            "text": "\nior of complex systems, form hypotheses, and test predictions.\nThe single most important skill for a computer scientist isproblem solving. Problem solv-\ning means the ability to formulate problems, think creatively about solutions, and express\na solution clearly and accurately. As it turns out, the process of learning to program is an\nexcellent opportunity to practice problem-solving skills. That’s why this chapter is called,\n“The way of the program”.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 23,
+            "metadata": {
+              "label": "1",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 938,
+              "start_offset": 482,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 23
+            },
+            "score": 0.6988328278760528,
+            "strategy": "dense"
+          },
+          {
+            "id": "721c7c474482c23c",
+            "text": "Chapter 1\nThe way of the program\nThe goal of this book is to teach you to think like a computer scientist. This way of think-\ning combines some of the best features of mathematics, engineering, and natural science.\nLike mathematicians, computer scientists use formal languages to denote ideas (specifi-\ncally computations). Like engineers, they design things, assembling components into sys-\ntems and evaluating tradeoffs among alternatives. Like scientists, they observe the behav-",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 23,
+            "metadata": {
+              "label": "1",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 482,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 23
+            },
+            "score": 0.5857688886843787,
+            "strategy": "dense"
+          },
+          {
+            "id": "140f69c4af4aa6c7",
+            "text": "\n• Well-designed functions are often useful for many programs. Once you write and\ndebug one, you can reuse it.\n3.12 Debugging\nOne of the most important skills you will acquire is debugging. Although it can be frus-\ntrating, debugging is one of the most intellectually rich, challenging, and interesting parts\nof programming.\nIn some ways debugging is like detective work. You are confronted with clues and you\nhave to infer the processes and events that led to the results you see.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 47,
+            "metadata": {
+              "label": "25",
+              "status": "ok",
+              "chapter": 3,
+              "end_offset": 901,
+              "start_offset": 420,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 47
+            },
+            "score": 0.5243250698655909,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[737ff12306987fd6 | thinkpython2.pdf | page 23]\n\nior of complex systems, form hypotheses, and test predictions.\nThe single most important skill for a computer scientist isproblem solving. Problem solv-\ning means the ability to formulate problems, think creatively about solutions, and express\na solution clearly and accurately. As it turns out, the process of learning to program is an\nexcellent opportunity to practice problem-solving skills. That’s why this chapter is called,\n“The way of the program”.",
+        "context_ids": [
+          "737ff12306987fd6"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "searches": 1,
+    "elapsed_ms": 9354.1,
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 691,
+      "completion_tokens": 107,
+      "calls": 2
+    }
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Ngôn ngữ bậc cao (high-level language) là một loại ngôn ngữ lập trình như Python, được thiết kế để dễ đọc và viết cho con người. Ví dụ về ngôn ngữ bậc cao bao gồm Python, Java và Ruby [f437457a7ea155c4].",
+    "citations": [
+      "f437457a7ea155c4"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "high-level language",
+        "filter": null,
+        "results": [
+          {
+            "id": "f437457a7ea155c4",
+            "text": "\nities beyond programming. At the end of each chapter there is a section, like this one, with\nmy suggestions for debugging. I hope they help!\n1.8 Glossary\nproblem solving:The process of formulating a problem, finding a solution, and express-\ning it.\nhigh-level language:A programming language like Python that is designed to be easy for\nhumans to read and write.\nlow-level language:A programming language that is designed to be easy for a computer",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 28,
+            "metadata": {
+              "label": "6",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 2245,
+              "start_offset": 1798,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 28
+            },
+            "score": 0.6170481811194539,
+            "strategy": "dense"
+          },
+          {
+            "id": "17c636b9fa7b8a03",
+            "text": "6 Chapter 1. The way of the program\nFormal languages are more dense than natural languages, so it takes longer to read them.\nAlso, the structure is important, so it is not always best to read from top to bottom, left to\nright. Instead, learn to parse the program in your head, identifying the tokens and inter-\npreting the structure. Finally, the details matter. Small errors in spelling and punctuation,\nwhich you can get away with in natural languages, can make a big difference in a formal",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 28,
+            "metadata": {
+              "label": "6",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 492,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 28
+            },
+            "score": 0.5311053395271339,
+            "strategy": "dense"
+          },
+          {
+            "id": "6aab37d9fcfa4814",
+            "text": "\nProgramming languages are formal languages that have been designed to\nexpress computations.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 26,
+            "metadata": {
+              "label": "4",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 1945,
+              "start_offset": 1853,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 26
+            },
+            "score": 0.5290452803319509,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[f437457a7ea155c4 | thinkpython2.pdf | page 28]\n\nities beyond programming. At the end of each chapter there is a section, like this one, with\nmy suggestions for debugging. I hope they help!\n1.8 Glossary\nproblem solving:The process of formulating a problem, finding a solution, and express-\ning it.\nhigh-level language:A programming language like Python that is designed to be easy for\nhumans to read and write.\nlow-level language:A programming language that is designed to be easy for a computer\n\n[6aab37d9fcfa4814 | thinkpython2.pdf | page 26]\n\nProgramming languages are formal languages that have been designed to\nexpress computations.",
+        "context_ids": [
+          "f437457a7ea155c4",
+          "6aab37d9fcfa4814"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "searches": 1,
+    "elapsed_ms": 4505.8,
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 732,
+      "completion_tokens": 82,
+      "calls": 2
+    }
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Trong Python, biến (variable) được định nghĩa là một tên tham chiếu đến một giá trị. Biến cho phép lập trình viên thao tác với các giá trị trong chương trình. Ví dụ, một câu lệnh gán có thể tạo ra một biến mới và gán cho nó một giá trị cụ thể [29b0c03d97efa746].",
+    "citations": [
+      "29b0c03d97efa746"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "variable definition in Python",
+        "filter": null,
+        "results": [
+          {
+            "id": "29b0c03d97efa746",
+            "text": "Chapter 2\nVariables, expressions and\nstatements\nOne of the most powerful features of a programming language is the ability to manipulate\nvariables. A variable is a name that refers to a value.\n2.1 Assignment statements\nAnassignment statementcreates a new variable and gives it a value:\n>>> message ='And now for something completely different'\n>>> n = 17\n>>> pi = 3.1415926535897932\nThis example makes three assignments. The first assigns a string to a new variable named",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 31,
+            "metadata": {
+              "label": "9",
+              "status": "ok",
+              "chapter": 2,
+              "end_offset": 471,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 31
+            },
+            "score": 0.6005805909806882,
+            "strategy": "dense"
+          },
+          {
+            "id": "16e81de8896f18c6",
+            "text": "14 Chapter 2. Variables, expressions and statements\n2.9 Glossary\nvariable:A name that refers to a value.\nassignment:A statement that assigns a value to a variable.\nstate diagram:A graphical representation of a set of variables and the values they refer to.\nkeyword:A reserved word that is used to parse a program; you cannot use keywords like\nif,def, andwhileas variable names.\noperand:One of the values on which an operator operates.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 36,
+            "metadata": {
+              "label": "14",
+              "status": "ok",
+              "chapter": 2,
+              "end_offset": 434,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 36
+            },
+            "score": 0.5982382659344039,
+            "strategy": "dense"
+          },
+          {
+            "id": "b630532efef581e5",
+            "text": "10 Chapter 2. Variables, expressions and statements\nVariable names can be as long as you like. They can contain both letters and numbers, but\nthey can’t begin with a number. It is legal to use uppercase letters, but it is conventional to\nuse only lower case for variables names.\nThe underscore character,_, can appear in a name. It is often used in names with multiple\nwords, such asyour_nameorairspeed_of_unladen_swallow.\nIf you give a variable an illegal name, you get a syntax error:",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 32,
+            "metadata": {
+              "label": "10",
+              "status": "ok",
+              "chapter": 2,
+              "end_offset": 486,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 32
+            },
+            "score": 0.5588081075892266,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[29b0c03d97efa746 | thinkpython2.pdf | page 31]\nChapter 2\nVariables, expressions and\nstatements\nOne of the most powerful features of a programming language is the ability to manipulate\nvariables. A variable is a name that refers to a value.\n2.1 Assignment statements\nAnassignment statementcreates a new variable and gives it a value:\n>>> message ='And now for something completely different'\n>>> n = 17\n>>> pi = 3.1415926535897932\nThis example makes three assignments. The first assigns a string to a new variable named",
+        "context_ids": [
+          "29b0c03d97efa746"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "searches": 1,
+    "elapsed_ms": 5870.9,
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 694,
+      "completion_tokens": 92,
+      "calls": 2
+    }
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Ba loại lỗi có thể xảy ra trong một chương trình là: lỗi cú pháp (syntax error), lỗi thời gian chạy (runtime error), và lỗi ngữ nghĩa (semantic error). Lỗi cú pháp xảy ra khi mã không tuân theo quy tắc của ngôn ngữ lập trình. Lỗi thời gian chạy xảy ra khi chương trình đã bắt đầu chạy nhưng gặp vấn đề, và lỗi ngữ nghĩa liên quan đến ý nghĩa của mã không đúng với mong đợi [b1ad6b85b5b0b020].",
+    "citations": [
+      "b1ad6b85b5b0b020"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "three types of errors in a program",
+        "filter": null,
+        "results": [
+          {
+            "id": "b1ad6b85b5b0b020",
+            "text": "\nRuntime error:The second type of error is a runtime error, so called because the error does\nnot appear until after the program has started running. These errors are also called\nexceptionsbecause they usually indicate that something exceptional (and bad) has\nhappened.\nRuntime errors are rare in the simple programs you will see in the first few chapters,\nso it might be a while before you encounter one.\nSemantic error:The third type of error is “semantic”, which means related to meaning.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 35,
+            "metadata": {
+              "label": "13",
+              "status": "ok",
+              "chapter": 2,
+              "end_offset": 2270,
+              "start_offset": 1780,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 35
+            },
+            "score": 0.7239296652057671,
+            "strategy": "dense"
+          },
+          {
+            "id": "ff25a608c1c5af65",
+            "text": "\nGood variable names can reduce the need for comments, but long names can make com-\nplex expressions hard to read, so there is a tradeoff.\n2.8 Debugging\nThree kinds of errors can occur in a program: syntax errors, runtime errors, and semantic\nerrors. It is useful to distinguish between them in order to track them down more quickly.\nSyntax error:“Syntax” refers to the structure of a program and the rules about that struc-",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 35,
+            "metadata": {
+              "label": "13",
+              "status": "ok",
+              "chapter": 2,
+              "end_offset": 1344,
+              "start_offset": 920,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 35
+            },
+            "score": 0.7052636215562194,
+            "strategy": "dense"
+          },
+          {
+            "id": "ebfeae42c03aeb66",
+            "text": "\nWhenever you are experimenting with a new feature, you should try to make mistakes. For example,\nin the “Hello, world!” program, what happens if you leave out one of the quotation marks? What if\nyou leave out both? What if you spellprintwrong?\nThis kind of experiment helps you remember what you read; it also helps when you are programming,\nbecause you get to know what the error messages mean. It is better to make mistakes now and on\npurpose than later and accidentally.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 29,
+            "metadata": {
+              "label": "7",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 1848,
+              "start_offset": 1374,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 29
+            },
+            "score": 0.6776785264323828,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[b1ad6b85b5b0b020 | thinkpython2.pdf | page 35]\n\nRuntime error:The second type of error is a runtime error, so called because the error does\nnot appear until after the program has started running. These errors are also called\nexceptionsbecause they usually indicate that something exceptional (and bad) has\nhappened.\nRuntime errors are rare in the simple programs you will see in the first few chapters,\nso it might be a while before you encounter one.\nSemantic error:The third type of error is “semantic”, which means related to meaning.",
+        "context_ids": [
+          "b1ad6b85b5b0b020"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "types of errors",
+        "filter": null,
+        "results": [
+          {
+            "id": "b1ad6b85b5b0b020",
+            "text": "\nRuntime error:The second type of error is a runtime error, so called because the error does\nnot appear until after the program has started running. These errors are also called\nexceptionsbecause they usually indicate that something exceptional (and bad) has\nhappened.\nRuntime errors are rare in the simple programs you will see in the first few chapters,\nso it might be a while before you encounter one.\nSemantic error:The third type of error is “semantic”, which means related to meaning.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 35,
+            "metadata": {
+              "label": "13",
+              "status": "ok",
+              "chapter": 2,
+              "end_offset": 2270,
+              "start_offset": 1780,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 35
+            },
+            "score": 0.6430323932747618,
+            "strategy": "dense"
+          },
+          {
+            "id": "ebfeae42c03aeb66",
+            "text": "\nWhenever you are experimenting with a new feature, you should try to make mistakes. For example,\nin the “Hello, world!” program, what happens if you leave out one of the quotation marks? What if\nyou leave out both? What if you spellprintwrong?\nThis kind of experiment helps you remember what you read; it also helps when you are programming,\nbecause you get to know what the error messages mean. It is better to make mistakes now and on\npurpose than later and accidentally.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 29,
+            "metadata": {
+              "label": "7",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 1848,
+              "start_offset": 1374,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 29
+            },
+            "score": 0.5949681997299237,
+            "strategy": "dense"
+          },
+          {
+            "id": "9398c8bf679ff590",
+            "text": "\nsyntax error:An error in a program that makes it impossible to parse (and therefore im-\npossible to interpret).\nexception:An error that is detected while the program is running.\nsemantics:The meaning of a program.\nsemantic error:An error in a program that makes it do something other than what the\nprogrammer intended.\n2.10 Exercises\nExercise 2.1.Repeating my advice from the previous chapter, whenever you learn a new feature,",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 36,
+            "metadata": {
+              "label": "14",
+              "status": "ok",
+              "chapter": 2,
+              "end_offset": 1779,
+              "start_offset": 1351,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 36
+            },
+            "score": 0.5626867841873554,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[b1ad6b85b5b0b020 | thinkpython2.pdf | page 35]\n\nRuntime error:The second type of error is a runtime error, so called because the error does\nnot appear until after the program has started running. These errors are also called\nexceptionsbecause they usually indicate that something exceptional (and bad) has\nhappened.\nRuntime errors are rare in the simple programs you will see in the first few chapters,\nso it might be a while before you encounter one.\nSemantic error:The third type of error is “semantic”, which means related to meaning.",
+        "context_ids": [
+          "b1ad6b85b5b0b020"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "searches": 2,
+    "elapsed_ms": 13363.7,
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 1288,
+      "completion_tokens": 146,
+      "calls": 3
+    }
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Câu lệnh gán (assignment statement) tạo ra một biến mới và gán cho nó một giá trị. Ví dụ, câu lệnh `message = 'And now for something completely different'` gán một chuỗi cho biến mới có tên là `message` [29b0c03d97efa746].",
+    "citations": [
+      "29b0c03d97efa746"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "assignment statement",
+        "filter": null,
+        "results": [
+          {
+            "id": "29b0c03d97efa746",
+            "text": "Chapter 2\nVariables, expressions and\nstatements\nOne of the most powerful features of a programming language is the ability to manipulate\nvariables. A variable is a name that refers to a value.\n2.1 Assignment statements\nAnassignment statementcreates a new variable and gives it a value:\n>>> message ='And now for something completely different'\n>>> n = 17\n>>> pi = 3.1415926535897932\nThis example makes three assignments. The first assigns a string to a new variable named",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 31,
+            "metadata": {
+              "label": "9",
+              "status": "ok",
+              "chapter": 2,
+              "end_offset": 471,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 31
+            },
+            "score": 0.6706364761509983,
+            "strategy": "dense"
+          },
+          {
+            "id": "16e81de8896f18c6",
+            "text": "14 Chapter 2. Variables, expressions and statements\n2.9 Glossary\nvariable:A name that refers to a value.\nassignment:A statement that assigns a value to a variable.\nstate diagram:A graphical representation of a set of variables and the values they refer to.\nkeyword:A reserved word that is used to parse a program; you cannot use keywords like\nif,def, andwhileas variable names.\noperand:One of the values on which an operator operates.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 36,
+            "metadata": {
+              "label": "14",
+              "status": "ok",
+              "chapter": 2,
+              "end_offset": 434,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 36
+            },
+            "score": 0.6310277581215085,
+            "strategy": "dense"
+          },
+          {
+            "id": "e2285827b98f797c",
+            "text": "\nx = math.exp(math.log(x+1))\nAlmost anywhere you can put a value, you can put an arbitrary expression, with one ex-\nception: the left side of an assignment statement has to be a variable name. Any other\nexpression on the left side is a syntax error (we will see exceptions to this rule later).\n>>> minutes = hours * 60 # right\n>>> hours * 60 = minutes # wrong!\nSyntaxError: can't assign to operator\n3.4 Adding new functions",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 41,
+            "metadata": {
+              "label": "19",
+              "status": "ok",
+              "chapter": 3,
+              "end_offset": 898,
+              "start_offset": 475,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 41
+            },
+            "score": 0.5959718937840377,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[29b0c03d97efa746 | thinkpython2.pdf | page 31]\nChapter 2\nVariables, expressions and\nstatements\nOne of the most powerful features of a programming language is the ability to manipulate\nvariables. A variable is a name that refers to a value.\n2.1 Assignment statements\nAnassignment statementcreates a new variable and gives it a value:\n>>> message ='And now for something completely different'\n>>> n = 17\n>>> pi = 3.1415926535897932\nThis example makes three assignments. The first assigns a string to a new variable named",
+        "context_ids": [
+          "29b0c03d97efa746"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "searches": 1,
+    "elapsed_ms": 25993.4,
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 696,
+      "completion_tokens": 82,
+      "calls": 2
+    }
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Nếu bạn đặt tên biến không hợp lệ, bạn sẽ nhận được một lỗi cú pháp (syntax error) trong chương trình của mình. Tên biến không được bắt đầu bằng một số và phải tuân theo các quy tắc nhất định về ký tự được phép sử dụng [b630532efef581e5].",
+    "citations": [
+      "b630532efef581e5"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "invalid variable name error",
+        "filter": {
+          "chapter": 2
+        },
+        "results": [
+          {
+            "id": "b630532efef581e5",
+            "text": "10 Chapter 2. Variables, expressions and statements\nVariable names can be as long as you like. They can contain both letters and numbers, but\nthey can’t begin with a number. It is legal to use uppercase letters, but it is conventional to\nuse only lower case for variables names.\nThe underscore character,_, can appear in a name. It is often used in names with multiple\nwords, such asyour_nameorairspeed_of_unladen_swallow.\nIf you give a variable an illegal name, you get a syntax error:",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 32,
+            "metadata": {
+              "label": "10",
+              "status": "ok",
+              "chapter": 2,
+              "end_offset": 486,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 32
+            },
+            "score": 0.6601343560058646,
+            "strategy": "dense"
+          },
+          {
+            "id": "86c72d21118b444f",
+            "text": "\n>>> 76trombones ='big parade'\nSyntaxError: invalid syntax\n>>> more@ = 1000000\nSyntaxError: invalid syntax\n>>> class ='Advanced Theoretical Zymurgy'\nSyntaxError: invalid syntax\n76trombonesis illegal because it begins with a number.more@is illegal because it contains\nan illegal character,@. But what’s wrong withclass?\nIt turns out thatclassis one of Python’skeywords. The interpreter uses keywords to\nrecognize the structure of the program, and they cannot be used as variable names.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 32,
+            "metadata": {
+              "label": "10",
+              "status": "ok",
+              "chapter": 2,
+              "end_offset": 970,
+              "start_offset": 486,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 32
+            },
+            "score": 0.6080943088306687,
+            "strategy": "dense"
+          },
+          {
+            "id": "16e81de8896f18c6",
+            "text": "14 Chapter 2. Variables, expressions and statements\n2.9 Glossary\nvariable:A name that refers to a value.\nassignment:A statement that assigns a value to a variable.\nstate diagram:A graphical representation of a set of variables and the values they refer to.\nkeyword:A reserved word that is used to parse a program; you cannot use keywords like\nif,def, andwhileas variable names.\noperand:One of the values on which an operator operates.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 36,
+            "metadata": {
+              "label": "14",
+              "status": "ok",
+              "chapter": 2,
+              "end_offset": 434,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 36
+            },
+            "score": 0.5395915139451906,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[b630532efef581e5 | thinkpython2.pdf | page 32]\n10 Chapter 2. Variables, expressions and statements\nVariable names can be as long as you like. They can contain both letters and numbers, but\nthey can’t begin with a number. It is legal to use uppercase letters, but it is conventional to\nuse only lower case for variables names.\nThe underscore character,_, can appear in a name. It is often used in names with multiple\nwords, such asyour_nameorairspeed_of_unladen_swallow.\nIf you give a variable an illegal name, you get a syntax error:",
+        "context_ids": [
+          "b630532efef581e5"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "searches": 1,
+    "elapsed_ms": 17997.6,
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 712,
+      "completion_tokens": 82,
+      "calls": 2
+    }
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Trong ngữ cảnh lập trình, hàm (function) là một chuỗi các câu lệnh có tên, thực hiện một phép toán nào đó. Khi định nghĩa một hàm, bạn chỉ định tên và chuỗi các câu lệnh. Sau đó, bạn có thể \"gọi\" hàm bằng tên của nó [a85013a97bc58c92].",
+    "citations": [
+      "a85013a97bc58c92"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "function definition",
+        "filter": null,
+        "results": [
+          {
+            "id": "a85013a97bc58c92",
+            "text": "Chapter 3\nFunctions\nIn the context of programming, afunctionis a named sequence of statements that performs\na computation. When you define a function, you specify the name and the sequence of\nstatements. Later, you can “call” the function by name.\n3.1 Function calls\nWe have already seen one example of afunction call:\n>>> type(42)\n<class'int'>\nThe name of the function istype. The expression in parentheses is called theargumentof",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 39,
+            "metadata": {
+              "label": "17",
+              "status": "ok",
+              "chapter": 3,
+              "end_offset": 431,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 39
+            },
+            "score": 0.5990227636471832,
+            "strategy": "dense"
+          },
+          {
+            "id": "0a6872577964e492",
+            "text": "\nSo far, we have only been using the functions that come with Python, but it is also possible\nto add new functions. Afunction definitionspecifies the name of a new function and the\nsequence of statements that run when the function is called.\nHere is an example:\ndef print_lyrics():\nprint(\"I'm a lumberjack, and I'm okay.\")\nprint(\"I sleep all night and I work all day.\")\ndefis a keyword that indicates that this is a function definition. The name of the function",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 41,
+            "metadata": {
+              "label": "19",
+              "status": "ok",
+              "chapter": 3,
+              "end_offset": 1359,
+              "start_offset": 898,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 41
+            },
+            "score": 0.5975082687315951,
+            "strategy": "dense"
+          },
+          {
+            "id": "9397f8e392926a0e",
+            "text": "\ntion definitions get executed just like other statements, but the effect is to create function\nobjects. The statements inside the function do not run until the function is called, and the\nfunction definition generates no output.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 42,
+            "metadata": {
+              "label": "20",
+              "status": "ok",
+              "chapter": 3,
+              "end_offset": 1598,
+              "start_offset": 1369,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 42
+            },
+            "score": 0.5869521284869502,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[a85013a97bc58c92 | thinkpython2.pdf | page 39]\nChapter 3\nFunctions\nIn the context of programming, afunctionis a named sequence of statements that performs\na computation. When you define a function, you specify the name and the sequence of\nstatements. Later, you can “call” the function by name.\n3.1 Function calls\nWe have already seen one example of afunction call:\n>>> type(42)\n<class'int'>\nThe name of the function istype. The expression in parentheses is called theargumentof\n\n[9397f8e392926a0e | thinkpython2.pdf | page 42]\n\ntion definitions get executed just like other statements, but the effect is to create function\nobjects. The statements inside the function do not run until the function is called, and the\nfunction definition generates no output.",
+        "context_ids": [
+          "a85013a97bc58c92",
+          "9397f8e392926a0e"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "searches": 1,
+    "elapsed_ms": 9081.3,
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 752,
+      "completion_tokens": 92,
+      "calls": 2
+    }
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Theo Chương 3, người học sẽ rèn luyện được kỹ năng gỡ lỗi, một trong những kỹ năng quan trọng nhất trong lập trình. Gỡ lỗi không chỉ là một phần khó khăn mà còn là một phần thú vị và đầy thách thức, giống như công việc của một thám tử, nơi bạn phải suy luận từ các manh mối để hiểu các quy trình và sự kiện dẫn đến kết quả bạn thấy [140f69c4af4aa6c7].",
+    "citations": [
+      "140f69c4af4aa6c7"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Chapter 3 skills writing functions debugging",
+        "filter": null,
+        "results": [
+          {
+            "id": "140f69c4af4aa6c7",
+            "text": "\n• Well-designed functions are often useful for many programs. Once you write and\ndebug one, you can reuse it.\n3.12 Debugging\nOne of the most important skills you will acquire is debugging. Although it can be frus-\ntrating, debugging is one of the most intellectually rich, challenging, and interesting parts\nof programming.\nIn some ways debugging is like detective work. You are confronted with clues and you\nhave to infer the processes and events that led to the results you see.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 47,
+            "metadata": {
+              "label": "25",
+              "status": "ok",
+              "chapter": 3,
+              "end_offset": 901,
+              "start_offset": 420,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 47
+            },
+            "score": 0.6937812883313643,
+            "strategy": "dense"
+          },
+          {
+            "id": "caf0086b3654be88",
+            "text": "3.12. Debugging 25\n• Creating a new function gives you an opportunity to name a group of statements,\nwhich makes your program easier to read and debug.\n• Functions can make a program smaller by eliminating repetitive code. Later, if you\nmake a change, you only have to make it in one place.\n• Dividing a long program into functions allows you to debug the parts one at a time\nand then assemble them into a working whole.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 47,
+            "metadata": {
+              "label": "25",
+              "status": "ok",
+              "chapter": 3,
+              "end_offset": 420,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 47
+            },
+            "score": 0.6482067174172266,
+            "strategy": "dense"
+          },
+          {
+            "id": "ebfeae42c03aeb66",
+            "text": "\nWhenever you are experimenting with a new feature, you should try to make mistakes. For example,\nin the “Hello, world!” program, what happens if you leave out one of the quotation marks? What if\nyou leave out both? What if you spellprintwrong?\nThis kind of experiment helps you remember what you read; it also helps when you are programming,\nbecause you get to know what the error messages mean. It is better to make mistakes now and on\npurpose than later and accidentally.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 29,
+            "metadata": {
+              "label": "7",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 1848,
+              "start_offset": 1374,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 29
+            },
+            "score": 0.619623981736671,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[140f69c4af4aa6c7 | thinkpython2.pdf | page 47]\n\n• Well-designed functions are often useful for many programs. Once you write and\ndebug one, you can reuse it.\n3.12 Debugging\nOne of the most important skills you will acquire is debugging. Although it can be frus-\ntrating, debugging is one of the most intellectually rich, challenging, and interesting parts\nof programming.\nIn some ways debugging is like detective work. You are confronted with clues and you\nhave to infer the processes and events that led to the results you see.",
+        "context_ids": [
+          "140f69c4af4aa6c7"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "searches": 1,
+    "elapsed_ms": 7877.3,
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 724,
+      "completion_tokens": 122,
+      "calls": 2
+    }
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Trong stack diagram, một frame là một hộp đại diện cho một cuộc gọi hàm. Nó chứa các biến cục bộ và tham số của hàm đó [d94aea6e85adb40c].",
+    "citations": [
+      "d94aea6e85adb40c"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "stack diagram frame contains",
+        "filter": null,
+        "results": [
+          {
+            "id": "d94aea6e85adb40c",
+            "text": "\nstack diagram:A graphical representation of a stack of functions, their variables, and the\nvalues they refer to.\nframe:A box in a stack diagram that represents a function call. It contains the local vari-\nables and parameters of the function.\ntraceback:A list of the functions that are executing, printed when an exception occurs.\n3.14 Exercises\nExercise 3.1.Write a function namedright_justifythat takes a string namedsas a parameter",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 48,
+            "metadata": {
+              "label": "26",
+              "status": "ok",
+              "chapter": 3,
+              "end_offset": 1843,
+              "start_offset": 1408,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 48
+            },
+            "score": 0.7216644287109375,
+            "strategy": "dense"
+          },
+          {
+            "id": "27c2a52ee727540f",
+            "text": "\ndiagram. Like state diagrams, stack diagrams show the value of each variable, but they\nalso show the function each variable belongs to.\nEach function is represented by aframe. A frame is a box with the name of a function\nbeside it and the parameters and variables of the function inside it. The stack diagram for\nthe previous example is shown in Figure 3.1.\nThe frames are arranged in a stack that indicates which function called which, and so",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 45,
+            "metadata": {
+              "label": "23",
+              "status": "ok",
+              "chapter": 3,
+              "end_offset": 924,
+              "start_offset": 480,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 45
+            },
+            "score": 0.6755557447009439,
+            "strategy": "dense"
+          },
+          {
+            "id": "96ceceb0fbf4d6d7",
+            "text": "3.9. Stack diagrams 23\nline1\nline2 ’tiddle bang.’\npart1\npart2\ncat\nbruce\n’Bing tiddle ’\n’Bing tiddle ’\n’tiddle bang.’\n’Bing tiddle tiddle bang.’\n’Bing tiddle tiddle bang.’\ncat_twice\nprint_twice\n__main__\nFigure 3.1: Stack diagram.\n>>> print(cat)\nNameError: name'cat'is not defined\nParameters are also local. For example, outsideprint_twice, there is no such thing as\nbruce.\n3.9 Stack diagrams\nTo keep track of which variables can be used where, it is sometimes useful to draw astack",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 45,
+            "metadata": {
+              "label": "23",
+              "status": "ok",
+              "chapter": 3,
+              "end_offset": 480,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 45
+            },
+            "score": 0.6232657432556152,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[d94aea6e85adb40c | thinkpython2.pdf | page 48]\n\nstack diagram:A graphical representation of a stack of functions, their variables, and the\nvalues they refer to.\nframe:A box in a stack diagram that represents a function call. It contains the local vari-\nables and parameters of the function.\ntraceback:A list of the functions that are executing, printed when an exception occurs.\n3.14 Exercises\nExercise 3.1.Write a function namedright_justifythat takes a string namedsas a parameter",
+        "context_ids": [
+          "d94aea6e85adb40c"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "searches": 1,
+    "elapsed_ms": 37884.1,
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 673,
+      "completion_tokens": 61,
+      "calls": 2
+    }
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Chương 4 mở đầu bằng một case study minh họa quy trình thiết kế các hàm hoạt động cùng nhau, thông qua việc giới thiệu mô-đun turtle, cho phép tạo ra hình ảnh bằng đồ họa rùa. Mô-đun này thường có sẵn trong hầu hết các cài đặt Python [6c790747dd75c9f2].",
+    "citations": [
+      "6c790747dd75c9f2"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Chương 4 case study",
+        "filter": null,
+        "results": [
+          {
+            "id": "6c790747dd75c9f2",
+            "text": "Chapter 4\nCase study: interface design\nThis chapter presents a case study that demonstrates a process for designing functions that\nwork together.\nIt introduces theturtlemodule, which allows you to create images using turtle graphics.\nTheturtlemodule is included in most Python installations, but if you are running Python\nusing PythonAnywhere, you won’t be able to run the turtle examples (at least you couldn’t\nwhen I wrote this).",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 51,
+            "metadata": {
+              "label": "29",
+              "status": "ok",
+              "chapter": 4,
+              "end_offset": 431,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 51
+            },
+            "score": 0.47703127357643327,
+            "strategy": "dense"
+          },
+          {
+            "id": "c2361c52ab7e70ec",
+            "text": "\nconditional execution:Check for certain conditions and run the appropriate code.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 23,
+            "metadata": {
+              "label": "1",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 1955,
+              "start_offset": 1874,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 23
+            },
+            "score": 0.4764029823661742,
+            "strategy": "dense"
+          },
+          {
+            "id": "8318058db35bb3a1",
+            "text": "38 Chapter 4. Case study: interface design\nYou can get a solution fromhttps: // thinkpython. com/ code/ letters. py; it also requires\nhttps: // thinkpython. com/ code/ polygon. py.\nExercise 4.5.Read about spirals athttp: // en. wikipedia. org/ wiki/ Spiral; then write\na program that draws an Archimedian spiral (or one of the other kinds). Solution:https: //\nthinkpython. com/ code/ spiral. py.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 60,
+            "metadata": {
+              "label": "38",
+              "status": "ok",
+              "chapter": 4,
+              "end_offset": 395,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 60
+            },
+            "score": 0.46717636776323623,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[6c790747dd75c9f2 | thinkpython2.pdf | page 51]\nChapter 4\nCase study: interface design\nThis chapter presents a case study that demonstrates a process for designing functions that\nwork together.\nIt introduces theturtlemodule, which allows you to create images using turtle graphics.\nTheturtlemodule is included in most Python installations, but if you are running Python\nusing PythonAnywhere, you won’t be able to run the turtle examples (at least you couldn’t\nwhen I wrote this).\n\n[c2361c52ab7e70ec | thinkpython2.pdf | page 23]\n\nconditional execution:Check for certain conditions and run the appropriate code.",
+        "context_ids": [
+          "6c790747dd75c9f2",
+          "c2361c52ab7e70ec"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "searches": 1,
+    "elapsed_ms": 31546.5,
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 722,
+      "completion_tokens": 99,
+      "calls": 2
+    }
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Trong Chương 4, bước đầu của encapsulation yêu cầu bạn đặt mã vẽ hình vuông vào trong một định nghĩa hàm và sau đó gọi hàm đó, truyền đối tượng turtle như một tham số. Ví dụ, bạn có thể định nghĩa hàm như sau: `def square(t):` và sau đó gọi hàm với `square(bob)` [447606e7bc7f89f6].",
+    "citations": [
+      "447606e7bc7f89f6"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Chương 4 encapsulation yêu cầu đặt gì vào đâu",
+        "filter": {
+          "chapter": 4
+        },
+        "results": [
+          {
+            "id": "447606e7bc7f89f6",
+            "text": "32 Chapter 4. Case study: interface design\n4.4 Encapsulation\nThe first exercise asks you to put your square-drawing code into a function definition and\nthen call the function, passing the turtle as a parameter. Here is a solution:\ndef square(t):\nfor i in range(4):\nt.fd(100)\nt.lt(90)\nsquare(bob)\nThe innermost statements,fdandltare indented twice to show that they are inside the\nforloop, which is inside the function definition. The next line,square(bob), is flush with",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 54,
+            "metadata": {
+              "label": "32",
+              "status": "ok",
+              "chapter": 4,
+              "end_offset": 470,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 54
+            },
+            "score": 0.5366447524255847,
+            "strategy": "dense"
+          },
+          {
+            "id": "66ea2723050b09f1",
+            "text": "\nthe left margin, which indicates the end of both theforloop and the function definition.\nInside the function,trefers to the same turtlebob, sot.lt(90)has the same effect as\nbob.lt(90). In that case, why not call the parameterbob? The idea is thattcan be any\nturtle, not justbob, so you could create a second turtle and pass it as an argument tosquare:\nalice = turtle.Turtle()\nsquare(alice)\nWrapping a piece of code up in a function is calledencapsulation. One of the benefits of",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 54,
+            "metadata": {
+              "label": "32",
+              "status": "ok",
+              "chapter": 4,
+              "end_offset": 949,
+              "start_offset": 470,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 54
+            },
+            "score": 0.49217507243156433,
+            "strategy": "dense"
+          },
+          {
+            "id": "b3881435ca1bcc8c",
+            "text": "\nencapsulation:The process of transforming a sequence of statements into a function defi-\nnition.\ngeneralization:The process of replacing something unnecessarily specific (like a number)\nwith something appropriately general (like a variable or parameter).\nkeyword argument:An argument that includes the name of the parameter as a “key-\nword”.\ninterface:A description of how to use a function, including the name and descriptions of\nthe arguments and return value.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 58,
+            "metadata": {
+              "label": "36",
+              "status": "ok",
+              "chapter": 4,
+              "end_offset": 2292,
+              "start_offset": 1829,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 58
+            },
+            "score": 0.4919762914194896,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[447606e7bc7f89f6 | thinkpython2.pdf | page 54]\n32 Chapter 4. Case study: interface design\n4.4 Encapsulation\nThe first exercise asks you to put your square-drawing code into a function definition and\nthen call the function, passing the turtle as a parameter. Here is a solution:\ndef square(t):\nfor i in range(4):\nt.fd(100)\nt.lt(90)\nsquare(bob)\nThe innermost statements,fdandltare indented twice to show that they are inside the\nforloop, which is inside the function definition. The next line,square(bob), is flush with",
+        "context_ids": [
+          "447606e7bc7f89f6"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "searches": 1,
+    "elapsed_ms": 29315.7,
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 727,
+      "completion_tokens": 113,
+      "calls": 2
+    }
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Tác giả có thể tái sử dụng polygon khi viết hàm circle vì một đa giác nhiều cạnh là một sự xấp xỉ tốt cho hình tròn. Tuy nhiên, arc không thể sử dụng polygon hoặc circle để vẽ, vì vậy cần phải bắt đầu với một bản sao của polygon và biến đổi nó thành arc [5370b91884ce0eb3].",
+    "citations": [
+      "5370b91884ce0eb3"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "circle reuse polygon",
+        "filter": null,
+        "results": [
+          {
+            "id": "5370b91884ce0eb3",
+            "text": "\nWhen I wrotecircle, I was able to re-usepolygonbecause a many-sided polygon is a good\napproximation of a circle. Butarcis not as cooperative; we can’t usepolygonorcircleto\ndraw an arc.\nOne alternative is to start with a copy ofpolygonand transform it intoarc. The result\nmight look like this:\ndef arc(t, r, angle):\narc_length = 2 * math.pi * r * angle / 360\nn = int(arc_length / 3) + 1\nstep_length = arc_length / n\nstep_angle = angle / n\nfor i in range(n):\nt.fd(step_length)\nt.lt(step_angle)",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 56,
+            "metadata": {
+              "label": "34",
+              "status": "ok",
+              "chapter": 4,
+              "end_offset": 972,
+              "start_offset": 480,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 56
+            },
+            "score": 0.614410794640258,
+            "strategy": "dense"
+          },
+          {
+            "id": "e03995bec7641f37",
+            "text": "34 Chapter 4. Case study: interface design\ndef circle(t, r):\ncircumference = 2 * math.pi * r\nn = int(circumference / 3) + 3\nlength = circumference / n\npolygon(t, n, length)\nNow the number of segments is an integer nearcircumference/3, so the length of each\nsegment is approximately 3, which is small enough that the circles look good, but big\nenough to be efficient, and acceptable for any size circle.\nAdding 3 tonguarantees that the polygon has at least 3 sides.\n4.7 Refactoring",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 56,
+            "metadata": {
+              "label": "34",
+              "status": "ok",
+              "chapter": 4,
+              "end_offset": 480,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 56
+            },
+            "score": 0.5984213708890568,
+            "strategy": "dense"
+          },
+          {
+            "id": "68dc0f1b57ab7223",
+            "text": "\n3. Make a copy ofsquareand change the name topolygon. Add another parameter\nnamednand modify the body so it draws an n-sided regular polygon. Hint: The\nexterior angles of an n-sided regular polygon are 360/ndegrees.\n4. Write a function calledcirclethat takes a turtle,t, and radius,r, as parameters and\nthat draws an approximate circle by callingpolygonwith an appropriate length and\nnumber of sides. Test your function with a range of values ofr.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 53,
+            "metadata": {
+              "label": "31",
+              "status": "ok",
+              "chapter": 4,
+              "end_offset": 2230,
+              "start_offset": 1782,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 53
+            },
+            "score": 0.5944500452935684,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[5370b91884ce0eb3 | thinkpython2.pdf | page 56]\n\nWhen I wrotecircle, I was able to re-usepolygonbecause a many-sided polygon is a good\napproximation of a circle. Butarcis not as cooperative; we can’t usepolygonorcircleto\ndraw an arc.\nOne alternative is to start with a copy ofpolygonand transform it intoarc. The result\nmight look like this:\ndef arc(t, r, angle):\narc_length = 2 * math.pi * r * angle / 360\nn = int(arc_length / 3) + 1\nstep_length = arc_length / n\nstep_angle = angle / n\nfor i in range(n):\nt.fd(step_length)\nt.lt(step_angle)",
+        "context_ids": [
+          "5370b91884ce0eb3"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "searches": 1,
+    "elapsed_ms": 28699.9,
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 736,
+      "completion_tokens": 94,
+      "calls": 2
+    }
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Toán tử floor division (//) chia hai số và làm tròn xuống (về phía âm vô cùng) đến một số nguyên. Điều này có nghĩa là kết quả của phép chia sẽ luôn là số nguyên nhỏ hơn hoặc bằng kết quả thực tế của phép chia đó. [702fa187db9839b3]",
+    "citations": [
+      "702fa187db9839b3"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "floor division operator //",
+        "filter": null,
+        "results": [
+          {
+            "id": "702fa187db9839b3",
+            "text": "5.13. Glossary 47\n5.13 Glossary\nfloor division:An operator, denoted//, that divides two numbers and rounds down (to-\nward negative infinity) to an integer.\nmodulus operator:An operator, denoted with a percent sign (%), that works on integers\nand returns the remainder when one number is divided by another.\nboolean expression:An expression whose value is eitherTrueorFalse.\nrelational operator:One of the operators that compares its operands:==,!=,>,<,>=, and\n<=.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 69,
+            "metadata": {
+              "label": "47",
+              "status": "ok",
+              "chapter": 5,
+              "end_offset": 463,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 69
+            },
+            "score": 0.7148855242337852,
+            "strategy": "dense"
+          },
+          {
+            "id": "05d6332509be5646",
+            "text": "Chapter 5\nConditionals and recursion\nThe main topic of this chapter is theifstatement, which executes different code depending\non the state of the program. But first I want to introduce two new operators: floor division\nand modulus.\n5.1 Floor division and modulus\nThefloor divisionoperator,//, divides two numbers and rounds down to an integer. For\nexample, suppose the run time of a movie is 105 minutes. You might want to know how",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 61,
+            "metadata": {
+              "label": "39",
+              "status": "ok",
+              "chapter": 5,
+              "end_offset": 432,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 61
+            },
+            "score": 0.708544475349466,
+            "strategy": "dense"
+          },
+          {
+            "id": "db50f299cc06bcec",
+            "text": "\nlong that is in hours. Conventional division returns a floating-point number:\n>>> minutes = 105\n>>> minutes / 60\n1.75\nBut we don’t normally write hours with decimal points. Floor division returns the integer\nnumber of hours, rounding down:\n>>> minutes = 105\n>>> hours = minutes // 60\n>>> hours\n1\nTo get the remainder, you could subtract off one hour in minutes:\n>>> remainder = minutes - hours * 60\n>>> remainder\n45",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 61,
+            "metadata": {
+              "label": "39",
+              "status": "ok",
+              "chapter": 5,
+              "end_offset": 848,
+              "start_offset": 432,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 61
+            },
+            "score": 0.6837176869083842,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[702fa187db9839b3 | thinkpython2.pdf | page 69]\n5.13. Glossary 47\n5.13 Glossary\nfloor division:An operator, denoted//, that divides two numbers and rounds down (to-\nward negative infinity) to an integer.\nmodulus operator:An operator, denoted with a percent sign (%), that works on integers\nand returns the remainder when one number is divided by another.\nboolean expression:An expression whose value is eitherTrueorFalse.\nrelational operator:One of the operators that compares its operands:==,!=,>,<,>=, and\n<=.",
+        "context_ids": [
+          "702fa187db9839b3"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "searches": 1,
+    "elapsed_ms": 28998.7,
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 698,
+      "completion_tokens": 84,
+      "calls": 2
+    }
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "status": "answered",
+    "answer": "Chained conditional được sử dụng khi bạn cần kiểm tra nhiều điều kiện khác nhau và thực hiện các đoạn mã tương ứng cho từng điều kiện. Nó cho phép bạn tạo ra một chuỗi các nhánh điều kiện, mỗi nhánh sẽ xử lý một trường hợp cụ thể trong số các điều kiện đã cho [3fa9be8e50d7ad53].",
+    "citations": [
+      "3fa9be8e50d7ad53"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "chained conditional",
+        "filter": null,
+        "results": [
+          {
+            "id": "8e97b5a64c10ea0a",
+            "text": "\nOne way to express a computation like that is achained conditional:",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 63,
+            "metadata": {
+              "label": "41",
+              "status": "ok",
+              "chapter": 5,
+              "end_offset": 1904,
+              "start_offset": 1836,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 63
+            },
+            "score": 0.7913431872538776,
+            "strategy": "dense"
+          },
+          {
+            "id": "c2361c52ab7e70ec",
+            "text": "\nconditional execution:Check for certain conditions and run the appropriate code.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 23,
+            "metadata": {
+              "label": "1",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 1955,
+              "start_offset": 1874,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 23
+            },
+            "score": 0.7327755252852736,
+            "strategy": "dense"
+          },
+          {
+            "id": "3fa9be8e50d7ad53",
+            "text": "\nbranch:One of the alternative sequences of statements in a conditional statement.\nchained conditional:A conditional statement with a series of alternative branches.\nnested conditional:A conditional statement that appears in one of the branches of another\nconditional statement.\nreturn statement:A statement that causes a function to end immediately and return to the\ncaller.\nrecursion:The process of calling the function that is currently executing.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 69,
+            "metadata": {
+              "label": "47",
+              "status": "ok",
+              "chapter": 5,
+              "end_offset": 1344,
+              "start_offset": 894,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 69
+            },
+            "score": 0.6574007476925416,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[8e97b5a64c10ea0a | thinkpython2.pdf | page 63]\n\nOne way to express a computation like that is achained conditional:\n\n[c2361c52ab7e70ec | thinkpython2.pdf | page 23]\n\nconditional execution:Check for certain conditions and run the appropriate code.\n\n[3fa9be8e50d7ad53 | thinkpython2.pdf | page 69]\n\nbranch:One of the alternative sequences of statements in a conditional statement.\nchained conditional:A conditional statement with a series of alternative branches.\nnested conditional:A conditional statement that appears in one of the branches of another\nconditional statement.\nreturn statement:A statement that causes a function to end immediately and return to the\ncaller.\nrecursion:The process of calling the function that is currently executing.",
+        "context_ids": [
+          "8e97b5a64c10ea0a",
+          "c2361c52ab7e70ec",
+          "3fa9be8e50d7ad53"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "when to use chained conditional",
+        "filter": null,
+        "results": [
+          {
+            "id": "8e97b5a64c10ea0a",
+            "text": "\nOne way to express a computation like that is achained conditional:",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 63,
+            "metadata": {
+              "label": "41",
+              "status": "ok",
+              "chapter": 5,
+              "end_offset": 1904,
+              "start_offset": 1836,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 63
+            },
+            "score": 0.7548206909956621,
+            "strategy": "dense"
+          },
+          {
+            "id": "c2361c52ab7e70ec",
+            "text": "\nconditional execution:Check for certain conditions and run the appropriate code.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 23,
+            "metadata": {
+              "label": "1",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 1955,
+              "start_offset": 1874,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 23
+            },
+            "score": 0.6917088856350097,
+            "strategy": "dense"
+          },
+          {
+            "id": "29065825788d54be",
+            "text": "\nEach condition is checked in order. If the first is false, the next is checked, and so on. If one\nof them is true, the corresponding branch runs and the statement ends. Even if more than\none condition is true, only the first true branch runs.\n5.7 Nested conditionals\nOne conditional can also be nested within another. We could have written the example in\nthe previous section like this:\nif x == y:\nprint('x and y are equal')\nelse:\nif x < y:\nprint('x is less than y')\nelse:",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 64,
+            "metadata": {
+              "label": "42",
+              "status": "ok",
+              "chapter": 5,
+              "end_offset": 913,
+              "start_offset": 440,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 64
+            },
+            "score": 0.6206792921840114,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[8e97b5a64c10ea0a | thinkpython2.pdf | page 63]\n\nOne way to express a computation like that is achained conditional:\n\n[c2361c52ab7e70ec | thinkpython2.pdf | page 23]\n\nconditional execution:Check for certain conditions and run the appropriate code.\n\n[3fa9be8e50d7ad53 | thinkpython2.pdf | page 69]\n\nbranch:One of the alternative sequences of statements in a conditional statement.\nchained conditional:A conditional statement with a series of alternative branches.\nnested conditional:A conditional statement that appears in one of the branches of another\nconditional statement.\nreturn statement:A statement that causes a function to end immediately and return to the\ncaller.\nrecursion:The process of calling the function that is currently executing.",
+        "context_ids": [
+          "8e97b5a64c10ea0a",
+          "c2361c52ab7e70ec",
+          "3fa9be8e50d7ad53"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "searches": 2,
+    "elapsed_ms": 14277.5,
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 1421,
+      "completion_tokens": 108,
+      "calls": 3
+    }
+  },
+  {
+    "query_id": "d_noev1",
+    "split": "dev",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "dictionary data type chapter",
+        "filter": null,
+        "results": [
+          {
+            "id": "93f8ed74466357f8",
+            "text": "1.9. Exercises 7\nprint statement:An instruction that causes the Python interpreter to display a value on\nthe screen.\noperator:A special symbol that represents a simple computation like addition, multipli-\ncation, or string concatenation.\nvalue:One of the basic units of data, like a number or string, that a program manipulates.\ntype:A category of values. The types we have seen so far are integers (typeint), floating-\npoint numbers (typefloat), and strings (typestr).",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 29,
+            "metadata": {
+              "label": "7",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 469,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 29
+            },
+            "score": 0.553846392264756,
+            "strategy": "dense"
+          },
+          {
+            "id": "f169e2bf7611af91",
+            "text": "4 Chapter 1. The way of the program\n1.5 Values and types\nAvalueis one of the basic things a program works with, like a letter or a number. Some\nvalues we have seen so far are2,42.0, and'Hello, World!'.\nThese values belong to differenttypes:2is aninteger,42.0is afloating-point number, and\n'Hello, World!'is astring, so-called because the letters it contains are strung together.\nIf you are not sure what type a value has, the interpreter can tell you:\n>>> type(2)\n<class'int'>\n>>> type(42.0)",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 26,
+            "metadata": {
+              "label": "4",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 491,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 26
+            },
+            "score": 0.5122814193107426,
+            "strategy": "dense"
+          },
+          {
+            "id": "c75028372b0882f8",
+            "text": "\ninteger:A type that represents whole numbers.\nfloating-point:A type that represents numbers with fractional parts.\nstring:A type that represents sequences of characters.\nnatural language:Any one of the languages that people speak that evolved naturally.\nformal language:Any one of the languages that people have designed for specific pur-\nposes, such as representing mathematical ideas or computer programs; all program-\nming languages are formal languages.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 29,
+            "metadata": {
+              "label": "7",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 927,
+              "start_offset": 469,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 29
+            },
+            "score": 0.5012261571692518,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[93f8ed74466357f8 | thinkpython2.pdf | page 29]\n1.9. Exercises 7\nprint statement:An instruction that causes the Python interpreter to display a value on\nthe screen.\noperator:A special symbol that represents a simple computation like addition, multipli-\ncation, or string concatenation.\nvalue:One of the basic units of data, like a number or string, that a program manipulates.\ntype:A category of values. The types we have seen so far are integers (typeint), floating-\npoint numbers (typefloat), and strings (typestr).",
+        "context_ids": [
+          "93f8ed74466357f8"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "dictionary usage",
+        "filter": null,
+        "results": [
+          {
+            "id": "680ebd8de04c1586",
+            "text": "\nWhat...is the airspeed velocity of an unladen swallow?\n42\n>>> int(speed)\n42",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 67,
+            "metadata": {
+              "label": "45",
+              "status": "ok",
+              "chapter": 5,
+              "end_offset": 1966,
+              "start_offset": 1890,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 67
+            },
+            "score": 0.5117889919658399,
+            "strategy": "dense"
+          },
+          {
+            "id": "c2361c52ab7e70ec",
+            "text": "\nconditional execution:Check for certain conditions and run the appropriate code.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 23,
+            "metadata": {
+              "label": "1",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 1955,
+              "start_offset": 1874,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 23
+            },
+            "score": 0.4881390929222107,
+            "strategy": "dense"
+          },
+          {
+            "id": "b3881435ca1bcc8c",
+            "text": "\nencapsulation:The process of transforming a sequence of statements into a function defi-\nnition.\ngeneralization:The process of replacing something unnecessarily specific (like a number)\nwith something appropriately general (like a variable or parameter).\nkeyword argument:An argument that includes the name of the parameter as a “key-\nword”.\ninterface:A description of how to use a function, including the name and descriptions of\nthe arguments and return value.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 58,
+            "metadata": {
+              "label": "36",
+              "status": "ok",
+              "chapter": 4,
+              "end_offset": 2292,
+              "start_offset": 1829,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 58
+            },
+            "score": 0.468649538239865,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[93f8ed74466357f8 | thinkpython2.pdf | page 29]\n1.9. Exercises 7\nprint statement:An instruction that causes the Python interpreter to display a value on\nthe screen.\noperator:A special symbol that represents a simple computation like addition, multipli-\ncation, or string concatenation.\nvalue:One of the basic units of data, like a number or string, that a program manipulates.\ntype:A category of values. The types we have seen so far are integers (typeint), floating-\npoint numbers (typefloat), and strings (typestr).\n\n[680ebd8de04c1586 | thinkpython2.pdf | page 67]\n\nWhat...is the airspeed velocity of an unladen swallow?\n42\n>>> int(speed)\n42\n\n[c2361c52ab7e70ec | thinkpython2.pdf | page 23]\n\nconditional execution:Check for certain conditions and run the appropriate code.",
+        "context_ids": [
+          "93f8ed74466357f8",
+          "680ebd8de04c1586",
+          "c2361c52ab7e70ec"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "dictionary in Python",
+        "filter": null,
+        "results": [
+          {
+            "id": "680ebd8de04c1586",
+            "text": "\nWhat...is the airspeed velocity of an unladen swallow?\n42\n>>> int(speed)\n42",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 67,
+            "metadata": {
+              "label": "45",
+              "status": "ok",
+              "chapter": 5,
+              "end_offset": 1966,
+              "start_offset": 1890,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 67
+            },
+            "score": 0.5247839317369674,
+            "strategy": "dense"
+          },
+          {
+            "id": "16e81de8896f18c6",
+            "text": "14 Chapter 2. Variables, expressions and statements\n2.9 Glossary\nvariable:A name that refers to a value.\nassignment:A statement that assigns a value to a variable.\nstate diagram:A graphical representation of a set of variables and the values they refer to.\nkeyword:A reserved word that is used to parse a program; you cannot use keywords like\nif,def, andwhileas variable names.\noperand:One of the values on which an operator operates.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 36,
+            "metadata": {
+              "label": "14",
+              "status": "ok",
+              "chapter": 2,
+              "end_offset": 434,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 36
+            },
+            "score": 0.47365666063865164,
+            "strategy": "dense"
+          },
+          {
+            "id": "93f8ed74466357f8",
+            "text": "1.9. Exercises 7\nprint statement:An instruction that causes the Python interpreter to display a value on\nthe screen.\noperator:A special symbol that represents a simple computation like addition, multipli-\ncation, or string concatenation.\nvalue:One of the basic units of data, like a number or string, that a program manipulates.\ntype:A category of values. The types we have seen so far are integers (typeint), floating-\npoint numbers (typefloat), and strings (typestr).",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 29,
+            "metadata": {
+              "label": "7",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 469,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 29
+            },
+            "score": 0.473221277018558,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[93f8ed74466357f8 | thinkpython2.pdf | page 29]\n1.9. Exercises 7\nprint statement:An instruction that causes the Python interpreter to display a value on\nthe screen.\noperator:A special symbol that represents a simple computation like addition, multipli-\ncation, or string concatenation.\nvalue:One of the basic units of data, like a number or string, that a program manipulates.\ntype:A category of values. The types we have seen so far are integers (typeint), floating-\npoint numbers (typefloat), and strings (typestr).\n\n[680ebd8de04c1586 | thinkpython2.pdf | page 67]\n\nWhat...is the airspeed velocity of an unladen swallow?\n42\n>>> int(speed)\n42\n\n[c2361c52ab7e70ec | thinkpython2.pdf | page 23]\n\nconditional execution:Check for certain conditions and run the appropriate code.",
+        "context_ids": [
+          "93f8ed74466357f8",
+          "680ebd8de04c1586",
+          "c2361c52ab7e70ec"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "dictionary chapter 4",
+        "filter": null,
+        "results": [
+          {
+            "id": "680ebd8de04c1586",
+            "text": "\nWhat...is the airspeed velocity of an unladen swallow?\n42\n>>> int(speed)\n42",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 67,
+            "metadata": {
+              "label": "45",
+              "status": "ok",
+              "chapter": 5,
+              "end_offset": 1966,
+              "start_offset": 1890,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 67
+            },
+            "score": 0.5177928496722899,
+            "strategy": "dense"
+          },
+          {
+            "id": "8318058db35bb3a1",
+            "text": "38 Chapter 4. Case study: interface design\nYou can get a solution fromhttps: // thinkpython. com/ code/ letters. py; it also requires\nhttps: // thinkpython. com/ code/ polygon. py.\nExercise 4.5.Read about spirals athttp: // en. wikipedia. org/ wiki/ Spiral; then write\na program that draws an Archimedian spiral (or one of the other kinds). Solution:https: //\nthinkpython. com/ code/ spiral. py.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 60,
+            "metadata": {
+              "label": "38",
+              "status": "ok",
+              "chapter": 4,
+              "end_offset": 395,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 60
+            },
+            "score": 0.5070488746733369,
+            "strategy": "dense"
+          },
+          {
+            "id": "aa92622a7b143431",
+            "text": "\n// thinkpython. com/ code/ typewriter. pyto help you test your code.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 59,
+            "metadata": {
+              "label": "37",
+              "status": "ok",
+              "chapter": 4,
+              "end_offset": 1908,
+              "start_offset": 1839,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 59
+            },
+            "score": 0.5024680198710056,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[93f8ed74466357f8 | thinkpython2.pdf | page 29]\n1.9. Exercises 7\nprint statement:An instruction that causes the Python interpreter to display a value on\nthe screen.\noperator:A special symbol that represents a simple computation like addition, multipli-\ncation, or string concatenation.\nvalue:One of the basic units of data, like a number or string, that a program manipulates.\ntype:A category of values. The types we have seen so far are integers (typeint), floating-\npoint numbers (typefloat), and strings (typestr).\n\n[680ebd8de04c1586 | thinkpython2.pdf | page 67]\n\nWhat...is the airspeed velocity of an unladen swallow?\n42\n>>> int(speed)\n42\n\n[c2361c52ab7e70ec | thinkpython2.pdf | page 23]\n\nconditional execution:Check for certain conditions and run the appropriate code.",
+        "context_ids": [
+          "93f8ed74466357f8",
+          "680ebd8de04c1586",
+          "c2361c52ab7e70ec"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "searches": 4,
+    "elapsed_ms": 50201.7,
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 3708,
+      "completion_tokens": 76,
+      "calls": 5
+    }
+  },
+  {
+    "query_id": "d_noev2",
+    "split": "dev",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "list comprehension",
+        "filter": null,
+        "results": [
+          {
+            "id": "8e97b5a64c10ea0a",
+            "text": "\nOne way to express a computation like that is achained conditional:",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 63,
+            "metadata": {
+              "label": "41",
+              "status": "ok",
+              "chapter": 5,
+              "end_offset": 1904,
+              "start_offset": 1836,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 63
+            },
+            "score": 0.4897445719977527,
+            "strategy": "dense"
+          },
+          {
+            "id": "680ebd8de04c1586",
+            "text": "\nWhat...is the airspeed velocity of an unladen swallow?\n42\n>>> int(speed)\n42",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 67,
+            "metadata": {
+              "label": "45",
+              "status": "ok",
+              "chapter": 5,
+              "end_offset": 1966,
+              "start_offset": 1890,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 67
+            },
+            "score": 0.46977046672634637,
+            "strategy": "dense"
+          },
+          {
+            "id": "c2361c52ab7e70ec",
+            "text": "\nconditional execution:Check for certain conditions and run the appropriate code.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 23,
+            "metadata": {
+              "label": "1",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 1955,
+              "start_offset": 1874,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 23
+            },
+            "score": 0.45420223474502563,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[8e97b5a64c10ea0a | thinkpython2.pdf | page 63]\n\nOne way to express a computation like that is achained conditional:\n\n[680ebd8de04c1586 | thinkpython2.pdf | page 67]\n\nWhat...is the airspeed velocity of an unladen swallow?\n42\n>>> int(speed)\n42\n\n[c2361c52ab7e70ec | thinkpython2.pdf | page 23]\n\nconditional execution:Check for certain conditions and run the appropriate code.",
+        "context_ids": [
+          "8e97b5a64c10ea0a",
+          "680ebd8de04c1586",
+          "c2361c52ab7e70ec"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "list comprehension vs for loop",
+        "filter": null,
+        "results": [
+          {
+            "id": "a0293b5014e9a69c",
+            "text": "\nbob.fd(100)\nbob.lt(90)\nbob.fd(100)\nbob.lt(90)\nbob.fd(100)\nWe can do the same thing more concisely with aforstatement. Add this example to\nmypolygon.pyand run it again:\nfor i in range(4):\nprint('Hello!')\nYou should see something like this:",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 52,
+            "metadata": {
+              "label": "30",
+              "status": "ok",
+              "chapter": 4,
+              "end_offset": 1676,
+              "start_offset": 1437,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 52
+            },
+            "score": 0.4771152748396905,
+            "strategy": "dense"
+          },
+          {
+            "id": "9a29404e00e63d27",
+            "text": "4.3. Exercises 31\nHello!\nHello!\nHello!\nHello!\nThis is the simplest use of theforstatement; we will see more later. But that should be\nenough to let you rewrite your square-drawing program. Don’t go on until you do.\nHere is aforstatement that draws a square:\nfor i in range(4):\nbob.fd(100)\nbob.lt(90)\nThe syntax of aforstatement is similar to a function definition. It has a header that ends\nwith a colon and an indented body. The body can contain any number of statements.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 53,
+            "metadata": {
+              "label": "31",
+              "status": "ok",
+              "chapter": 4,
+              "end_offset": 472,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 53
+            },
+            "score": 0.4555589258670839,
+            "strategy": "dense"
+          },
+          {
+            "id": "8e97b5a64c10ea0a",
+            "text": "\nOne way to express a computation like that is achained conditional:",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 63,
+            "metadata": {
+              "label": "41",
+              "status": "ok",
+              "chapter": 5,
+              "end_offset": 1904,
+              "start_offset": 1836,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 63
+            },
+            "score": 0.43908308484151315,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[8e97b5a64c10ea0a | thinkpython2.pdf | page 63]\n\nOne way to express a computation like that is achained conditional:\n\n[680ebd8de04c1586 | thinkpython2.pdf | page 67]\n\nWhat...is the airspeed velocity of an unladen swallow?\n42\n>>> int(speed)\n42\n\n[c2361c52ab7e70ec | thinkpython2.pdf | page 23]\n\nconditional execution:Check for certain conditions and run the appropriate code.\n\n[a0293b5014e9a69c | thinkpython2.pdf | page 52]\n\nbob.fd(100)\nbob.lt(90)\nbob.fd(100)\nbob.lt(90)\nbob.fd(100)\nWe can do the same thing more concisely with aforstatement. Add this example to\nmypolygon.pyand run it again:\nfor i in range(4):\nprint('Hello!')\nYou should see something like this:",
+        "context_ids": [
+          "8e97b5a64c10ea0a",
+          "680ebd8de04c1586",
+          "c2361c52ab7e70ec",
+          "a0293b5014e9a69c"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "list comprehension definition",
+        "filter": null,
+        "results": [
+          {
+            "id": "8e97b5a64c10ea0a",
+            "text": "\nOne way to express a computation like that is achained conditional:",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 63,
+            "metadata": {
+              "label": "41",
+              "status": "ok",
+              "chapter": 5,
+              "end_offset": 1904,
+              "start_offset": 1836,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 63
+            },
+            "score": 0.4783037564105628,
+            "strategy": "dense"
+          },
+          {
+            "id": "a85013a97bc58c92",
+            "text": "Chapter 3\nFunctions\nIn the context of programming, afunctionis a named sequence of statements that performs\na computation. When you define a function, you specify the name and the sequence of\nstatements. Later, you can “call” the function by name.\n3.1 Function calls\nWe have already seen one example of afunction call:\n>>> type(42)\n<class'int'>\nThe name of the function istype. The expression in parentheses is called theargumentof",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 39,
+            "metadata": {
+              "label": "17",
+              "status": "ok",
+              "chapter": 3,
+              "end_offset": 431,
+              "start_offset": 0,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 39
+            },
+            "score": 0.44577205181121826,
+            "strategy": "dense"
+          },
+          {
+            "id": "3536156a24054b23",
+            "text": "\nexpression:A combination of variables, operators, and values that represents a single re-\nsult.\nevaluate:To simplify an expression by performing the operations in order to yield a single\nvalue.\nstatement:A section of code that represents a command or action. So far, the statements\nwe have seen are assignments and print statements.\nexecute:To run a statement and do what it says.\ninteractive mode:A way of using the Python interpreter by typing code at the prompt.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 36,
+            "metadata": {
+              "label": "14",
+              "status": "ok",
+              "chapter": 2,
+              "end_offset": 900,
+              "start_offset": 434,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 36
+            },
+            "score": 0.4222752610937295,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[8e97b5a64c10ea0a | thinkpython2.pdf | page 63]\n\nOne way to express a computation like that is achained conditional:\n\n[680ebd8de04c1586 | thinkpython2.pdf | page 67]\n\nWhat...is the airspeed velocity of an unladen swallow?\n42\n>>> int(speed)\n42\n\n[c2361c52ab7e70ec | thinkpython2.pdf | page 23]\n\nconditional execution:Check for certain conditions and run the appropriate code.\n\n[a0293b5014e9a69c | thinkpython2.pdf | page 52]\n\nbob.fd(100)\nbob.lt(90)\nbob.fd(100)\nbob.lt(90)\nbob.fd(100)\nWe can do the same thing more concisely with aforstatement. Add this example to\nmypolygon.pyand run it again:\nfor i in range(4):\nprint('Hello!')\nYou should see something like this:",
+        "context_ids": [
+          "8e97b5a64c10ea0a",
+          "680ebd8de04c1586",
+          "c2361c52ab7e70ec",
+          "a0293b5014e9a69c"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "list comprehension example",
+        "filter": null,
+        "results": [
+          {
+            "id": "8e97b5a64c10ea0a",
+            "text": "\nOne way to express a computation like that is achained conditional:",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 63,
+            "metadata": {
+              "label": "41",
+              "status": "ok",
+              "chapter": 5,
+              "end_offset": 1904,
+              "start_offset": 1836,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 63
+            },
+            "score": 0.48365690817144835,
+            "strategy": "dense"
+          },
+          {
+            "id": "a0293b5014e9a69c",
+            "text": "\nbob.fd(100)\nbob.lt(90)\nbob.fd(100)\nbob.lt(90)\nbob.fd(100)\nWe can do the same thing more concisely with aforstatement. Add this example to\nmypolygon.pyand run it again:\nfor i in range(4):\nprint('Hello!')\nYou should see something like this:",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 52,
+            "metadata": {
+              "label": "30",
+              "status": "ok",
+              "chapter": 4,
+              "end_offset": 1676,
+              "start_offset": 1437,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 52
+            },
+            "score": 0.4618352949619424,
+            "strategy": "dense"
+          },
+          {
+            "id": "c2361c52ab7e70ec",
+            "text": "\nconditional execution:Check for certain conditions and run the appropriate code.",
+            "source_id": "thinkpython2",
+            "source": "thinkpython2.pdf",
+            "page": 23,
+            "metadata": {
+              "label": "1",
+              "status": "ok",
+              "chapter": 1,
+              "end_offset": 1955,
+              "start_offset": 1874,
+              "document_id": "thinkpython2",
+              "source": "thinkpython2.pdf",
+              "page": 23
+            },
+            "score": 0.4445014231802762,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[8e97b5a64c10ea0a | thinkpython2.pdf | page 63]\n\nOne way to express a computation like that is achained conditional:\n\n[680ebd8de04c1586 | thinkpython2.pdf | page 67]\n\nWhat...is the airspeed velocity of an unladen swallow?\n42\n>>> int(speed)\n42\n\n[c2361c52ab7e70ec | thinkpython2.pdf | page 23]\n\nconditional execution:Check for certain conditions and run the appropriate code.\n\n[a0293b5014e9a69c | thinkpython2.pdf | page 52]\n\nbob.fd(100)\nbob.lt(90)\nbob.fd(100)\nbob.lt(90)\nbob.fd(100)\nWe can do the same thing more concisely with aforstatement. Add this example to\nmypolygon.pyand run it again:\nfor i in range(4):\nprint('Hello!')\nYou should see something like this:",
+        "context_ids": [
+          "8e97b5a64c10ea0a",
+          "680ebd8de04c1586",
+          "c2361c52ab7e70ec",
+          "a0293b5014e9a69c"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "searches": 4,
+    "elapsed_ms": 58226.7,
+    "model": "openai/gpt-4o-mini",
+    "usage": {
+      "prompt_tokens": 3810,
+      "completion_tokens": 106,
+      "calls": 5
+    }
+  }
+]

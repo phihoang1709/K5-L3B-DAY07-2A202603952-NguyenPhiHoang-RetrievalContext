@@ -1,0 +1,15 @@
+{
+  "strategy": "hybrid",
+  "split": "dev",
+  "n_questions": 17,
+  "n_answerable": 15,
+  "hit1": 6,
+  "hit3": 11,
+  "context_hit": 6,
+  "hit1_rate": 0.4,
+  "hit3_rate": 0.7333333333333333,
+  "context_hit_rate": 0.4,
+  "avg_context_chars": 541.8666666666667,
+  "median_ms": 3375.355799999852,
+  "embedding_inputs": 17
+}

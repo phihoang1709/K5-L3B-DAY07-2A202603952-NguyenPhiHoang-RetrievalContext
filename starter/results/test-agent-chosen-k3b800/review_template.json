@@ -1,0 +1,129 @@
+[
+  {
+    "query_id": "q16",
+    "question": "Mục tiêu của cuốn sách này là gì?",
+    "answerable": true,
+    "expected_answer": "Dạy bạn tư duy như một nhà khoa học máy tính",
+    "agent_status": "abstain",
+    "agent_answer": "Không đủ bằng chứng để trả lời.",
+    "agent_citations": [],
+    "final_context_ids": [
+      "aa92622a7b143431",
+      "a1291027c7b66432"
+    ],
+    "citation_support": [],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q17",
+    "question": "Toán tử modulus (%) thực hiện phép tính gì?",
+    "answerable": true,
+    "expected_answer": "Chia hai số và trả về phần dư",
+    "agent_status": "answered",
+    "agent_answer": "Toán tử modulus (%) thực hiện phép chia hai số và trả về phần dư. Ví dụ, nếu bạn có phép toán `minutes % 60`, nó sẽ trả về phần dư khi chia `minutes` cho 60. Toán tử này cũng hữu ích để kiểm tra xem một số có chia hết cho số khác hay không; nếu `x % y` bằng 0, thì `x` chia hết cho `y` [595589132e92b2d8].",
+    "agent_citations": [
+      "595589132e92b2d8"
+    ],
+    "final_context_ids": [
+      "595589132e92b2d8"
+    ],
+    "citation_support": [
+      null
+    ],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q18",
+    "question": "Trong glossary Chương 3, hàm được định nghĩa thế nào?",
+    "answerable": true,
+    "expected_answer": "Một dãy lệnh có tên thực hiện thao tác hữu ích",
+    "agent_status": "answered",
+    "agent_answer": "Trong chương 3, hàm được định nghĩa là một chuỗi các câu lệnh có tên thực hiện một phép toán. Khi định nghĩa một hàm, bạn chỉ định tên và chuỗi các câu lệnh. Sau đó, bạn có thể \"gọi\" hàm bằng tên của nó [a85013a97bc58c92].",
+    "agent_citations": [
+      "a85013a97bc58c92"
+    ],
+    "final_context_ids": [
+      "a85013a97bc58c92"
+    ],
+    "citation_support": [
+      null
+    ],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q19",
+    "question": "Nested conditional là gì?",
+    "answerable": true,
+    "expected_answer": "Một điều kiện đặt trong nhánh của một điều kiện khác",
+    "agent_status": "answered",
+    "agent_answer": "Nested conditional là một cấu trúc điều kiện trong lập trình, trong đó một câu lệnh điều kiện nằm bên trong một câu lệnh điều kiện khác. Điều này cho phép kiểm tra nhiều điều kiện khác nhau và thực hiện các đoạn mã tương ứng. Tuy nhiên, việc sử dụng nested conditionals có thể làm cho mã trở nên khó đọc, vì vậy nên tránh sử dụng chúng khi có thể [a8ae459da7c0fa31].",
+    "agent_citations": [
+      "a8ae459da7c0fa31"
+    ],
+    "final_context_ids": [
+      "c2361c52ab7e70ec",
+      "a8ae459da7c0fa31",
+      "8e97b5a64c10ea0a"
+    ],
+    "citation_support": [
+      null
+    ],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q20",
+    "question": "Với hàm đệ quy, stack diagram có đặc điểm gì?",
+    "answerable": true,
+    "expected_answer": "Có thể có nhiều hơn một frame trên stack cùng lúc",
+    "agent_status": "answered",
+    "agent_answer": "Stack diagram cho hàm đệ quy giúp biểu diễn trạng thái của chương trình trong quá trình gọi hàm. Nó cho phép người dùng hiểu rõ hơn về cách mà các hàm đệ quy hoạt động và cách mà các giá trị được lưu trữ trong bộ nhớ trong suốt quá trình thực thi [b99d91e824b6477e].",
+    "agent_citations": [
+      "b99d91e824b6477e"
+    ],
+    "final_context_ids": [
+      "b99d91e824b6477e"
+    ],
+    "citation_support": [
+      null
+    ],
+    "notes": "",
+    "answer_grade": null
+  },
+  {
+    "query_id": "t_noev1",
+    "question": "Tính kế thừa (inheritance) giữa các class trong Python được cuốn sách minh họa bằng ví dụ nào?",
+    "answerable": false,
+    "expected_answer": null,
+    "agent_status": "abstain",
+    "agent_answer": "Không đủ bằng chứng để trả lời.",
+    "agent_citations": [],
+    "final_context_ids": [
+      "c2361c52ab7e70ec",
+      "aa92622a7b143431",
+      "680ebd8de04c1586"
+    ],
+    "citation_support": [],
+    "notes": "",
+    "abstention_correct": null
+  },
+  {
+    "query_id": "t_noev2",
+    "question": "Cuốn sách dùng lệnh nào để mở và đọc nội dung một file trong Python? Cho ví dụ cú pháp.",
+    "answerable": false,
+    "expected_answer": null,
+    "agent_status": "abstain",
+    "agent_answer": "Không đủ bằng chứng để trả lời.",
+    "agent_citations": [],
+    "final_context_ids": [
+      "7bccc9eda3bb6fe6",
+      "680ebd8de04c1586"
+    ],
+    "citation_support": [],
+    "notes": "",
+    "abstention_correct": null
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "strategy": "tfidf",
+  "split": "test",
+  "n_questions": 7,
+  "n_answerable": 5,
+  "hit1": 0,
+  "hit3": 1,
+  "context_hit": 0,
+  "hit1_rate": 0.0,
+  "hit3_rate": 0.2,
+  "context_hit_rate": 0.0,
+  "avg_context_chars": 444.2,
+  "median_ms": 0.09469999986322364,
+  "embedding_inputs": 0,
+  "note": "tfidf chạy trên toàn bộ câu hỏi, không dùng filter"
+}

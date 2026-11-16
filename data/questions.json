@@ -1,0 +1,303 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Theo Chương 1, chương trình (program) là gì?",
+    "gold": [
+      {
+        "source_id": "thinkpython2",
+        "page": 23,
+        "evidence": "a sequence of instructions that specifies how to perform a computation"
+      }
+    ],
+    "expected_answer": "Một dãy lệnh chỉ định cách thực hiện một phép tính (computation)"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Kỹ năng quan trọng nhất của một computer scientist là gì và nó bao gồm những yếu tố nào?",
+    "gold": [
+      {
+        "source_id": "thinkpython2",
+        "page": 23,
+        "evidence": "the ability to formulate problems, think creatively"
+      }
+    ],
+    "expected_answer": "Problem solving: ability to formulate problems, think creatively about solutions"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Ngôn ngữ bậc cao (high-level language) là gì? Cho ví dụ.",
+    "gold": [
+      {
+        "source_id": "thinkpython2",
+        "page": 28,
+        "evidence": "A programming language like Python that is designed to be easy for"
+      }
+    ],
+    "expected_answer": "Ngôn ngữ thiết kế để con người dễ đọc dễ viết, ví dụ Python"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Trong Python, biến (variable) được định nghĩa là gì?",
+    "gold": [
+      {
+        "source_id": "thinkpython2",
+        "page": 31,
+        "evidence": "A variable is a name that refers to a value"
+      }
+    ],
+    "expected_answer": "Một tên tham chiếu đến một giá trị"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Ba loại lỗi có thể xảy ra trong một chương trình là những loại nào?",
+    "gold": [
+      {
+        "source_id": "thinkpython2",
+        "page": 35,
+        "evidence": "Three kinds of errors can occur in a program: syntax errors, runtime errors, and semantic"
+      }
+    ],
+    "expected_answer": "Syntax errors, runtime errors, semantic errors"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Câu lệnh gán (assignment statement) thực hiện điều gì?",
+    "gold": [
+      {
+        "source_id": "thinkpython2",
+        "page": 31,
+        "evidence": "creates a new variable and gives it a value"
+      }
+    ],
+    "expected_answer": "Tạo một biến mới và gán cho nó một giá trị"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Trong Chương 2: nếu đặt tên biến không hợp lệ thì sẽ xảy ra lỗi gì?",
+    "gold": [
+      {
+        "source_id": "thinkpython2",
+        "page": 32,
+        "evidence": "If you give a variable an illegal name, you get a syntax error"
+      }
+    ],
+    "expected_answer": "Syntax error",
+    "filter": {
+      "chapter": 2
+    }
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Trong ngữ cảnh lập trình, hàm (function) là gì?",
+    "gold": [
+      {
+        "source_id": "thinkpython2",
+        "page": 39,
+        "evidence": "is a named sequence of statements that performs"
+      }
+    ],
+    "expected_answer": "Một dãy lệnh có tên, thực hiện một phép tính"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Theo Chương 3, kỹ năng nào người học sẽ rèn luyện được trong quá trình viết hàm và gỡ lỗi?",
+    "gold": [
+      {
+        "source_id": "thinkpython2",
+        "page": 47,
+        "evidence": "One of the most important skills you will acquire is debugging"
+      }
+    ],
+    "expected_answer": "Debugging"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Trong stack diagram, một frame chứa những gì?",
+    "gold": [
+      {
+        "source_id": "thinkpython2",
+        "page": 48,
+        "evidence": "A box in a stack diagram that represents a function call"
+      }
+    ],
+    "expected_answer": "Các biến cục bộ và tham số của hàm"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Chương 4 mở đầu bằng một case study minh họa điều gì?",
+    "gold": [
+      {
+        "source_id": "thinkpython2",
+        "page": 51,
+        "evidence": "This chapter presents a case study that demonstrates a process for designing functions that"
+      }
+    ],
+    "expected_answer": "Một quy trình thiết kế các hàm làm việc cùng nhau"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Trong Chương 4: bước đầu của encapsulation yêu cầu đặt gì vào đâu?",
+    "gold": [
+      {
+        "source_id": "thinkpython2",
+        "page": 54,
+        "evidence": "put your square-drawing code into a function definition"
+      }
+    ],
+    "expected_answer": "Đặt đoạn code vẽ hình vuông vào một function definition",
+    "filter": {
+      "chapter": 4
+    }
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Vì sao khi viết circle, tác giả có thể tái sử dụng polygon?",
+    "gold": [
+      {
+        "source_id": "thinkpython2",
+        "page": 56,
+        "evidence": "a many-sided polygon is a good"
+      }
+    ],
+    "expected_answer": "Vì đa giác nhiều cạnh là xấp xỉ tốt cho đường tròn"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Toán tử floor division (//) làm gì?",
+    "gold": [
+      {
+        "source_id": "thinkpython2",
+        "page": 61,
+        "evidence": "divides two numbers and rounds down to an integer"
+      }
+    ],
+    "expected_answer": "Chia hai số và làm tròn xuống số nguyên"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Trong trường hợp nào ta cần dùng chained conditional?",
+    "gold": [
+      {
+        "source_id": "thinkpython2",
+        "page": 63,
+        "evidence": "Sometimes there are more than two possibilities and we need more than two branches"
+      }
+    ],
+    "expected_answer": "Khi có nhiều hơn hai khả năng và cần nhiều hơn hai nhánh"
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "Mục tiêu của cuốn sách này là gì?",
+    "gold": [
+      {
+        "source_id": "thinkpython2",
+        "page": 23,
+        "evidence": "The goal of this book is to teach you to think like a computer scientist"
+      }
+    ],
+    "expected_answer": "Dạy bạn tư duy như một nhà khoa học máy tính"
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "Toán tử modulus (%) thực hiện phép tính gì?",
+    "gold": [
+      {
+        "source_id": "thinkpython2",
+        "page": 61,
+        "evidence": "which divides two numbers and returns"
+      }
+    ],
+    "expected_answer": "Chia hai số và trả về phần dư"
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Trong glossary Chương 3, hàm được định nghĩa thế nào?",
+    "gold": [
+      {
+        "source_id": "thinkpython2",
+        "page": 47,
+        "evidence": "A named sequence of statements that performs some useful operation"
+      }
+    ],
+    "expected_answer": "Một dãy lệnh có tên thực hiện thao tác hữu ích",
+    "filter": {
+      "chapter": 3
+    }
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Nested conditional là gì?",
+    "gold": [
+      {
+        "source_id": "thinkpython2",
+        "page": 64,
+        "evidence": "One conditional can also be nested within another"
+      }
+    ],
+    "expected_answer": "Một điều kiện đặt trong nhánh của một điều kiện khác"
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Với hàm đệ quy, stack diagram có đặc điểm gì?",
+    "gold": [
+      {
+        "source_id": "thinkpython2",
+        "page": 66,
+        "evidence": "there might be more than one frame on"
+      }
+    ],
+    "expected_answer": "Có thể có nhiều hơn một frame trên stack cùng lúc"
+  },
+  {
+    "id": "d_noev1",
+    "split": "dev",
+    "question": "Theo cuốn sách, kiểu dữ liệu dictionary trong Python được giới thiệu ở chương nào và dùng để làm gì?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Nội dung về dictionary thuộc chương ngoài phạm vi index (trang 23–72 chỉ gồm Chương 1–5)."
+  },
+  {
+    "id": "d_noev2",
+    "split": "dev",
+    "question": "Trong Python, list comprehension là gì và vì sao thường ngắn gọn hơn vòng lặp for?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "List comprehension không được đề cập trong phạm vi trang 23–72 của corpus."
+  },
+  {
+    "id": "t_noev1",
+    "split": "test",
+    "question": "Tính kế thừa (inheritance) giữa các class trong Python được cuốn sách minh họa bằng ví dụ nào?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Chương về classes và inheritance nằm ngoài phạm vi index (Chương 1–5)."
+  },
+  {
+    "id": "t_noev2",
+    "split": "test",
+    "question": "Cuốn sách dùng lệnh nào để mở và đọc nội dung một file trong Python? Cho ví dụ cú pháp.",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Phần xử lý file (mở/đọc) nằm ở chương ngoài phạm vi index (Chương 1–5)."
+  }
+]

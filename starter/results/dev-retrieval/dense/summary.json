@@ -1,0 +1,15 @@
+{
+  "strategy": "dense",
+  "split": "dev",
+  "n_questions": 17,
+  "n_answerable": 15,
+  "hit1": 12,
+  "hit3": 14,
+  "context_hit": 12,
+  "hit1_rate": 0.8,
+  "hit3_rate": 0.9333333333333333,
+  "context_hit_rate": 0.8,
+  "avg_context_chars": 554.4,
+  "median_ms": 2311.4292000000205,
+  "embedding_inputs": 17
+}

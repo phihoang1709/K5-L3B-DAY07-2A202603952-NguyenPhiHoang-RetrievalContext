@@ -1,0 +1,5 @@
+# Day 7 runtime dependencies (starter code + tests are stdlib-only;
+# psycopg is needed to connect the Day 6 PostgreSQL+pgvector store).
+psycopg[binary]>=3.1
+# Advanced challenge: PDF text/table/figure extraction.
+pymupdf>=1.26

@@ -1,0 +1,343 @@
+[
+ {
+  "id": "d8032397e8d02194",
+  "page": 1,
+  "kind": "chart",
+  "crop": "page001_fig1.png",
+  "description": "Loại: Ảnh.  \nNội dung: Dấu xanh tự hào.  \nMisfit: không.  \nSố liệu: không đọc được số liệu cụ thể.",
+  "usage": {
+   "prompt_tokens": 37047,
+   "completion_tokens": 38,
+   "total_tokens": 37085,
+   "cost": 0.0055240515,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00557985,
+    "upstream_inference_prompt_cost": 0.00555705,
+    "upstream_inference_completions_cost": 2.28e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 5603.8
+  }
+ },
+ {
+  "id": "37208c24e18ba961",
+  "page": 5,
+  "kind": "image",
+  "crop": "page005_fig1.png",
+  "description": "Loại: ảnh.  \nNội dung: Hơn 12.000 tỷ đồng đóng góp lớn nhất cho ngân sách nhà nước; Top 100 ngân hàng có quy mô vốn hóa lớn nhất toàn cầu.  \nMisfit: không.  \nSố liệu: không đọc được số liệu cụ thể.",
+  "usage": {
+   "prompt_tokens": 25713,
+   "completion_tokens": 62,
+   "total_tokens": 25775,
+   "cost": 0.0038552085,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00389415,
+    "upstream_inference_prompt_cost": 0.00385695,
+    "upstream_inference_completions_cost": 3.72e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 2733.3
+  }
+ },
+ {
+  "id": "61a922a8c057ba2b",
+  "page": 9,
+  "kind": "image",
+  "crop": "page009_fig1.png",
+  "description": "Loại: Bảng.  \nNội dung: Địa bàn kinh doanh.  \nSố liệu: Phòng giao dịch: 536; Chi nhánh: 131; Hà Nội: 18 Chi nhánh, chiếm tỷ lệ 13,74%; Đồng bằng sông Hồng: 20 Chi nhánh, chiếm tỷ lệ 15,27%; Trung du và miền núi Bắc Bộ: 10 Chi nhánh, chiếm tỷ lệ % không đọc được; Bắc và Trung Bộ: 17 Chi nhánh, chiếm tỷ lệ % không đọc được.",
+  "usage": {
+   "prompt_tokens": 48381,
+   "completion_tokens": 122,
+   "total_tokens": 48503,
+   "cost": 0.0072570465,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00733035,
+    "upstream_inference_prompt_cost": 0.00725715,
+    "upstream_inference_completions_cost": 7.32e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 3142.5
+  }
+ },
+ {
+  "id": "4f6a8d846ce5e723",
+  "page": 11,
+  "kind": "chart",
+  "crop": "page011_fig1.png",
+  "description": "Loại: bảng.  \nNội dung: Các chỉ số tài chính cơ bản năm 2023 và 2024.  \nMisfit: không.  \nSố liệu: Tổng tài sản 2024: 2.085.874 tỷ đồng; Lợi nhuận hoạt động kinh doanh 2024: -23.027 tỷ đồng; Lợi nhuận trước thuế 2024: 42.236 tỷ đồng; Lợi nhuận sau thuế 2024: 33.853 tỷ đồng; Hệ số an toàn vốn CAR 2024: 12,16%.",
+  "usage": {
+   "prompt_tokens": 37047,
+   "completion_tokens": 124,
+   "total_tokens": 37171,
+   "cost": 0.0055751355,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00563145,
+    "upstream_inference_prompt_cost": 0.00555705,
+    "upstream_inference_completions_cost": 7.44e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 3947.8
+  }
+ },
+ {
+  "id": "7ccd3f2dbfde9764",
+  "page": 13,
+  "kind": "chart",
+  "crop": "page013_fig1.png",
+  "description": "Loại: Ảnh.  \nNội dung: Định hướng phát triển bền vững.  \nMisfit: Không.  \nSố liệu: không đọc được số liệu cụ thể.",
+  "usage": {
+   "prompt_tokens": 25713,
+   "completion_tokens": 41,
+   "total_tokens": 25754,
+   "cost": 0.0038427345,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00388155,
+    "upstream_inference_prompt_cost": 0.00385695,
+    "upstream_inference_completions_cost": 2.46e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 3333.9
+  }
+ },
+ {
+  "id": "055980276563fac9",
+  "page": 15,
+  "kind": "chart",
+  "crop": "page015_fig1.png",
+  "description": "Loại: ảnh.  \nNội dung: báo cáo của Hội đồng Quản trị – Ban Điều hành.  \nMisfit: không.  \nSố liệu: không đọc được số liệu cụ thể.",
+  "usage": {
+   "prompt_tokens": 37047,
+   "completion_tokens": 42,
+   "total_tokens": 37089,
+   "cost": 0.0055264275,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00558225,
+    "upstream_inference_prompt_cost": 0.00555705,
+    "upstream_inference_completions_cost": 2.52e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 6142.0
+  }
+ },
+ {
+  "id": "a31e7a44651c8bc3",
+  "page": 17,
+  "kind": "chart",
+  "crop": "page017_fig2.png",
+  "description": "Loại: bảng.  \nNội dung: Tổng số cổ phần sở hữu của các cổ đông tại Vietcombank 2024.  \nSố liệu:  \n- Ngân hàng Nhà nước Việt Nam: 4.180.828.481  \n- Cổ đông nội bộ: 5.059.710  \n  - Hội đồng quản trị: 33.921  \n  - Ban Điều hành: 17.644  \n  - Ban Kiểm soát: 0  \n- Cổ đông chiến lược nước ngoài Mizuho Bank Ltd: 838.376.264  \n- Tổng: 5.019.320.165",
+  "usage": {
+   "prompt_tokens": 14379,
+   "completion_tokens": 133,
+   "total_tokens": 14512,
+   "cost": 0.0022142835,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00223665,
+    "upstream_inference_prompt_cost": 0.00215685,
+    "upstream_inference_completions_cost": 7.98e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 3111.5
+  }
+ },
+ {
+  "id": "e9a77d9dd6f3de2f",
+  "page": 21,
+  "kind": "image",
+  "crop": "page021_fig1.png",
+  "description": "Loại: ảnh.  \nNội dung: Vietcombank triển khai dịch vụ ngân hàng điện tử.  \nMisfit: không.  \nSố liệu: không đọc được số liệu cụ thể.",
+  "usage": {
+   "prompt_tokens": 48381,
+   "completion_tokens": 41,
+   "total_tokens": 48422,
+   "cost": 0.0072089325,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00728175,
+    "upstream_inference_prompt_cost": 0.00725715,
+    "upstream_inference_completions_cost": 2.46e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 12211.4
+  }
+ },
+ {
+  "id": "11d9b4bf241539b4",
+  "page": 23,
+  "kind": "image",
+  "crop": "page023_fig2.png",
+  "description": "Loại: ảnh.  \nNội dung: tiêu đề \"Đánh giá của Hội đồng về các mặt hoạt động\"; sự kiện tổng niên của Vietcombank 2024.  \nMisfit: không.  \nSố liệu: không đọc được số liệu cụ thể.",
+  "usage": {
+   "prompt_tokens": 48381,
+   "completion_tokens": 57,
+   "total_tokens": 48438,
+   "cost": 0.0072184365,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00729135,
+    "upstream_inference_prompt_cost": 0.00725715,
+    "upstream_inference_completions_cost": 3.42e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 5491.8
+  }
+ },
+ {
+  "id": "3e052b37e5290873",
+  "page": 25,
+  "kind": "image",
+  "crop": "page025_fig1.png",
+  "description": "Loại: Ảnh.  \nNội dung: Hình ảnh buổi lễ có sự tham gia của Ban Điều hành Vietcombank.  \nMisfit: Không.  \nSố liệu: không đọc được số liệu cụ thể.",
+  "usage": {
+   "prompt_tokens": 48381,
+   "completion_tokens": 49,
+   "total_tokens": 48430,
+   "cost": 0.0072136845,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00728655,
+    "upstream_inference_prompt_cost": 0.00725715,
+    "upstream_inference_completions_cost": 2.94e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 9598.7
+  }
+ },
+ {
+  "id": "32c5aac1c8ba3849",
+  "page": 26,
+  "kind": "chart",
+  "crop": "page026_fig2.png",
+  "description": "Loại: Ảnh.  \nNội dung: Hình ảnh không gian giao dịch của Vietcombank.  \nMisfit: không.  \nSố liệu: không đọc được số liệu cụ thể.",
+  "usage": {
+   "prompt_tokens": 25713,
+   "completion_tokens": 43,
+   "total_tokens": 25756,
+   "cost": 0.0038439225,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00388275,
+    "upstream_inference_prompt_cost": 0.00385695,
+    "upstream_inference_completions_cost": 2.58e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 9653.5
+  }
+ }
+]

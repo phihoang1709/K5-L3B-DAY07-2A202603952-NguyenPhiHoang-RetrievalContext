@@ -1,0 +1,17 @@
+[
+  {"query_id": "q16", "gold_chunk": "721c7c474482c23c", "gold_page": 23,
+   "tfidf_k3b800": {"grade": 0, "reason": "TF-IDF không trả chunk nào (câu hỏi tiếng Việt không khớp token nào của corpus tiếng Anh) — context rỗng."},
+   "dense_agent_k3b800": {"grade": 0, "reason": "Context gồm aa92622a7b143431 (p59, ch4) + a1291027c7b66432 (p37, ch2) — lệch chủ đề; gold chunk không xuất hiện sau 2 lượt search."}},
+  {"query_id": "q17", "gold_chunk": "595589132e92b2d8", "gold_page": 61,
+   "tfidf_k3b800": {"grade": 0, "reason": "SỬA TỪ 1->0 (đợt rà 2): context duy nhất là chunk 05d6332509be5646 (432 ký tự) — chỉ GIỚI THIỆU tên 'modulus' trong danh sách 'two new operators' và giải thích floor division, cắt ngang trước phần giải thích modulus; không có nội dung nào về phép chia lấy dư (gold nằm ở chunk kế 595589132e92b2d8, bị budget 800 cắt). Không có evidence cho câu hỏi."},
+   "dense_agent_k3b800": {"grade": 2, "reason": "Gold chunk trong context (top-1), đủ evidence + nguồn."}},
+  {"query_id": "q18", "gold_chunk": "752d00fd9584ec30", "gold_page": 47,
+   "tfidf_k3b800": {"grade": 0, "reason": "Context = glossary Chương 5 về floor division/modulus (702fa187db9839b3, p69) — vô quan hệ với định nghĩa hàm."},
+   "dense_agent_k3b800": {"grade": 1, "reason": "Có định nghĩa hàm (a85013a97bc58c92, p39) nhưng câu hỏi chỉ định glossary Chương 3 — có evidence, thiếu đúng điều kiện được hỏi."}},
+  {"query_id": "q19", "gold_chunk": "29065825788d54be", "gold_page": 64,
+   "tfidf_k3b800": {"grade": 2, "reason": "Context chứa glossary Chương 5 (3fa9be8e50d7ad53) với định nghĩa 'nested conditional: A conditional statement that appears in one of the branches of another conditional statement' — evidence thay thế đầy đủ kèm nguồn. (context_hit máy = 0 vì gold-quote ở chunk khác; chấm tay theo mức đủ-dựa-trên-ngữ-nghĩa.)"},
+   "dense_agent_k3b800": {"grade": 2, "reason": "Chunk p64 (a8ae459da7c0fa31) chứa giải thích nesting qua ví dụ cụ thể (outer conditional, branch chứa if khác) — đủ trả lời."}},
+  {"query_id": "q20", "gold_chunk": "9ff0365884f1af78", "gold_page": 66,
+   "tfidf_k3b800": {"grade": 1, "reason": "Context = glossary frame p48 (d94aea6e85adb40c) — liên quan stack diagram/frame nhưng thiếu đặc điểm 'nhiều hơn một frame' cho hàm đệ quy."},
+   "dense_agent_k3b800": {"grade": 1, "reason": "Chunk mở đầu 5.9 (b99d91e824b6477e, p66) liên quan nhưng thiếu đặc điểm gold; câu gold nằm ở chunk kế không vào context."}}
+]

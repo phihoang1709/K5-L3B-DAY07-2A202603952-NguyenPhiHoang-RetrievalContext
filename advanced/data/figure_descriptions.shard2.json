@@ -1,0 +1,436 @@
+[
+ {
+  "id": "012d99c2ce690021",
+  "page": 3,
+  "kind": "chart",
+  "crop": "page003_fig1.png",
+  "description": "Loại: Ảnh.  \nNội dung: Dấu ấn Niềm tin - Nơi khởi đầu vững bền; Giới thiệu Vietcombank.  \nMisfit: không.  \nSố liệu: không đọc được số liệu cụ thể.",
+  "usage": {
+   "prompt_tokens": 37047,
+   "completion_tokens": 56,
+   "total_tokens": 37103,
+   "cost": 0.0055347435,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00559065,
+    "upstream_inference_prompt_cost": 0.00555705,
+    "upstream_inference_completions_cost": 3.36e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 8860.8
+  }
+ },
+ {
+  "id": "55bb7030e220ecd0",
+  "page": 7,
+  "kind": "chart",
+  "crop": "page007_fig1.png",
+  "description": "Loại: ảnh.  \nNội dung: Giới thiệu Vietcombank.  \nMisfit: không.  \nSố liệu: Tổng số cán bộ nhân viên 2024: 24.306; Quy mô vốn hóa: ~20 tỷ USD.",
+  "usage": {
+   "prompt_tokens": 37047,
+   "completion_tokens": 53,
+   "total_tokens": 37100,
+   "cost": 0.0055329615,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00558885,
+    "upstream_inference_prompt_cost": 0.00555705,
+    "upstream_inference_completions_cost": 3.18e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 4020.7
+  }
+ },
+ {
+  "id": "07c5a6373028758b",
+  "page": 9,
+  "kind": "chart",
+  "crop": "page009_fig3.png",
+  "description": "Loại: Sơ đồ.  \nNội dung: Số lượng ngân hàng đại lý năm 2024 tại Việt Nam.  \nMisfit: Không.  \nSố liệu: Không đọc được số liệu cụ thể.",
+  "usage": {
+   "prompt_tokens": 37047,
+   "completion_tokens": 46,
+   "total_tokens": 37093,
+   "cost": 0.0055288035,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00558465,
+    "upstream_inference_prompt_cost": 0.00555705,
+    "upstream_inference_completions_cost": 2.76e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 1915.1
+  }
+ },
+ {
+  "id": "2dd0900a68285bf6",
+  "page": 12,
+  "kind": "chart",
+  "crop": "page012_fig2.png",
+  "description": "Loại: Ảnh.  \nNội dung: Ngân hàng hàng đầu về quản trị rủi ro tại Việt Nam.  \nMisfit: không  \nSố liệu: không đọc được số liệu cụ thể.",
+  "usage": {
+   "prompt_tokens": 25713,
+   "completion_tokens": 46,
+   "total_tokens": 25759,
+   "cost": 0.0038457045,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00388455,
+    "upstream_inference_prompt_cost": 0.00385695,
+    "upstream_inference_completions_cost": 2.76e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 2921.1
+  }
+ },
+ {
+  "id": "0803e04d561434ef",
+  "page": 14,
+  "kind": "chart",
+  "crop": "page014_fig1.png",
+  "description": "Loại: Ảnh.  \nNội dung: Định hướng phát triển hoạt động kinh doanh năm 2025.  \nMisfit: không.  \nSố liệu: Tổng tài sản 2025: tăng ≥ 10%; Tỷ lệ nợ xấu: thấp hơn 1,5%.",
+  "usage": {
+   "prompt_tokens": 25713,
+   "completion_tokens": 64,
+   "total_tokens": 25777,
+   "cost": 0.0038563965,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00389535,
+    "upstream_inference_prompt_cost": 0.00385695,
+    "upstream_inference_completions_cost": 3.84e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 2281.7
+  }
+ },
+ {
+  "id": "78ab194742e738db",
+  "page": 16,
+  "kind": "chart",
+  "crop": "page016_fig2.png",
+  "description": "Loại: Biểu đồ.  \nNội dung: Chưa có tiêu đề; các giá trị số liệu.  \nMisfit: Không.  \nSố liệu: 2023: 1.839.725; 2024: 2.058.714; 2024: 135.676; 2024: 121.925; 2024: 41.328; 2024: 42.236.",
+  "usage": {
+   "prompt_tokens": 25713,
+   "completion_tokens": 94,
+   "total_tokens": 25807,
+   "cost": 0.0038742165,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00391335,
+    "upstream_inference_prompt_cost": 0.00385695,
+    "upstream_inference_completions_cost": 5.64e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 2404.1
+  }
+ },
+ {
+  "id": "76c282984945efcc",
+  "page": 19,
+  "kind": "chart",
+  "crop": "page019_fig1.png",
+  "description": "Loại: bảng.  \nNội dung: Thông tin chung công ty liên doanh – liên kết.  \nSố liệu:  \n- Công ty Liên doanh TNHH Vietcombank – Bondy-BenThanh: Lợi nhuận trước thuế năm 2024: 220,75 tỷ đồng.  \n- Công ty TNHH quản lý quỹ đầu tư chứng khoán Vietcombank (VCBF): Lợi nhuận trước thuế năm 2024: 81,35 tỷ đồng.  \n- Công ty Liên doanh Hưu trí Vietcombank – Bondy: Lợi nhuận trước thuế năm 2024: 53,12 tỷ đồng.",
+  "usage": {
+   "prompt_tokens": 37047,
+   "completion_tokens": 142,
+   "total_tokens": 37189,
+   "cost": 0.0055858275,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00564225,
+    "upstream_inference_prompt_cost": 0.00555705,
+    "upstream_inference_completions_cost": 8.52e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 5888.6
+  }
+ },
+ {
+  "id": "9c30c05a5a32f62f",
+  "page": 22,
+  "kind": "image",
+  "crop": "page022_fig1.png",
+  "description": "Loại: Ảnh.  \nNội dung: Tiêu đề \"Nhiệm vụ trọng tâm thực hiện các mục tiêu\"; chủ đề chính về chỉ đạo hoạt động kinh doanh và quản trị nội bộ.  \nMisfit: Không.  \nSố liệu: không đọc được số liệu cụ thể.",
+  "usage": {
+   "prompt_tokens": 48381,
+   "completion_tokens": 63,
+   "total_tokens": 48444,
+   "cost": 0.0072220005,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00729495,
+    "upstream_inference_prompt_cost": 0.00725715,
+    "upstream_inference_completions_cost": 3.78e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 7070.7
+  }
+ },
+ {
+  "id": "e948680a1d965d54",
+  "page": 24,
+  "kind": "chart",
+  "crop": "page024_fig2.png",
+  "description": "Loại: ảnh.  \nNội dung: Vườn cây \"Đoàn bồ đề kinh Bắc Hồ\".  \nMisfit: không.  \nSố liệu: không đọc được số liệu cụ thể.",
+  "usage": {
+   "prompt_tokens": 25713,
+   "completion_tokens": 44,
+   "total_tokens": 25757,
+   "cost": 0.0038445165,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00388335,
+    "upstream_inference_prompt_cost": 0.00385695,
+    "upstream_inference_completions_cost": 2.64e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 3304.1
+  }
+ },
+ {
+  "id": "8cae3ffc1f654ee0",
+  "page": 25,
+  "kind": "chart",
+  "crop": "page025_fig3.png",
+  "description": "Loại: Ảnh.  \nNội dung: Hội nghị Tổng kết công tác đảng và hoạt động kinh doanh năm 2023, triển khai nhiệm vụ năm 2024.  \nMisfit: không  \nSố liệu: không đọc được số liệu cụ thể.",
+  "usage": {
+   "prompt_tokens": 25713,
+   "completion_tokens": 57,
+   "total_tokens": 25770,
+   "cost": 0.0038522385,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00389115,
+    "upstream_inference_prompt_cost": 0.00385695,
+    "upstream_inference_completions_cost": 3.42e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 4447.8
+  }
+ },
+ {
+  "id": "9518e146bd3a9bac",
+  "page": 27,
+  "kind": "chart",
+  "crop": "page027_fig1.png",
+  "description": "Loại: Ảnh.  \nNội dung: Dấu ấn Con người, Cội nguồn phát triển, mục Tổ chức & Nhân sự.  \nMisfit: không.  \nSố liệu: không đọc được số liệu cụ thể.",
+  "usage": {
+   "prompt_tokens": 37047,
+   "completion_tokens": 54,
+   "total_tokens": 37101,
+   "cost": 0.0055335555,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00558945,
+    "upstream_inference_prompt_cost": 0.00555705,
+    "upstream_inference_completions_cost": 3.24e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 4621.2
+  }
+ },
+ {
+  "id": "98622d436d54d623",
+  "page": 30,
+  "kind": "chart",
+  "crop": "page030_fig1.png",
+  "description": "Loại: Ảnh.  \nNội dung: Ban điều hành Vietcombank 2024.  \nSố liệu: không đọc được số liệu cụ thể.",
+  "usage": {
+   "prompt_tokens": 37047,
+   "completion_tokens": 35,
+   "total_tokens": 37082,
+   "cost": 0.0055222695,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00557805,
+    "upstream_inference_prompt_cost": 0.00555705,
+    "upstream_inference_completions_cost": 2.1e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 8331.0
+  }
+ },
+ {
+  "id": "b18d36cf8e90b9f2",
+  "page": 34,
+  "kind": "chart",
+  "crop": "page034_fig1.png",
+  "description": "Loại: Bảng.  \nNội dung: Thành viên Hội đồng Quản trị Vietcombank 2024.  \nSố liệu:  \n- Ông Nguyễn Thanh Tùng: 14.933  \n- Ông Đỗ Việt Hùng: 0  \n- Ông Nguyễn Mạnh Hùng: 3.420  \n- Ông Shojiro Mizoguchi: 0  \n- Ông Nguyễn Mỵ Hào: 10.566  \n- Ông Hồng Quang: 0.2  \n- Ông Vũ Việt Ngoan: 0  \n- Bà Nguyễn Thị Kim Oanh: 5.000  \n- Ông Nguyễn Tuấn Anh: 0.",
+  "usage": {
+   "prompt_tokens": 37047,
+   "completion_tokens": 150,
+   "total_tokens": 37197,
+   "cost": 0.0055905795,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00564705,
+    "upstream_inference_prompt_cost": 0.00555705,
+    "upstream_inference_completions_cost": 9e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 3501.9
+  }
+ },
+ {
+  "id": "53d791812a053520",
+  "page": 36,
+  "kind": "image",
+  "crop": "page036_fig1.png",
+  "description": "Loại: bảng.  \nNội dung: Hoạt động của Thành viên Hội đồng quản trị độc lập.  \nSố liệu: Không đọc được số liệu cụ thể.",
+  "usage": {
+   "prompt_tokens": 20046,
+   "completion_tokens": 36,
+   "total_tokens": 20082,
+   "cost": 0.002998215,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0030285,
+    "upstream_inference_prompt_cost": 0.0030069,
+    "upstream_inference_completions_cost": 2.16e-05
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   },
+   "latency_ms": 2613.0
+  }
+ }
+]

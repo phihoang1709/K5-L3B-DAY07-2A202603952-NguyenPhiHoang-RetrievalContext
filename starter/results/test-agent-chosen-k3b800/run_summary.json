@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "retriever": "dense",
+  "top_k": 3,
+  "budget": 800,
+  "max_searches": 4,
+  "model": "openai/gpt-4o-mini",
+  "n": 7,
+  "statuses": {
+    "abstain": 3,
+    "answered": 4
+  },
+  "usage_totals": {
+    "prompt_tokens": 10946,
+    "completion_tokens": 690,
+    "calls": 22
+  },
+  "embedding_inputs": 15,
+  "total_elapsed_ms": 143586.1
+}

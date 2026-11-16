@@ -1,0 +1,147 @@
+================================== q01 (answerable)
+Q: Theo Chương 1, chương trình (program) là gì?
+GOLD ANSWER: Một dãy lệnh chỉ định cách thực hiện một phép tính (computation)
+GOLD LOCUS: [('thinkpython2', 23)]
+AGENT [answered] 1 searches:
+    "Theo Chương 1, chương trình là một chuỗi các hướng dẫn chỉ định cách thực hiện một phép toán. Phép toán này có thể là một phép toán toán học, như giải hệ phương trình hoặc tìm nghiệm của một đa thức, nhưng cũng có thể là một phép toán ký hiệu, như tìm kiếm [7d8ede3eb248d89a]."
+    cite 7d8ede3eb248d89a -> page 23
+       text: "\nOn one level, you will be learning to program, a useful skill by itself. On another level, you\nwill use programming as a means to an end. As we go along, that end will become clearer.\n1.1 What is a program?\nAprogramis a sequence of instructions that specifies how to perform a computation. The\ncomputation might be something mathematical, such as solving a system of equations or\nfinding the 
+
+================================== q02 (answerable)
+Q: Kỹ năng quan trọng nhất của một computer scientist là gì và nó bao gồm những yếu tố nào?
+GOLD ANSWER: Problem solving: ability to formulate problems, think creatively about solutions
+GOLD LOCUS: [('thinkpython2', 23)]
+AGENT [answered] 1 searches:
+    "Kỹ năng quan trọng nhất của một nhà khoa học máy tính là khả năng giải quyết vấn đề. Điều này bao gồm khả năng định hình vấn đề, suy nghĩ sáng tạo về các giải pháp và diễn đạt một giải pháp một cách rõ ràng và chính xác. Quá trình học lập trình là một cơ hội tuyệt vời để rèn luyện kỹ năng giải quyết vấn đề này [737ff12306987fd6]."
+    cite 737ff12306987fd6 -> page 23
+       text: "\nior of complex systems, form hypotheses, and test predictions.\nThe single most important skill for a computer scientist isproblem solving. Problem solv-\ning means the ability to formulate problems, think creatively about solutions, and express\na solution clearly and accurately. As it turns out, the process of learning to program is an\nexcellent opportunity to practice problem-solving skills
+
+================================== q03 (answerable)
+Q: Ngôn ngữ bậc cao (high-level language) là gì? Cho ví dụ.
+GOLD ANSWER: Ngôn ngữ thiết kế để con người dễ đọc dễ viết, ví dụ Python
+GOLD LOCUS: [('thinkpython2', 28)]
+AGENT [answered] 1 searches:
+    "Ngôn ngữ bậc cao (high-level language) là một loại ngôn ngữ lập trình như Python, được thiết kế để dễ đọc và viết cho con người. Ví dụ về ngôn ngữ bậc cao bao gồm Python, Java và Ruby [f437457a7ea155c4]."
+    cite f437457a7ea155c4 -> page 28
+       text: "\nities beyond programming. At the end of each chapter there is a section, like this one, with\nmy suggestions for debugging. I hope they help!\n1.8 Glossary\nproblem solving:The process of formulating a problem, finding a solution, and express-\ning it.\nhigh-level language:A programming language like Python that is designed to be easy for\nhumans to read and write.\nlow-level language:A program
+
+================================== q04 (answerable)
+Q: Trong Python, biến (variable) được định nghĩa là gì?
+GOLD ANSWER: Một tên tham chiếu đến một giá trị
+GOLD LOCUS: [('thinkpython2', 31)]
+AGENT [answered] 1 searches:
+    "Trong Python, biến (variable) được định nghĩa là một tên tham chiếu đến một giá trị. Biến cho phép lập trình viên thao tác với các giá trị trong chương trình. Ví dụ, một câu lệnh gán có thể tạo ra một biến mới và gán cho nó một giá trị cụ thể [29b0c03d97efa746]."
+    cite 29b0c03d97efa746 -> page 31
+       text: "Chapter 2\nVariables, expressions and\nstatements\nOne of the most powerful features of a programming language is the ability to manipulate\nvariables. A variable is a name that refers to a value.\n2.1 Assignment statements\nAnassignment statementcreates a new variable and gives it a value:\n>>> message ='And now for something completely different'\n>>> n = 17\n>>> pi = 3.1415926535897932\nThis e
+
+================================== q05 (answerable)
+Q: Ba loại lỗi có thể xảy ra trong một chương trình là những loại nào?
+GOLD ANSWER: Syntax errors, runtime errors, semantic errors
+GOLD LOCUS: [('thinkpython2', 35)]
+AGENT [answered] 2 searches:
+    "Ba loại lỗi có thể xảy ra trong một chương trình là: lỗi cú pháp (syntax error), lỗi thời gian chạy (runtime error), và lỗi ngữ nghĩa (semantic error). Lỗi cú pháp xảy ra khi mã không tuân theo quy tắc của ngôn ngữ lập trình. Lỗi thời gian chạy xảy ra khi chương trình đã bắt đầu chạy nhưng gặp vấn đề, và lỗi ngữ nghĩa liên quan đến ý nghĩa của mã không đúng với mong đợi [b1ad6b85b5b0b020]."
+    cite b1ad6b85b5b0b020 -> page 35
+       text: "\nRuntime error:The second type of error is a runtime error, so called because the error does\nnot appear until after the program has started running. These errors are also called\nexceptionsbecause they usually indicate that something exceptional (and bad) has\nhappened.\nRuntime errors are rare in the simple programs you will see in the first few chapters,\nso it might be a while before you enc
+
+================================== q06 (answerable)
+Q: Câu lệnh gán (assignment statement) thực hiện điều gì?
+GOLD ANSWER: Tạo một biến mới và gán cho nó một giá trị
+GOLD LOCUS: [('thinkpython2', 31)]
+AGENT [answered] 1 searches:
+    "Câu lệnh gán (assignment statement) tạo ra một biến mới và gán cho nó một giá trị. Ví dụ, câu lệnh `message = 'And now for something completely different'` gán một chuỗi cho biến mới có tên là `message` [29b0c03d97efa746]."
+    cite 29b0c03d97efa746 -> page 31
+       text: "Chapter 2\nVariables, expressions and\nstatements\nOne of the most powerful features of a programming language is the ability to manipulate\nvariables. A variable is a name that refers to a value.\n2.1 Assignment statements\nAnassignment statementcreates a new variable and gives it a value:\n>>> message ='And now for something completely different'\n>>> n = 17\n>>> pi = 3.1415926535897932\nThis e
+
+================================== q07 (answerable)
+Q: Trong Chương 2: nếu đặt tên biến không hợp lệ thì sẽ xảy ra lỗi gì?
+GOLD ANSWER: Syntax error
+GOLD LOCUS: [('thinkpython2', 32)]
+AGENT [answered] 1 searches:
+    "Nếu bạn đặt tên biến không hợp lệ, bạn sẽ nhận được một lỗi cú pháp (syntax error) trong chương trình của mình. Tên biến không được bắt đầu bằng một số và phải tuân theo các quy tắc nhất định về ký tự được phép sử dụng [b630532efef581e5]."
+    cite b630532efef581e5 -> page 32
+       text: "10 Chapter 2. Variables, expressions and statements\nVariable names can be as long as you like. They can contain both letters and numbers, but\nthey can’t begin with a number. It is legal to use uppercase letters, but it is conventional to\nuse only lower case for variables names.\nThe underscore character,_, can appear in a name. It is often used in names with multiple\nwords, such asyour_nameor
+
+================================== q08 (answerable)
+Q: Trong ngữ cảnh lập trình, hàm (function) là gì?
+GOLD ANSWER: Một dãy lệnh có tên, thực hiện một phép tính
+GOLD LOCUS: [('thinkpython2', 39)]
+AGENT [answered] 1 searches:
+    "Trong ngữ cảnh lập trình, hàm (function) là một chuỗi các câu lệnh có tên, thực hiện một phép toán nào đó. Khi định nghĩa một hàm, bạn chỉ định tên và chuỗi các câu lệnh. Sau đó, bạn có thể \"gọi\" hàm bằng tên của nó [a85013a97bc58c92]."
+    cite a85013a97bc58c92 -> page 39
+       text: "Chapter 3\nFunctions\nIn the context of programming, afunctionis a named sequence of statements that performs\na computation. When you define a function, you specify the name and the sequence of\nstatements. Later, you can “call” the function by name.\n3.1 Function calls\nWe have already seen one example of afunction call:\n>>> type(42)\n<class'int'>\nThe name of the function istype. The expressi
+
+================================== q09 (answerable)
+Q: Theo Chương 3, kỹ năng nào người học sẽ rèn luyện được trong quá trình viết hàm và gỡ lỗi?
+GOLD ANSWER: Debugging
+GOLD LOCUS: [('thinkpython2', 47)]
+AGENT [answered] 1 searches:
+    "Theo Chương 3, người học sẽ rèn luyện được kỹ năng gỡ lỗi, một trong những kỹ năng quan trọng nhất trong lập trình. Gỡ lỗi không chỉ là một phần khó khăn mà còn là một phần thú vị và đầy thách thức, giống như công việc của một thám tử, nơi bạn phải suy luận từ các manh mối để hiểu các quy trình và sự kiện dẫn đến kết quả bạn thấy [140f69c4af4aa6c7]."
+    cite 140f69c4af4aa6c7 -> page 47
+       text: "\n• Well-designed functions are often useful for many programs. Once you write and\ndebug one, you can reuse it.\n3.12 Debugging\nOne of the most important skills you will acquire is debugging. Although it can be frus-\ntrating, debugging is one of the most intellectually rich, challenging, and interesting parts\nof programming.\nIn some ways debugging is like detective work. You are confronted w
+
+================================== q10 (answerable)
+Q: Trong stack diagram, một frame chứa những gì?
+GOLD ANSWER: Các biến cục bộ và tham số của hàm
+GOLD LOCUS: [('thinkpython2', 48)]
+AGENT [answered] 1 searches:
+    "Trong stack diagram, một frame là một hộp đại diện cho một cuộc gọi hàm. Nó chứa các biến cục bộ và tham số của hàm đó [d94aea6e85adb40c]."
+    cite d94aea6e85adb40c -> page 48
+       text: "\nstack diagram:A graphical representation of a stack of functions, their variables, and the\nvalues they refer to.\nframe:A box in a stack diagram that represents a function call. It contains the local vari-\nables and parameters of the function.\ntraceback:A list of the functions that are executing, printed when an exception occurs.\n3.14 Exercises\nExercise 3.1.Write a function namedright_just
+
+================================== q11 (answerable)
+Q: Chương 4 mở đầu bằng một case study minh họa điều gì?
+GOLD ANSWER: Một quy trình thiết kế các hàm làm việc cùng nhau
+GOLD LOCUS: [('thinkpython2', 51)]
+AGENT [answered] 1 searches:
+    "Chương 4 mở đầu bằng một case study minh họa quy trình thiết kế các hàm hoạt động cùng nhau, thông qua việc giới thiệu mô-đun turtle, cho phép tạo ra hình ảnh bằng đồ họa rùa. Mô-đun này thường có sẵn trong hầu hết các cài đặt Python [6c790747dd75c9f2]."
+    cite 6c790747dd75c9f2 -> page 51
+       text: "Chapter 4\nCase study: interface design\nThis chapter presents a case study that demonstrates a process for designing functions that\nwork together.\nIt introduces theturtlemodule, which allows you to create images using turtle graphics.\nTheturtlemodule is included in most Python installations, but if you are running Python\nusing PythonAnywhere, you won’t be able to run the turtle examples (at 
+
+================================== q12 (answerable)
+Q: Trong Chương 4: bước đầu của encapsulation yêu cầu đặt gì vào đâu?
+GOLD ANSWER: Đặt đoạn code vẽ hình vuông vào một function definition
+GOLD LOCUS: [('thinkpython2', 54)]
+AGENT [answered] 1 searches:
+    "Trong Chương 4, bước đầu của encapsulation yêu cầu bạn đặt mã vẽ hình vuông vào trong một định nghĩa hàm và sau đó gọi hàm đó, truyền đối tượng turtle như một tham số. Ví dụ, bạn có thể định nghĩa hàm như sau: `def square(t):` và sau đó gọi hàm với `square(bob)` [447606e7bc7f89f6]."
+    cite 447606e7bc7f89f6 -> page 54
+       text: "32 Chapter 4. Case study: interface design\n4.4 Encapsulation\nThe first exercise asks you to put your square-drawing code into a function definition and\nthen call the function, passing the turtle as a parameter. Here is a solution:\ndef square(t):\nfor i in range(4):\nt.fd(100)\nt.lt(90)\nsquare(bob)\nThe innermost statements,fdandltare indented twice to show that they are inside the\nforloop, 
+
+================================== q13 (answerable)
+Q: Vì sao khi viết circle, tác giả có thể tái sử dụng polygon?
+GOLD ANSWER: Vì đa giác nhiều cạnh là xấp xỉ tốt cho đường tròn
+GOLD LOCUS: [('thinkpython2', 56)]
+AGENT [answered] 1 searches:
+    "Tác giả có thể tái sử dụng polygon khi viết hàm circle vì một đa giác nhiều cạnh là một sự xấp xỉ tốt cho hình tròn. Tuy nhiên, arc không thể sử dụng polygon hoặc circle để vẽ, vì vậy cần phải bắt đầu với một bản sao của polygon và biến đổi nó thành arc [5370b91884ce0eb3]."
+    cite 5370b91884ce0eb3 -> page 56
+       text: "\nWhen I wrotecircle, I was able to re-usepolygonbecause a many-sided polygon is a good\napproximation of a circle. Butarcis not as cooperative; we can’t usepolygonorcircleto\ndraw an arc.\nOne alternative is to start with a copy ofpolygonand transform it intoarc. The result\nmight look like this:\ndef arc(t, r, angle):\narc_length = 2 * math.pi * r * angle / 360\nn = int(arc_length / 3) + 1\nste
+
+================================== q14 (answerable)
+Q: Toán tử floor division (//) làm gì?
+GOLD ANSWER: Chia hai số và làm tròn xuống số nguyên
+GOLD LOCUS: [('thinkpython2', 61)]
+AGENT [answered] 1 searches:
+    "Toán tử floor division (//) chia hai số và làm tròn xuống (về phía âm vô cùng) đến một số nguyên. Điều này có nghĩa là kết quả của phép chia sẽ luôn là số nguyên nhỏ hơn hoặc bằng kết quả thực tế của phép chia đó. [702fa187db9839b3]"
+    cite 702fa187db9839b3 -> page 69
+       text: "5.13. Glossary 47\n5.13 Glossary\nfloor division:An operator, denoted//, that divides two numbers and rounds down (to-\nward negative infinity) to an integer.\nmodulus operator:An operator, denoted with a percent sign (%), that works on integers\nand returns the remainder when one number is divided by another.\nboolean expression:An expression whose value is eitherTrueorFalse.\nrelational operato
+
+================================== q15 (answerable)
+Q: Trong trường hợp nào ta cần dùng chained conditional?
+GOLD ANSWER: Khi có nhiều hơn hai khả năng và cần nhiều hơn hai nhánh
+GOLD LOCUS: [('thinkpython2', 63)]
+AGENT [answered] 2 searches:
+    "Chained conditional được sử dụng khi bạn cần kiểm tra nhiều điều kiện khác nhau và thực hiện các đoạn mã tương ứng cho từng điều kiện. Nó cho phép bạn tạo ra một chuỗi các nhánh điều kiện, mỗi nhánh sẽ xử lý một trường hợp cụ thể trong số các điều kiện đã cho [3fa9be8e50d7ad53]."
+    cite 3fa9be8e50d7ad53 -> page 69
+       text: "\nbranch:One of the alternative sequences of statements in a conditional statement.\nchained conditional:A conditional statement with a series of alternative branches.\nnested conditional:A conditional statement that appears in one of the branches of another\nconditional statement.\nreturn statement:A statement that causes a function to end immediately and return to the\ncaller.\nrecursion:The pr
+
+================================== d_noev1 (NO-EVIDENCE)
+Q: Theo cuốn sách, kiểu dữ liệu dictionary trong Python được giới thiệu ở chương nào và dùng để làm gì?
+ABSENCE REASON: Nội dung về dictionary thuộc chương ngoài phạm vi index (trang 23–72 chỉ gồm Chương 1–5).
+AGENT [abstain] 4 searches:
+    "Không đủ bằng chứng để trả lời."
+
+================================== d_noev2 (NO-EVIDENCE)
+Q: Trong Python, list comprehension là gì và vì sao thường ngắn gọn hơn vòng lặp for?
+ABSENCE REASON: List comprehension không được đề cập trong phạm vi trang 23–72 của corpus.
+AGENT [abstain] 4 searches:
+    "Không đủ bằng chứng để trả lời."
+

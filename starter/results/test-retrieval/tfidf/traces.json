@@ -1,0 +1,448 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "Mục tiêu của cuốn sách này là gì?",
+    "answerable": true,
+    "filter": null,
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 0.06849999954283703,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "Toán tử modulus (%) thực hiện phép tính gì?",
+    "answerable": true,
+    "filter": null,
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "05d6332509be5646",
+        "source_id": "thinkpython2",
+        "source": "thinkpython2.pdf",
+        "page": 61,
+        "text": "Chapter 5\nConditionals and recursion\nThe main topic of this chapter is theifstatement, which executes different code depending\non the state of the program. But first I want to introduce two new operators: floor division\nand modulus.\n5.1 Floor division and modulus\nThefloor divisionoperator,//, divides two numbers and rounds down to an integer. For\nexample, suppose the run time of a movie is 105 minutes. You might want to know how",
+        "metadata": {
+          "label": "39",
+          "status": "ok",
+          "chapter": 5,
+          "end_offset": 432,
+          "start_offset": 0
+        },
+        "score": 0.29268707135332667,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "595589132e92b2d8",
+        "source_id": "thinkpython2",
+        "source": "thinkpython2.pdf",
+        "page": 61,
+        "text": "\nAn alternative is to use themodulus operator,%, which divides two numbers and returns\nthe remainder.\n>>> remainder = minutes % 60\n>>> remainder\n45\nThe modulus operator is more useful than it seems. For example, you can check whether\none number is divisible by another—ifx % yis zero, thenxis divisible byy.",
+        "metadata": {
+          "label": "39",
+          "status": "ok",
+          "chapter": 5,
+          "end_offset": 1155,
+          "start_offset": 848
+        },
+        "score": 0.16498505366885116,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "702fa187db9839b3",
+        "source_id": "thinkpython2",
+        "source": "thinkpython2.pdf",
+        "page": 69,
+        "text": "5.13. Glossary 47\n5.13 Glossary\nfloor division:An operator, denoted//, that divides two numbers and rounds down (to-\nward negative infinity) to an integer.\nmodulus operator:An operator, denoted with a percent sign (%), that works on integers\nand returns the remainder when one number is divided by another.\nboolean expression:An expression whose value is eitherTrueorFalse.\nrelational operator:One of the operators that compares its operands:==,!=,>,<,>=, and\n<=.",
+        "metadata": {
+          "label": "47",
+          "status": "ok",
+          "chapter": 5,
+          "end_offset": 463,
+          "start_offset": 0
+        },
+        "score": 0.13301366883894525,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[05d6332509be5646 | thinkpython2.pdf | page 61]\nChapter 5\nConditionals and recursion\nThe main topic of this chapter is theifstatement, which executes different code depending\non the state of the program. But first I want to introduce two new operators: floor division\nand modulus.\n5.1 Floor division and modulus\nThefloor divisionoperator,//, divides two numbers and rounds down to an integer. For\nexample, suppose the run time of a movie is 105 minutes. You might want to know how",
+    "context_ids": [
+      "05d6332509be5646"
+    ],
+    "context_chars": 480,
+    "elapsed_ms": 0.09099999988393392,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "Trong glossary Chương 3, hàm được định nghĩa thế nào?",
+    "answerable": true,
+    "filter": null,
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "702fa187db9839b3",
+        "source_id": "thinkpython2",
+        "source": "thinkpython2.pdf",
+        "page": 69,
+        "text": "5.13. Glossary 47\n5.13 Glossary\nfloor division:An operator, denoted//, that divides two numbers and rounds down (to-\nward negative infinity) to an integer.\nmodulus operator:An operator, denoted with a percent sign (%), that works on integers\nand returns the remainder when one number is divided by another.\nboolean expression:An expression whose value is eitherTrueorFalse.\nrelational operator:One of the operators that compares its operands:==,!=,>,<,>=, and\n<=.",
+        "metadata": {
+          "label": "47",
+          "status": "ok",
+          "chapter": 5,
+          "end_offset": 463,
+          "start_offset": 0
+        },
+        "score": 0.21937991128491527,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "9cb1b9e0f9892149",
+        "source_id": "thinkpython2",
+        "source": "thinkpython2.pdf",
+        "page": 39,
+        "text": "\nintcan convert floating-point values to integers, but it doesn’t round off; it chops off the\nfraction part:\n>>> int(3.99999)\n3\n>>> int(-2.3)\n-2\nfloatconverts integers and strings to floating-point numbers:\n>>> float(32)\n32.0\n>>> float('3.14159')\n3.14159",
+        "metadata": {
+          "label": "17",
+          "status": "ok",
+          "chapter": 3,
+          "end_offset": 1130,
+          "start_offset": 876
+        },
+        "score": 0.14880531083289641,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "e03995bec7641f37",
+        "source_id": "thinkpython2",
+        "source": "thinkpython2.pdf",
+        "page": 56,
+        "text": "34 Chapter 4. Case study: interface design\ndef circle(t, r):\ncircumference = 2 * math.pi * r\nn = int(circumference / 3) + 3\nlength = circumference / n\npolygon(t, n, length)\nNow the number of segments is an integer nearcircumference/3, so the length of each\nsegment is approximately 3, which is small enough that the circles look good, but big\nenough to be efficient, and acceptable for any size circle.\nAdding 3 tonguarantees that the polygon has at least 3 sides.\n4.7 Refactoring",
+        "metadata": {
+          "label": "34",
+          "status": "ok",
+          "chapter": 4,
+          "end_offset": 480,
+          "start_offset": 0
+        },
+        "score": 0.1453067887510975,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[702fa187db9839b3 | thinkpython2.pdf | page 69]\n5.13. Glossary 47\n5.13 Glossary\nfloor division:An operator, denoted//, that divides two numbers and rounds down (to-\nward negative infinity) to an integer.\nmodulus operator:An operator, denoted with a percent sign (%), that works on integers\nand returns the remainder when one number is divided by another.\nboolean expression:An expression whose value is eitherTrueorFalse.\nrelational operator:One of the operators that compares its operands:==,!=,>,<,>=, and\n<=.",
+    "context_ids": [
+      "702fa187db9839b3"
+    ],
+    "context_chars": 511,
+    "elapsed_ms": 0.13829999988956843,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "Nested conditional là gì?",
+    "answerable": true,
+    "filter": null,
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "3fa9be8e50d7ad53",
+        "source_id": "thinkpython2",
+        "source": "thinkpython2.pdf",
+        "page": 69,
+        "text": "\nbranch:One of the alternative sequences of statements in a conditional statement.\nchained conditional:A conditional statement with a series of alternative branches.\nnested conditional:A conditional statement that appears in one of the branches of another\nconditional statement.\nreturn statement:A statement that causes a function to end immediately and return to the\ncaller.\nrecursion:The process of calling the function that is currently executing.",
+        "metadata": {
+          "label": "47",
+          "status": "ok",
+          "chapter": 5,
+          "end_offset": 1344,
+          "start_offset": 894
+        },
+        "score": 0.46419387709218185,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "8e97b5a64c10ea0a",
+        "source_id": "thinkpython2",
+        "source": "thinkpython2.pdf",
+        "page": 63,
+        "text": "\nOne way to express a computation like that is achained conditional:",
+        "metadata": {
+          "label": "41",
+          "status": "ok",
+          "chapter": 5,
+          "end_offset": 1904,
+          "start_offset": 1836
+        },
+        "score": 0.23905938936601462,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "c2361c52ab7e70ec",
+        "source_id": "thinkpython2",
+        "source": "thinkpython2.pdf",
+        "page": 23,
+        "text": "\nconditional execution:Check for certain conditions and run the appropriate code.",
+        "metadata": {
+          "label": "1",
+          "status": "ok",
+          "chapter": 1,
+          "end_offset": 1955,
+          "start_offset": 1874
+        },
+        "score": 0.2282763094449805,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[3fa9be8e50d7ad53 | thinkpython2.pdf | page 69]\n\nbranch:One of the alternative sequences of statements in a conditional statement.\nchained conditional:A conditional statement with a series of alternative branches.\nnested conditional:A conditional statement that appears in one of the branches of another\nconditional statement.\nreturn statement:A statement that causes a function to end immediately and return to the\ncaller.\nrecursion:The process of calling the function that is currently executing.\n\n[8e97b5a64c10ea0a | thinkpython2.pdf | page 63]\n\nOne way to express a computation like that is achained conditional:\n\n[c2361c52ab7e70ec | thinkpython2.pdf | page 23]\n\nconditional execution:Check for certain conditions and run the appropriate code.",
+    "context_ids": [
+      "3fa9be8e50d7ad53",
+      "8e97b5a64c10ea0a",
+      "c2361c52ab7e70ec"
+    ],
+    "context_chars": 747,
+    "elapsed_ms": 0.09469999986322364,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "Với hàm đệ quy, stack diagram có đặc điểm gì?",
+    "answerable": true,
+    "filter": null,
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "d94aea6e85adb40c",
+        "source_id": "thinkpython2",
+        "source": "thinkpython2.pdf",
+        "page": 48,
+        "text": "\nstack diagram:A graphical representation of a stack of functions, their variables, and the\nvalues they refer to.\nframe:A box in a stack diagram that represents a function call. It contains the local vari-\nables and parameters of the function.\ntraceback:A list of the functions that are executing, printed when an exception occurs.\n3.14 Exercises\nExercise 3.1.Write a function namedright_justifythat takes a string namedsas a parameter",
+        "metadata": {
+          "label": "26",
+          "status": "ok",
+          "chapter": 3,
+          "end_offset": 1843,
+          "start_offset": 1408
+        },
+        "score": 0.41033653916330404,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "27c2a52ee727540f",
+        "source_id": "thinkpython2",
+        "source": "thinkpython2.pdf",
+        "page": 45,
+        "text": "\ndiagram. Like state diagrams, stack diagrams show the value of each variable, but they\nalso show the function each variable belongs to.\nEach function is represented by aframe. A frame is a box with the name of a function\nbeside it and the parameters and variables of the function inside it. The stack diagram for\nthe previous example is shown in Figure 3.1.\nThe frames are arranged in a stack that indicates which function called which, and so",
+        "metadata": {
+          "label": "23",
+          "status": "ok",
+          "chapter": 3,
+          "end_offset": 924,
+          "start_offset": 480
+        },
+        "score": 0.3738326186020215,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "b99d91e824b6477e",
+        "source_id": "thinkpython2",
+        "source": "thinkpython2.pdf",
+        "page": 66,
+        "text": "\nFor simple examples like this, it is probably easier to use aforloop. But we will see\nexamples later that are hard to write with aforloop and easy to write with recursion, so it\nis good to start early.\n5.9 Stack diagrams for recursive functions\nIn Section 3.9, we used a stack diagram to represent the state of a program during a function\ncall. The same kind of diagram can help interpret a recursive function.",
+        "metadata": {
+          "label": "44",
+          "status": "ok",
+          "chapter": 5,
+          "end_offset": 884,
+          "start_offset": 473
+        },
+        "score": 0.3192096041232315,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[d94aea6e85adb40c | thinkpython2.pdf | page 48]\n\nstack diagram:A graphical representation of a stack of functions, their variables, and the\nvalues they refer to.\nframe:A box in a stack diagram that represents a function call. It contains the local vari-\nables and parameters of the function.\ntraceback:A list of the functions that are executing, printed when an exception occurs.\n3.14 Exercises\nExercise 3.1.Write a function namedright_justifythat takes a string namedsas a parameter",
+    "context_ids": [
+      "d94aea6e85adb40c"
+    ],
+    "context_chars": 483,
+    "elapsed_ms": 0.1038999998854706,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "t_noev1",
+    "split": "test",
+    "question": "Tính kế thừa (inheritance) giữa các class trong Python được cuốn sách minh họa bằng ví dụ nào?",
+    "answerable": false,
+    "filter": null,
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "8be07e07fcacee5b",
+        "source_id": "thinkpython2",
+        "source": "thinkpython2.pdf",
+        "page": 26,
+        "text": "\n<class'float'>\n>>> type('Hello, World!')\n<class'str'>\nIn these results, the word “class” is used in the sense of a category; a type is a category of\nvalues.\nNot surprisingly, integers belong to the typeint, strings belong tostrand floating-point\nnumbers belong tofloat.\nWhat about values like'2'and'42.0'? They look like numbers, but they are in quotation\nmarks like strings.\n>>> type('2')\n<class'str'>\n>>> type('42.0')\n<class'str'>\nThey’re strings.",
+        "metadata": {
+          "label": "4",
+          "status": "ok",
+          "chapter": 1,
+          "end_offset": 941,
+          "start_offset": 491
+        },
+        "score": 0.3840818647488961,
+        "strategy": "tfidf"
+      },
+      {
+        "id": "8d76510602b025dd",
+        "source_id": "thinkpython2",
+        "source": "thinkpython2.pdf",
+        "page": 24,
+        "text": "\nThere are two versions of Python, called Python 2 and Python 3. They are very similar, so\nif you learn one, it is easy to switch to the other. In fact, there are only a few differences you\nwill encounter as a beginner. This book is written for Python 3, but I include some notes\nabout Python 2.\nThe Pythoninterpreteris a program that reads and executes Python code. Depending\non your environment, you might start the interpreter by clicking on an icon, or by typing",
+        "metadata": {
+          "label": "2",
+          "status": "ok",
+          "chapter": 1,
+          "end_offset": 1812,
+          "start_offset": 1346
+        },
+        "score": 0.22584488100097147,
+        "strategy": "tfidf"
+      },
+      {
+        "id": "913b6a9cc14aa670",
+        "source_id": "thinkpython2",
+        "source": "thinkpython2.pdf",
+        "page": 24,
+        "text": "\n1.2 Running Python\nOne of the challenges of getting started with Python is that you might have to install\nPython and related software on your computer. If you are familiar with your operating\nsystem, and especially if you are comfortable with the command-line interface, you will\nhave no trouble installing Python. But for beginners, it can be painful to learn about sys-\ntem administration and programming at the same time.",
+        "metadata": {
+          "label": "2",
+          "status": "ok",
+          "chapter": 1,
+          "end_offset": 916,
+          "start_offset": 491
+        },
+        "score": 0.1650381527623157,
+        "strategy": "tfidf"
+      }
+    ],
+    "context": "[8be07e07fcacee5b | thinkpython2.pdf | page 26]\n\n<class'float'>\n>>> type('Hello, World!')\n<class'str'>\nIn these results, the word “class” is used in the sense of a category; a type is a category of\nvalues.\nNot surprisingly, integers belong to the typeint, strings belong tostrand floating-point\nnumbers belong tofloat.\nWhat about values like'2'and'42.0'? They look like numbers, but they are in quotation\nmarks like strings.\n>>> type('2')\n<class'str'>\n>>> type('42.0')\n<class'str'>\nThey’re strings.",
+    "context_ids": [
+      "8be07e07fcacee5b"
+    ],
+    "context_chars": 498,
+    "elapsed_ms": 0.12140000035287812,
+    "hit1": null,
+    "hit3": null,
+    "context_hit": null
+  },
+  {
+    "query_id": "t_noev2",
+    "split": "test",
+    "question": "Cuốn sách dùng lệnh nào để mở và đọc nội dung một file trong Python? Cho ví dụ cú pháp.",
+    "answerable": false,
+    "filter": null,
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "6e450b7c52d09046",
+        "source_id": "thinkpython2",
+        "source": "thinkpython2.pdf",
+        "page": 67,
+        "text": "5.11. Keyboard input 45\ndef recurse():\nrecurse()\nIn most programming environments, a program with infinite recursion does not really run\nforever. Python reports an error message when the maximum recursion depth is reached:\nFile \"<stdin>\", line 2, in recurse\nFile \"<stdin>\", line 2, in recurse\nFile \"<stdin>\", line 2, in recurse\n.\n.\n.\nFile \"<stdin>\", line 2, in recurse\nRuntimeError: Maximum recursion depth exceeded",
+        "metadata": {
+          "label": "45",
+          "status": "ok",
+          "chapter": 5,
+          "end_offset": 415,
+          "start_offset": 0
+        },
+        "score": 0.26193306260416727,
+        "strategy": "tfidf"
+      },
+      {
+        "id": "8d76510602b025dd",
+        "source_id": "thinkpython2",
+        "source": "thinkpython2.pdf",
+        "page": 24,
+        "text": "\nThere are two versions of Python, called Python 2 and Python 3. They are very similar, so\nif you learn one, it is easy to switch to the other. In fact, there are only a few differences you\nwill encounter as a beginner. This book is written for Python 3, but I include some notes\nabout Python 2.\nThe Pythoninterpreteris a program that reads and executes Python code. Depending\non your environment, you might start the interpreter by clicking on an icon, or by typing",
+        "metadata": {
+          "label": "2",
+          "status": "ok",
+          "chapter": 1,
+          "end_offset": 1812,
+          "start_offset": 1346
+        },
+        "score": 0.24433739321366674,
+        "strategy": "tfidf"
+      },
+      {
+        "id": "52d19210b3124204",
+        "source_id": "thinkpython2",
+        "source": "thinkpython2.pdf",
+        "page": 45,
+        "text": "\nof the function that called it, and the name of the function that calledthat, all the way back\nto__main__.\nFor example, if you try to accesscatfrom withinprint_twice, you get aNameError:\nTraceback (innermost last):\nFile \"test.py\", line 13, in __main__\ncat_twice(line1, line2)\nFile \"test.py\", line 5, in cat_twice\nprint_twice(cat)\nFile \"test.py\", line 9, in print_twice\nprint(cat)\nNameError: name'cat'is not defined",
+        "metadata": {
+          "label": "23",
+          "status": "ok",
+          "chapter": 3,
+          "end_offset": 1817,
+          "start_offset": 1402
+        },
+        "score": 0.23946443469470877,
+        "strategy": "tfidf"
+      }
+    ],
+    "context": "[6e450b7c52d09046 | thinkpython2.pdf | page 67]\n5.11. Keyboard input 45\ndef recurse():\nrecurse()\nIn most programming environments, a program with infinite recursion does not really run\nforever. Python reports an error message when the maximum recursion depth is reached:\nFile \"<stdin>\", line 2, in recurse\nFile \"<stdin>\", line 2, in recurse\nFile \"<stdin>\", line 2, in recurse\n.\n.\n.\nFile \"<stdin>\", line 2, in recurse\nRuntimeError: Maximum recursion depth exceeded",
+    "context_ids": [
+      "6e450b7c52d09046"
+    ],
+    "context_chars": 463,
+    "elapsed_ms": 0.12059999971825164,
+    "hit1": null,
+    "hit3": null,
+    "context_hit": null
+  }
+]

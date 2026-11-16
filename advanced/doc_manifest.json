@@ -1,0 +1,12 @@
+{
+  "document_id": "vcb_ar_2024",
+  "title": "Báo cáo thường niên Vietcombank 2024 (Vietcombank Annual Report 2024)",
+  "source_url": "https://www.vietcombank.com.vn/-/media/Project/VCB-Sites/VCB/Nha-Dau-tu/Files/BC-dinh-ky/BC-thuong-nien/2024/VN_VCB-Annual-Report-2024_Full_250426_FN_compressed.pdf",
+  "publisher": "Ngân hàng TMCP Ngoại thương Việt Nam (Vietcombank)",
+  "version": "Bản tiếng Việt, phát hành 2025 (tài chính 2024)",
+  "pages": 106,
+  "sha256": "9deccc3518e23302d00353b4d371a9dd251b67b12f9fe58a4da4ad3c727e99f8",
+  "access_note": "Tài liệu công bố đại chúng theo quy định công bố thông tin doanh nghiệp niêm yết; tải miễn phí từ trang quan hệ cổ đông chính thức của Vietcombank. Người chấm truy cập được bản gốc qua URL trên; crops/figure descriptions trong repo là phái sinh phục vụ chấm điểm.",
+  "local_path": "advanced/data/vcb_ar_2024.pdf",
+  "pages_excluded": "Trang bìa/trang phân cách ảnh lớn không chữ được trích xuất ở mức figure nhưng không dùng làm evidence text; danh sách chi tiết trong index_report.json (skipped)."
+}
